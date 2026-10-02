@@ -1,0 +1,175 @@
+%add all your local new commands to this file
+
+\newcommand{\smiley}{:)}
+
+\renewbibmacro*{index:name}[5]{%
+  \usebibmacro{index:entry}{#1}
+    {\iffieldundef{usera}{}{\thefield{usera}\actualoperator}\mkbibindexname{#2}{#3}{#4}{#5}}}
+
+% \newcommand{\noop}[1]{}
+
+\newcommand{\zB}{z.\,B.\ }
+
+\newcommand{\wzB}{w.\,z.\,B.\ }
+
+\newcommand{\ua}{u.\,a.\ }
+
+\newcommand{\fbmarpar}[1]{\marginpar{\footnotesize{#1}}}
+
+
+%\newcommand{\dh}{d.\,h.\ }
+
+% http://tex.stackexchange.com/questions/230300/doing-something-like-psframebox-in-tikz#230306
+\tikzset{
+frbox/.style={
+  rounded corners,
+  draw,
+  thick,
+  inner sep=5pt
+  }
+}
+\newcommand\TZbox[1]{\tikz\node[frbox,baseline] {#1};}
+
+\newcommand{\gqq}[1]{\glqq{}#1\grqq{}}		%double
+\newcommand{\gq}[1]{\glq{}#1\grq{}}			%simple
+
+\newcommand{\blau}[1]{\textcolor{blue}{#1}}
+
+%von Schäfer
+\forestset{
+  narroof/.style={roof, inner xsep=-0.25em, rounded corners},
+}
+
+% \newcommand{\tblsthickline}{{\color{gray}\rule{\textwidth}{1.5mm}}}
+
+\newcounter{dgvertief} 
+\newenvironment{Sandwich}[1]
+  {
+    \par\vspace{5mm}\noindent\tblsthickline
+    {\par\vspace{3mm}\noindent\sffamily\large\bfseries#1\vspace{4mm}}
+  }
+  {\par\vspace{3mm}\noindent\tblsthickline\par\vspace{5mm}}
+
+
+\DeclareNewTOC[
+  type=exkurs,
+  types=exkurse,
+  name=Exkurs,
+  listname={Liste der Exkurse}
+]{loe}
+
+
+\newcounter{dgexkurs}
+\newenvironment{Exkurs}[1]
+  {
+    \refstepcounter{dgexkurs}
+    %\begin{Sandwich}{#1\hfill Exkurs~\thechapter.\arabic{dgexkurs}}
+    \begin{Sandwich}{#1\hfill Exkurs~\arabic{dgexkurs}}
+    \addcontentsline{loe}{exkurs}{\protect\numberline{\thedgexkurs}#1}%
+  }
+{\end{Sandwich}}
+
+% \newcounter{dgdef}
+\newcounter{dgdef}[chapter]
+\renewcommand{\thedgdef}{\thechapter.\arabic{dgdef}}
+\newenvironment{Definition}[1]
+  {
+    \refstepcounter{dgdef}
+    \begin{Sandwich}{#1\hfill Definition~\thechapter.\arabic{dgdef}}
+  }
+    {\end{Sandwich}}
+
+\newcounter{dgLoesung}
+\newenvironment{Loesung}[1]
+  {
+    \refstepcounter{dgLoesung}
+    \begin{Sandwich}{#1}
+
+    %\begin{Sandwich}{#1\hfill Loesung~\thechapter.\arabic{dgLoesung}}
+    %\begin{Sandwich}{#1\hfill Loesung~\thechaptr}
+    
+  }
+{\end{Sandwich}}
+
+ % {\end{Sandwich}}
+
+%für Silbengelenk, von Schäfer
+\newcommand{\SonDiag}[2][0]{%
+  \begin{tikzpicture}
+    \textsave{.}
+    \tikzset{
+      normalseg/.style={fill=white},
+      extrasyll/.style={circle, draw, fill=white},
+      sylljoint/.style={diamond, draw, fill=white}
+    }
+    \node at (0,\plo) {P};
+    \node at (0,\fri) {F};
+    \node at (0,\nas) {N};
+    \node at (0,\liq) {L};
+    \node at (0,\vok) {V};
+
+    % Draw the helper lines if required.
+    \ifthenelse{\equal{#1}{0}}{}{%
+      \foreach \y in {\plo, \fri, \nas, \liq,\vok} {%
+	\draw [dotted, |-|] (0.25, \y) -- (#1.75, \y);
+      }
+    }
+
+    \foreach [count=\x from 1, remember=\x as \lastx] \p / \y / \g in #2 {
+      \ifthenelse{\equal{\y}{-1}}{\textsave{.}}{%
+
+	% Draw the node, either plain, as Silbenbgelenk, or as extrasyllabic.
+        \ifthenelse{\equal{\g}{1}}{%
+	  \node (\x) [sylljoint] at (\x, \y) {\p};
+	}{%
+	  \ifthenelse{\equal{\g}{2}}{%
+	    \node (\x) [extrasyll] at (\x, \y) {\p};
+	  }{%
+	    \node (\x) [normalseg] at (\x, \y) {\p};
+	  }
+	}
+
+	% Draw the connection unless the previous node was not or was empty.
+	\ifthenelse{\NOT\equal{\lastsaved}{.}}{%
+	  \draw [->] (\lastx) to (\x);
+	}{}
+	\textsave{1}
+      }
+    }
+    \aeundefinenumericnodes
+  \end{tikzpicture}
+}
+
+\forestset{
+  Ephr/.style={draw, ellipse, thick, inner sep=2pt},
+  Eobl/.style={draw, rounded corners, inner sep=5pt},
+  Eopt/.style={draw, rounded corners, densely dashed, inner sep=5pt},
+  Erec/.style={draw, rounded corners, double, inner sep=5pt},
+  Eoptrec/.style={draw, rounded corners, densely dashed, double, inner sep=5pt},
+  Ehd/.style={rounded corners, fill=gray, inner sep=5pt,
+    delay={content=\whyte{##1}}
+  },
+  Emult/.style={for children={no edge}, for tree={l sep=0pt}},
+  phrasenschema/.style={for tree={l sep=2em, s sep=2em}},
+  decide/.style={draw, chamfered rectangle, inner sep=2pt},
+  finall/.style={rounded corners, fill=gray, text=white},
+  intrme/.style={draw, rounded corners},
+  yes/.style={edge label={node[near end, above, sloped, font=\scriptsize]{Ja}}},
+  no/.style={edge label={node[near end, above, sloped, font=\scriptsize]{Nein}}},
+  sake/.style={tier=preterminal},
+  ake/.style={
+    tier=preterminal
+    },
+}
+
+
+%fuer Silbenboegen
+% usage: \uarc[sep][depth]{text}
+\NewDocumentCommand\uarc{O{.2ex} O{.3ex} m}{%
+    \tikz[baseline=(arced node.base)]{
+        \node [inner sep=0pt, outer sep=0pt] (arced node) {#3};
+        \draw [transform canvas={yshift=-#1}] (arced node.south west) parabola [parabola height=-#2] (arced node.south east);
+    }%
+}
+
+

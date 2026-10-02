@@ -1,0 +1,556 @@
+\chapter{Konstituenz und Ermittlung von Satzkonstituenten}\label{chap:Konstituenz}
+ 
+Unter\is{Konstituenz} Konstituenz versteht man, dass etwas Größeres aus kleineren Einheiten, aus \textit{Konstituenten} (Bausteinen) besteht bzw. in diese zerlegt werden kann. Die kleineren Einheiten bilden (konstituieren) die größere Einheit. Auf den ersten Blick (und insbesondere durch das Schriftbild vermittelt) könnten wir die Wörter in einem Satz für dessen Konstituenten halten. Dies ist jedoch, wie wir im Folgenden anhand des Satzes in (\ref{ea:BriefSatz}) zeigen werden, nicht der Fall. 
+
+\ea \label{ea:BriefSatz} Der Mann hoffte ohne Unterlass auf den Brief.
+\z 
+
+
+Die erste Vermutung, dass ein Satz einfach aus Wörtern besteht, lässt sich für den Satz (\ref{ea:BriefSatz}) durch Boxen wie in der Abbildung~\ref{fig:synt.WörterSchachteln} darstellen. 
+
+\begin{figure}
+
+\TZbox{% 
+\TZbox{der}
+\TZbox{Mann}
+\TZbox{hoffte}
+\TZbox{ohne}
+\TZbox{Unterlass}
+\TZbox{auf}
+\TZbox{den}
+\TZbox{Brief}
+}
+\caption{\label{fig:synt.WörterSchachteln}Syntaktische Wörter als Konstituenten}
+\end{figure}%
+
+Die Abbildung~\ref{fig:synt.WörterSchachteln} suggeriert, dass sich die Wörter einfach wie die Perlen auf einer Kette zum Satz verbinden. Dies ist jedoch nicht so. Die Beziehung zwischen \textit{der} und \textit{Mann} ist direkter als die zwischen \textit{Mann} und \textit{hoffte}. Wir haben eine gewisse Intuition darüber, dass sich bestimmte Wörter unterhalb der Satzebene zu Wortgruppen verbinden. Die Wörter \textit{der} und \textit{Mann} bilden zusammen eine Einheit. Diese Einheit bezeichnet diejenige Person, die hoffte. Das Wort \textit{ohne} bildet eine Einheit mit \textit{Unterlass}. Durch \textit{ohne Unterlass} wird die Art und Weise des Hoffens ausgedrückt. Das Wort \textit{Unterlass} verbindet sich nicht mit \textit{auf} zu einer Wortgruppe. Das Wort \textit{auf} bildet zusammen mit \textit{den} und \textit{Brief} eine Wortgruppe. Diese bezeichnet die Entität, auf die sich das Hoffen richtet. Die Zusammengehörigkeit von Wörtern zu Wortgruppen wird in der Abbildung~\ref{fig:SatzkonstituentenSchacheltn1} durch Boxen dargestellt.    
+
+\begin{figure}
+    \centering
+    \TZbox{%
+\TZbox{%
+       \TZbox{der}
+       \TZbox{Mann}}
+      \tikz[baseline]{\node{hoffte};}
+\TZbox{%
+    \TZbox{ohne}
+    \TZbox{Unterlass}}
+\TZbox{%
+       \TZbox{auf}
+       \TZbox{%
+           \TZbox{den}
+            \TZbox{Brief}}}}
+\caption{\label{fig:SatzkonstituentenSchacheltn1}Wortgruppen als Konstituenten des Satzes}
+\end{figure}%
+
+Der Satz in (\ref{ea:BriefSatz}) besteht aus dem finiten Verb \textit{hoffte} und drei Konstituenten. Die erste Satzkonstituente ist die Nominalphrase \textit{der Mann}, die auch durch \textit{Paul} oder \textit{er} ersetzt werden könnte. Die zweite Satzkonstituente ist die Präpositionalphrase \textit{ohne Unterlass}. An ihrer Stelle könnte auch \textit{sehr} stehen. Die dritte Satzkonstituente ist die Präpositionalphrase \textit{auf den Brief}. Sie könnte ersetzt werden durch \textit{darauf}. Diese drei Konstituenten werden als\is{Satzkonstituente} \textit{unmittelbare Satzkonstituenten} bezeichnet. Das finite Verb, hier \textit{hoffte}, zählen wir nicht zu den unmittelbaren Satzkonstituenten, weil es die Tests, die wir in den folgenden Abschnitten vorstellen werden, nicht besteht. Wir bestimmen es als konstituierendes Zentrum des Satzes. Bildlich gesprochen eröffnet es die Boxen für die Satzglieder und bildet zusammen mit ihnen die große Box um den gesamten Satz. Wir werden jedoch auf Konstituenten eingehen, in denen eine infinite Verbform die zentrale Rolle spielt: [\textit{Ohne Unterlass auf den Brief gehofft}] \textit{hat der Mann}. Die Abbildung~\ref{fig:SatzkonstituentenSchacheltn1} zeigt außerdem, dass es Wortgruppen wie \textit{den Brief} gibt, die selbst keine Satzkonstituenten, sondern Teile davon, also Konstituenten von Satzkonstituenten, sind. 
+ 
+
+\begin{Definition}{Unmittelbare Satzkonstituente}\label{def:Unmittelbare Satzkonstiutente}
+    
+\noindent Konstituenten sind Bestandteile einer größeren Einheit. Die unmittelbaren Bausteine des Satzes sind die\is{Satzkonstituente} Satzkonstituenten. Diese bestehen aus mehreren Wörtern oder aus einem äquivalenten Wort. Sie stehen typischerweise in direkter Beziehung zum Verb, sind umstellbar, vor allem voranstellbar, und durch Proformen, insbesondere durch Fragewörter, ersetzbar.  
+\end{Definition}
+
+
+Um den internen Bau der einzelnen Phrasentypen geht es im Kapitel \ref{chap:Phrasen}. In diesem Kapitel stellen wir vier Tests vor, mittels derer die Intuition über unmittelbare Satzkonstituenten überprüft werden kann. Nicht alle Tests führen in jedem Fall zu einem einheitlichen Ergebnis.\footnote{Eine knappe Übersicht über alle Tests bietet \citet{MachicaoyPriemer2018}. \citet[7--11]{Mueller2010} geht detailliert auf die Probleme der einzelnen Tests ein.} Daher sollte eine ganze Testbatterie angewendet werden. Alle Tests basieren auf Umformungen einer Einheit innerhalb der gegebenen Satzstruktur. Wenn die Ergebnisse der Umformungen bei gleicher Grundbedeutung grammatisch akzeptabel sind, so spricht dies für den Status der Einheit als unmittelbare Satzkonstituente. Die Tests sollten nicht blind, sondern ausgehend von Hypothesen durchgeführt werden. Die einfachste Hypothese ist die, dass mindestens die Ergänzungen und Angaben des satzbildenden Verbs (vgl. Abschnitt~\ref{subsection:EvsA}) die unmittelbaren Satzkonstituenten sind. 
+
+Im Abschnitt~\ref{section:Ersetzung} stellen wir den Ersetzungstest vor, im Abschnitt~\ref{section:Pronominalisierung} den Proform-Test, im Abschnitt~\ref{section:Erfragbarkeit} den Erfragbarkeitstest und im Abschnitt~\ref{section:Voranstellungstest} den Voranstellbarkeitstest. Stichpunktartig fassen wir dieses Kapitel im Abschnitt~\ref{section:Zfsg_Konstituenz} zusammen. Im Anschluss daran bietet der letzte Abschnitt~\ref{section:Aufgaben_Konstituenz} vier verschiedene Anwendungsaufgaben samt Lösungen zum Thema Konstituenz. Zuvor geben wir in dem folgenden Exkurs~\ref{ExkursHintergrundKonstituenten} ein paar Hintergründe zum schulischen und zum linguistischen Konstituentenbegriff.   
+
+
+\begin{Exkurs}{Hintergrund Konstituenten}
+\label{ExkursHintergrundKonstituenten}
+
+Die unmittelbaren\is{Satzkonstituente} Satzkonstituenten fanden Eingang in die Schulgrammatik durch \citet{Becker1845} als sogenannte\is{Satzglied} \textit{Satzglieder}, mit denen wir uns in Kapitel \ref{chap:Satzgliedanalyse} beschäftigen werden. Ihre Begründung war kognitiv. Konstituenten wurden als Teile eines Gedankens bestimmt, der durch einen Satz als Grundform ausgedrückt wird und sich schrittweise in weitere Bestandteile (Vorstellungen) zerlegen lässt. Von Beginn an bestand das Problem darin, einen nicht weiter bestimmten Wortgruppenbegriff mit Satzgliedfunktionen wie \textit{Subjekt}, \textit{Prädikat} und \textit{Objekt} gleichzusetzen.  
+
+Der Psychologe Wilhelm \citet[321--324]{Wundt1922Sprache2} übernimmt (in seinem 1904 erstmals veröffentlichten Werk \textit{Völkerpsychologie}) die grundlegenden Konstituenten und Beziehungen von \citet[205]{Becker1845}: Subjekt, Objekt und Prädikat auf der einen Seite sowie nominale Kerne und Attribute auf der anderen Seite. \citet[333, 362]{Wundt1922Sprache2} stellt die Beziehungen der Konstituenten zueinander erstmals graphisch in Baumstrukturen dar. 
+
+Der amerikanische Linguist Leonard \citet[vii]{Bloomfield1935} geht (in seinem 1933 erstmals veröffentlichten Werk \textit{Language}) explizit von Wundts Modell aus und übernimmt es in die moderne Linguistik. Er gilt als Begründer der\is{Satzkonstituente} \textit{immediate constituent analysis}. \citet[161, 170--185]{Bloomfield1935} formuliert folgende Grundlagen: Der typische Aussagesatz indoeuropäischer Sprachen lässt sich in zwei Konstituenten zerlegen, nämlich in einen \textit{actor} und eine \textit{action}, in eine nominale und eine verbale Konstituente, was der traditionellen Subjekt-Prädikat-Struktur entspricht. Diese beiden Konstituenten können aus einzelnen Wortformen bestehen wie in dem Satz \textit{Er schläft}. Häufig sind sie aber wie in der Abbildung~\ref{fig:SatzkonstituentenSchacheltn1} komplex und können bis auf die Wortebene schrittweise wieder in Konstituenten zerlegt werden. 
+
+Im Folgenden werden vier Tests zur Ermittlung der unmittelbaren Satzkonstituenten vorgestellt. Diese gehen großteils auf \citet{Bloomfield1935} und, unabhängig von diesem, auf \citet{Glinz1952} zurück. \citet[58]{Glinz1952} bezeichnet sie als \gqq{experimentierende Verfahren}. Im Schulunterricht kommt bisher nur eines jener Verfahren zum Einsatz, nämlich die Frageprobe. In Bezug auf den schulischen Einsatz schreibt \citet[242]{Bredel2013}, dass jene \gqq{Proben keine mechanischen Ergebnisse liefern}. Lehrkräfte müssen die Grenzen und Potentiale der Proben kennen, die wir im Folgenden darstellen.  
+
+\end{Exkurs}
+
+
+\section{Ersetzungstest}\label{section:Ersetzung}
+
+Wenn Wortfolgen oder ein Wort in einem Satz durch andere Wortfolgen\is{Satzkonstituente!Ersetzungstest} oder durch ein anderes Wort ersetzt werden können, ohne dass der Satz ungrammatisch wird, so spricht das für ihren Status als unmittelbare Satzkonstituenten. Den Test bezeichnet man auch als \textit{Substitutions}test.
+
+In Satz (\ref{ea:Zuersetzend}) lässt sich ausgehend vom Verb vermuten, dass es sich bei den eingeklammerten Elementen um unmittelbare Satzkonstituenten handelt. 
+
+\ea \label{ea:Zuersetzend} [Der Mann] hoffte [ohne Unterlass] [auf den Brief].
+\z 
+
+Wir ersetzen die in (\ref{ea:Zuersetzend}) durch Klammern gekennzeichneten Wortfolgen durch die Wortfolgen in (\ref{ea:Ersetzt}) bzw. durch einzelne Wörter in (\ref{ex:ErsetztWort}).
+
+\ea 
+\ea \label{ea:Ersetzt} [Die Frau] hoffte [mit Spannung] [auf die Nachricht].
+\ex \label{ex:ErsetztWort} [Paul] hoffte [so] [darauf].
+\z 
+\z 
+
+Der erfolgreiche Ersetzungstest spricht für unsere Vermutung, dass es sich bei den eingeklammerten Wortfolgen in (\ref{ea:Zuersetzend}) um unmittelbare Konstituenten des Satzes, also um unmittelbare syntaktische Einheiten des Satzes handelt. Auf die Ersetzung durch Pro-Formen wie \textit{so} oder \textit{darauf} gehen wir in dem folgenden Abschnitt~\ref{section:Pronominalisierung} genauer ein.
+ 
+Zuvor müssen wir aber anmerken, dass nicht alle Satzkonstituenten ersetzbar sind. So kann die formale Ergänzung \textit{es} von \textit{regnet} nicht ersetzt werden. 
+
+\ea \label{ea:esregnet}
+\ea [] {[Es] regnete gestern den ganzen Tag.}\label{ea:Ausgangssatzesregnet}
+\ex [*] {[Der Himmel/die Wolke] regnete den ganzen Tag.}\label{ex:keineEsErsetzung}
+\z
+\z 
+
+Im Abschnitt~\ref{section:Voranstellungstest} zeigen wir, warum dieses \textit{es} dennoch als Satzkonstituente bestimmt werden sollte.
+
+
+\section{Proform-Test}\label{section:Pronominalisierung}
+
+Der Proform-Test\is{Satzkonstituente!Proform-Test} ist eine besondere Art der Ersetzung. Alles, was durch ein Pronomen oder eine äquivalente Pro-Form ersetzbar ist, ist eine Satzkonstituente. So ersetzen wir \textit{der kleine Mann} und \textit{auf den Brief} aus (\ref{ea:AusgangssatzfürPrn}) durch \textit{er} und \textit{darauf} in (\ref{ex:Pronominalisert}). 
+
+\ea \label{ea:Pronominalisierung}
+\ea \label{ea:AusgangssatzfürPrn} [Der kleine Mann] hoffte [auf den Brief].
+\ex \label{ex:Pronominalisert} [Er] hoffte [darauf].
+\z 
+\z 
+
+Bildungen aus \textit{da}(\textit{r})- und \textit{wo}(\textit{r})- mit einer Präposition wie \textit{darauf} und \textit{worauf} bezeichnet man als \textit{Präpositionaladverbien} oder \textit{Pronominaladverbien}.\footnote{So in der \citet[803, §1413]{Duden2022}, \citet[206]{Eisenberg2020_Satz} und bei \citet[236]{HelbigBuscha}. \citet[731]{Agel2017} bezeichnet sie analog zum Pro-Nomen als \textit{Pro-Präpositionsgruppe} und zählt sie streng genommen nicht zu einer Wortart. Wir kommen im Abschnitt~\ref{subsection:Adverb} darauf zurück.} Unabhängig von ihrer Zuordnung zu einer Wortart (vgl. Abschnitt~\ref{subsection:Adverb}) erfüllen sie hier (analog zu dem Pronomen \textit{er} für \textit{der Mann}) die Funktion der Satzkonstituente \textit{auf den Brief}.   
+
+
+Der\is{Satzkonstituente!Proform-Test} Proform-Test ist besonders dann hilfreich, wenn die fragliche Wortgruppe wie in dem Pressebeleg in (\ref{ea:komplexeNPfürPrnbarkeit}) sehr lang und komplex ist. Wir können die gesamte eingeklammerte Wortgruppe durch die Pronomen \textit{sie} oder \textit{das}\footnote{Das Pronomen \textit{sie} verweist auf den Kopf der komplexen NP \textit{Ankündigung}. Das Pronomen \textit{das} verweist auf den komplexen Sachverhalt, der implizit durch die NP ausgedrückt wird, nämlich dass der Verein am vergangenen Freitag eine Ankündigung gemacht hat, in der mitgeteilt wurde, dass...} wie in (\ref{ex:komplexeNPpronominalisiert}) ersetzen. Das spricht für ihren Status als Satzkonstituente.
+
+
+\ea \label{ea:komplexeNPpronominalisierbar}
+\ea \label{ea:komplexeNPfürPrnbarkeit} [Die überraschende Ankündigung des Vereins am vergangenen Freitag im Trainingslager von Marbella, die zum Saisonende auslaufende Zusammenarbeit mit Funkel nicht verlängern zu wollen,] hatte für Proteste vieler Fans und einen Shitstorm im Internet gesorgt.\footnote{Frankfurter Neue Presse, 14.01.19.} 
+\ex \label{ex:komplexeNPpronominalisiert} [Sie/Das] hatte für Proteste vieler Fans und einen Shitstorm im Internet gesorgt.
+\z 
+\z 
+
+Wenn Nebensätze\is{Satzkonstituente!Pronominalisierungstest} pronominalisierbar sind, spricht das dafür, sie als unmittelbare Satzkonstituenten zu klassifizieren.
+
+\ea \label{ea:PrnvonNeSa}
+\ea \label{ea:NeSa} Paul spürt, [dass große Veränderungen im Gange sind].
+\ex \label{ex:PrnstattNeSa} Paul spürt [es/das].
+\z
+\z 
+
+Das gilt für Ergänzungssätze wie in (\ref{ea:NeSa}) und für Angabesätze wie in (\ref{ea:AngabeNeSa}). Der gesamte Nebensatz \textit{weil dann die Quartiersuche leichter ist} kann durch \textit{deshalb} als Pro-Form ersetzt werden.\footnote{Um die Zuordnung von \textit{deshalb} zur Wortart Adverb und nicht zur Wortart Pronomen geht es im Abschnitt~\ref{subsection:Adverb}.}  
+
+\ea \label{ea:AngabesatzTest}
+\ea \label{ea:AngabeNeSa} Anna fährt im September an die Ostsee, [weil dann die Quartiersuche leichter ist].
+\ex \label{ex:deshalb} Anna fährt [deshalb] im September an die Ostsee.
+\z 
+\z 
+
+Das Gleiche gilt für satzwertige Infinitivgruppen (vgl. Abschnitt~\ref{subsection:EvsA}). Wenn sie wie in (\ref{ex:PrnstattInf}) pronominalisierbar sind, dann spricht das dafür, sie als unmittelbare Konstituenten des Satzes zu bestimmen.
+
+\ea \label{ea:PrnvonInf}
+\ea \label{ea:Inf} Paul versucht, [Arabisch zu lernen].
+\ex \label{ex:PrnstattInf} Paul versucht [das].
+\z 
+\z 
+
+
+\section{Erfragbarkeitstest}\label{section:Erfragbarkeit}
+
+Eine spezielle Form der\is{Satzkonstituente!Erfragbarkeitstest} Ersetzbarkeit ist die Erfragbarkeit. Denn sie basiert darauf, fragliche Wortgruppen und Wörter aus (\ref{ea:AusgangssatzfürFrage}) durch Frage-Pronomen bzw. Pro-Formen wie in (\ref{ex:ErfragteKonstituenten}) zu ersetzen. Ist dies möglich, so handelt es sich wahrscheinlich um eine unmittelbare Satzkonstituente.
+
+\ea \label{ea:Erfragbarkeitstest}
+\ea \label{ea:AusgangssatzfürFrage} [Der Mann] hoffte [ohne Unterlass] [auf den Brief].
+\ex \label{ex:ErfragteKonstituenten}[Wer] hoffte [wie] [worauf]?
+\z 
+\z 
+
+
+Wichtig ist, dass nicht alle Satzkonstituenten erfragt werden können. Die formale Ergänzung \textit{es} von \textit{regnet} lässt sich nicht erfragen (\ref{ea:wer regnet}). Auch Kommentarglieder (vgl. Abschnitt~\ref{subsection:Adverbial}) wie \textit{leider} in \textit{es regnet leider} sind nicht erfragbar (\ref{ex:Kommentarglied?}).
+
+\ea \label{ea:Nichterfragbar}
+\ea \label{ea:wer regnet} * Wer/was regnet? - Es.
+\ex \label{ex:Kommentarglied?} * Wie regnet es? - Leider. 
+\z 
+\z 
+
+
+Teils können jedoch Einheiten\is{Satzkonstituente!Erfragbarkeitstest} erfragt werden wie \textit{Pauls} aus (\ref{ea:AusgangssatzWessen}) in (\ref{ex:Wessen-Attribut}), die alleine keine unmittelbare Konstituente des Satzes bilden. Hierauf weist bereits hin, dass das Fragepronomen \textit{wessen} nicht alleine stehen kann, sondern zusammen mit einem Bezugswort wie \textit{wessen Fahrrad} in (\ref{ex:Wessen-Attribut}).   
+
+\ea \label{ea:Wessen-Frage}
+\ea \label{ea:AusgangssatzWessen} [[Pauls] Fahrrad] steht im Hof.
+\ex \label{ex:Wessen-Attribut} [[Wessen] Fahrrad] steht im Hof?
+\z 
+\z 
+
+
+Die Frageprobe nimmt bislang in\is{Satzkonstituente!Erfragbarkeitstest} der\is{Schulgrammatik} Schule eine dominante Stellung ein, um Satzglieder zu ermitteln. Sie dient jedoch auch dazu, die Kasus zu bestimmen (\textit{wer oder was} versus \textit{wen oder was}). Beides wird oft unreflektiert vermischt. Die Frageprobe ist \textit{ein} Test (unter anderen), um die Hypothese zu prüfen, ob eine fragliche Einheit eine unmittelbare Satzkonstituente ist oder nicht. Die schulische Satzanalyse darf jedoch nicht auf eine vermeintliche Frage-Mechanik reduziert werden. Bei Interesse verweisen wir auf die Kritik von \citet[87]{Granzow-Emden2006} am \gqq{kaum hinterfragten didaktischen Brauchtum} der Frageprobe. 
+
+
+\section{Voranstellbarkeitstest}\label{section:Voranstellungstest}
+
+In Abschnitt~\ref{subsection:Vorfeld} ging es um das Vorfeld im Rahmen des topologischen Modells. Wir haben gezeigt, dass dieses typischerweise nur von \textit{einer} unmittelbaren Satzkonstituente besetzt werden kann. Diese Eigenschaft des Deutschen wird umgekehrt als\is{Satzkonstituente!Voranstellungstest} Test genutzt, um herauszufinden, ob eine Wortgruppe oder ein Wort eine unmittelbare Satzkonstituente bildet. Wenn eine Wortfolge das Vorfeld besetzen kann, dann ist sie eine Satzkonstituente.  Dies wird in (\ref{ea:Voranstellbarkeit}) illustriert.
+
+\ea \label{ea:Voranstellbarkeit}
+\ea \label{ea:derkleineMannVF} [Der Mann] hoffte ohne Unterlass auf den Brief.
+\ex \label{ex:langeimVF} [Ohne Unterlass] hoffte der Mann auf den Brief.
+\ex \label{aufdenBriefimVF} [Auf den Brief] hoffte der Mann ohne Unterlass.
+\z 
+\z 
+
+Die Ergebnisse des Voranstellungstests sprechen dafür, dass \textit{der Mann} (\ref{ea:derkleineMannVF}), \textit{ohne Unterlass} (\ref{ex:langeimVF}) und \textit{auf den Brief} (\ref{aufdenBriefimVF}) unmittelbare Satzkonstituenten sind.
+
+In Abschnitt~\ref{section:Ersetzung} sind wir bereits auf das nicht ersetzbare und nicht erfragbare \textit{es} bei Witterungsverben eingegangen. Dieses \textit{es} ist wie in (\ref{ea:esVFregnet}) voranstellbar, was für seinen Status als Satzkonstituente spricht. Es kann auch im Mittelfeld stehen (\ref{ex:esMFregnet}) und bei Verbletztsätzen auch getrennt vom Verb (\ref{ex:esMFregnet1}), was weitere Indizien für seinen Status als Satzkonstituente sind.
+
+\ea 
+\ea \label{ea:esVFregnet} [Es] regnet heute. 
+\ex \label{ex:esMFregnet} Heute regnet [es].
+\ex \label{ex:esMFregnet1} weil [es] heute regnet.
+\z 
+\z 
+
+
+Wenn Wörter oder Wortgruppen nicht voranstellbar sind, wie in (\ref{ea:Nichtvoranstellbar}), so spricht das gegen ihren Status als unmittelbare Satzkonstituente. Sei es, weil es sich wie in (\ref{ea:Kleinenichtvoranstellbar}), (\ref{ex:denBriefnichtvoranstellbar}) und (\ref{ex:denBrief2nichtvoranstellebar}) bei den vorangestellten Einheiten nur um Teile von jeweils einer Satzkonstituente handelt oder weil es sich wie in (\ref{ex:aufdenBriefderMann}) und (\ref{ex:derMannohneUnterlass}) um mehr als eine Satzkonstituente handelt. 
+
+\ea \label{ea:Nichtvoranstellbar}
+\ea \label{ea:Kleinenichtvoranstellbar} * [Der] hoffte Mann ohne Unterlass auf den Brief.
+\ex \label{ex:denBriefnichtvoranstellbar} * [Ohne] hoffte der Mann Unterlass auf den Brief.
+\ex \label{ex:denBrief2nichtvoranstellebar} * [Den Brief] hoffte der Mann ohne Unterlass auf.
+\ex \label{ex:aufdenBriefderMann} * [Der Mann auf den Brief] hoffte ohne Unterlass.
+\ex \label{ex:derMannohneUnterlass} * [Der Mann ohne Unterlass] hoffte auf den Brief.
+\z 
+\z 
+
+Zu beachten ist, dass mitunter Teile von Satzkonstituenten im Vorfeld stehen können. Die in (\ref{ea:überdiesesThema}) vorangestellte PP \textit{über dieses Thema} gehört eigentlich zu \textit{ein Buch}.\footnote{Der Beleg stammt aus der Rhein-Zeitung, 05.08.2002.} Die gesamte Satzkonstituente, die NP \textit{ein Buch über dieses Thema} ist auch voranstellbar (\ref{ex:einBuchüberdiesesThema}). In (\ref{ex:Ruhetagkeinen}) steht \textit{Ruhetag} alleine im Vorfeld.\footnote{Der Beleg stammt aus der Neuen Kronen-Zeitung, 29.03.2000.} Aber es bildet zusammen mit \textit{keinen} die vorfeldfähige Satzkonstituente \textit{keinen Ruhetag} (\ref{ex:keinenRuhetag}). Alleine ist \textit{keinen} in dieser Struktur nicht voranstellbar (\ref{ex:*keinen}). Deshalb gilt nur \textit{keinen Ruhetag} als Satzkonstituente, nicht aber dessen Teile.
+
+
+\ea \label{ea:AttributVF}
+\ea [] {[Über dieses Thema] hat Franz Alt vor fünf Jahren ein Buch geschrieben.}\label{ea:überdiesesThema}
+\ex [] {[Ein Buch über dieses Thema] hat Franz Alt vor fünf Jahren geschrieben.}\label{ex:einBuchüberdiesesThema}
+\ex [] {[Ruhetag] kennen sie keinen, die Mitarbeiter des Roten Kreuzes in Melk.}\label{ex:Ruhetagkeinen}
+\ex [] {[Keinen Ruhetag] kennen sie.}\label{ex:keinenRuhetag}
+\ex [*] {[Keinen] kennen sie Ruhetag.}\label{ex:*keinen} 
+\z 
+\z 
+
+Bei (\ref{ea:überdiesesThema}) ist anzunehmen, dass sich die PP auch als Ergänzung zum Verb verstehen lässt: \textit{Er schreibt über dieses Thema}. Eine generelle Erklärung dieser Art greift jedoch zu kurz, denn man könnte in (\ref{ea:überdiesesThema}) \textit{hat geschrieben} ersetzen durch \textit{hat gesehen} und \textit{ein Buch} durch \textit{einen Film}: \textit{Über dieses Thema hat er einen Film gesehen}. Diese PP lässt sich jedoch nicht als Ergänzung zu \textit{sehen} verstehen: *\textit{Er sieht über dieses Thema}. Denn \textit{sehen} impliziert nicht das Sehen eines Films, wohingegen \textit{lesen} das Lesen eines Textes impliziert.\footnote{Allerdings kann \textit{sehen} sehr wohl mit einer Richtungsergänzung gebraucht werden: \textit{Vom Weltall aus sieht man über den ganzen Kontinent}.} Besonders ist, dass die Möglichkeit jener Voranstellung sowohl vom Verb als auch vom Substantiv der zurückgelassenen NP abhängt: *\textit{Über dieses Thema hat er ein Buch verloren} aber \textit{Über dieses Thema hat er kein Wort verloren}.\footnote{Bei Interesse empfehlen wir \citet{Pafel1995}, \citet[Kapitel 12] {Mueller1999}, \citet{Mueller2005Satzstruktur} und \citet[107--113] {Welke2007}. In der \citet[64--65, §37; 68--70, §39]{Duden2022} findet sich eine Auflistung von voranstellbaren Teilen von Satzkonstituenten.} 
+
+Für die schulische Anwendung dieses Tests zur Bestimmung von Satzgliedern ist auch der Fall zu bedenken, dass Ergänzungen von tiefer eingebetteten Verben voranstellbar sind, die jedoch auf der Ebene des Haupsatzes keine Satzglieder im Sinne der Satzgliedtheorie sind. Das ist in (\ref{ea:seinemFreund}) der Fall.
+
+\ea \label{ea:seinemFreund} [Seinem Freund] hat er versucht zu helfen.
+\z 
+
+Die Satzkonstituente \textit{seinem Freund} ist eine Ergänzung von \textit{zu helfen}, nicht von \textit{hat versucht}. Die Konstituente \textit{seinem Freund zu helfen} ist eine Ergänzung von \textit{hat versucht} und ebenfalls wie in (\ref{ea:seinemFreundzuhelfen}) voranstellbar.
+
+\ea \label{ea:seinemFreundzuhelfen} [Seinem Freund zu helfen] hat er versucht.
+\z 
+
+Nur die vorangestellte Satzkonstituente in (\ref{ea:seinemFreundzuhelfen}) ist auf der Ebene des Hauptsatzes ein Satzglied im Sinne der Satzgliedtheorie. Die vorangestellte Satzkonstituente in (\ref{ea:seinemFreund}) ist kein Satzglied auf der Ebene des Hauptsatzes, sondern erst eine Ebene tiefer innerhalb der nebensatzähnlichen Infinitivkonstruktion \textit{seinem Freund zu helfen}, um die es im Rahmen der Satzgliedanalyse in Abschnitt~\ref{subsection:NebensatzähnlicheK} geht.\footnote{Eine Herleitung für die Stellung in (\ref{ea:seinemFreund}) bietet \citet{Mueller2005Satzstruktur}, der sie mithilfe der Analyse des Verbalkomplexes über Argumentanziehung erklärt.} 
+
+
+\largerpage
+Allerdings gibt es auch Konstituenten, die den\is{Satzkonstituente!Voranstellungstest} Voranstellungstest nicht ohne weiteres bestehen und dennoch als unmittelbare Konstituenten des Satzes gelten. Dies ist der Fall beim schwachtonigen Akkusativpronomen \textit{es} in (\ref{ea:esimMF}). Es ist nicht ohne weiteres voranstellbar (\ref{ex:esnichtVF}).\footnote{Der folgende Zeitungsbeleg stammt aus \citet[162]{Lenerz1994}: \textit{Ihr Geld ist nicht weg, meine Damen und Herren.} [\textit{Es}] \textit{haben jetzt nur andere}. \citet[557]{Meinunger2007} konstruiert die folgende Sequenz: \textit{Warum habt ihr das Huhn immer noch?} [\textit{Es}] \textit{konnte einfach niemand hier schlachten} und bemerkt, dass die Akzeptabilität des vorangestellten \textit{es} mit unspezifisch indefiniten Subjekten korreliert.} Aber es kann ersetzt (\ref{ea:ersetzbar}) und erfragt (\ref{ex:erfragbar}) werden, was für den Status als Satzkonstituente spricht.
+
+\ea \label{ea:esAkkPrn}
+\ea [] {Ich habe es verstanden.}\label{ea:esimMF}
+\ex [?] {[Es] habe ich verstanden.}\label{ex:esnichtVF}
+\ex [] {Ich habe [das Problem] verstanden.}\label{ea:ersetzbar} 
+\ex [] {[Was] hast du verstanden?}\label{ex:erfragbar}
+%\ex \label{ex:koordinierbar} Ich habe [es] und [dich] verstanden.
+\z 
+\z 
+
+
+Wenn das Reflexivpronomen \textit{sich} wie in (\ref{ea:ReflMF}) die zweite Ergänzung des Verbs ist, dann ist es zwar kaum ohne spezielle Fokussierung\footnote{Zum Beispiel: \textit{Und da ist Jana Kmetsch, die ihre drei Kinder zum Sport und zur Musikschule fährt. Sich hat sie aufgegeben, die Kinder nicht.} Berliner Zeitung, 10.08.2009.} voranstellbar (\ref{ex:ReflVF}). Aber es ist ersetzbar (\ref{ex:Reflersetzbar}) und erfragbar (\ref{ex:Reflerfragbar}). Es handelt sich um eine unmittelbare Konstituente des Satzes.
+
+\ea \label{ea:ReflexivKonstituente}
+\ea [] {Paul wäscht sich.}\label{ea:ReflMF}
+\ex [?] {[Sich] wäscht Paul.}\label{ex:ReflVF}
+\ex [] {Paul wäscht [seinen Hund].}\label{ex:Reflersetzbar}
+\ex [] {[Wen] wäscht Paul?}\label{ex:Reflerfragbar}
+\z
+\z 
+
+Bei echt reflexiven Verben wie \textit{sich schämen} in (\ref{ea:schämtsich}) fallen in Bezug auf \textit{sich} alle Tests negativ aus. Es ist nicht voranstellbar (\ref{ex:*sichVF}), nicht ersetzbar (\ref{ex:*schämtseinenBruder}) und nicht erfragbar (\ref{ex:*wenschämt}). Dieses \textit{sich} ist Bestandteil des Verbs und damit keine Satzkonstituente.
+
+\ea \label{ea:sich_schämen}
+\ea [] {Paul schämt sich.}\label{ea:schämtsich}
+\ex [*] {[Sich] schämt Paul.}\label{ex:*sichVF}
+\ex [*] {Paul schämt [seinen Bruder].}\label{ex:*schämtseinenBruder}
+\ex [*] {[Wen] schämt Paul?}\label{ex:*wenschämt}
+\z
+\z 
+
+
+Es gibt voranstellbare Einheiten, also Satzkonstituenten, für die es in der traditionellen Satzgliedtheorie jedoch keine Bezeichnung gibt. Voranstellbar ist auch der\is{Satzkonstituente!Voranstellungstest} infinite Verbteil komplexer Verben (\ref{ea:VinfVF}). Mit ihm gemeinsam können auch -- außer der ersten Ergänzung -- alle übrigen Ergänzungen (\ref{ex:VinfErg}) und Angaben (\ref{ex:VinfErgAng}) vorangestellt werden. Die erste Ergänzung im Nominativ, das Subjekt, ist nicht mit dem infiniten Verbteil voranstellbar (\ref{*ex:VinfSubj}).\footnote{Nur bei intransitiven Vorgangsverben, die ihr Perfekt mit \textit{sein} bilden, kann die Nominativ-Ergänzung zusammen mit dem infiniten Verbteil im Vorfeld stehen, insbesondere dann, wenn es noch eine belebte Dativ-NP gibt, \zB \textit{Ein Fehler unterlaufen ist ihm noch nie}. Zur Diskussion verweisen wir auf \citet{Fanselow1992}.} 
+
+\newpage
+\ea \label{ea:VPinf}
+\ea [] {[Gehofft] hat der Mann ohne Unterlass auf den Brief.}\label{ea:VinfVF}
+\ex [] {[Auf den Brief gehofft] hat der Mann ohne Unterlass.}\label{ex:VinfErg}
+\ex [] {[Ohne Unterlass auf den Brief gehofft] hat der Mann.}\label{ex:VinfErgAng}
+\ex [*] {[Der Mann gehofft] hat ohne Unterlass auf den Brief.}\label{*ex:VinfSubj}
+\z 
+\z 
+
+Für den vorangestellten infiniten Verbteil in (\ref{ea:VinfVF}) gibt es in der Satzgliedtheorie keinen Satzgliedbegriff.\footnote{Cf. ebenso \citet[89]{Tahiri2022}.} Bei den vorangestellten Einheiten in (\ref{ex:VinfErg}) und (\ref{ex:VinfErgAng}) handelt es sich um infinite Verbalphrasen unterschiedlicher Komplexität. Auch für diese Konstituenten steht in der Satzgliedtheorie keine Bezeichnung bereit. Wir stellen sie in Abschnitt~\ref{section:VP} als infinite Verbalphrasen vor. 
+
+Es gibt Stellungen wie in (\ref{ea:MVB}), in denen scheinbar mehr als eine unmittelbare Satzkonstituente das Vorfeld besetzt. Der Anschaulichkeit halber klammern wir beide Einheiten ein. 
+
+\ea \label{ea:MVB} [Der Universität] [zum Geburtstag] gratulierte auch Bundesminister Dorothee Wilms [...]\footnote{Der Beleg ist \citet[87]{Duerscheid1989} entnommen. Für zahlreiche weitere Belege dieser Art verweisen wir auf \citet{Mueller2003}.}
+\z 
+
+Die Wortgruppe \textit{der Universität} ist eine Ergänzung von \textit{gratulierte} und auch die Wortgruppe \textit{zum Geburtstag} ist eine Ergänzung von \textit{gratulierte}. Beide können wie in (\ref{ea:keineMVB}) alleine das Vorfeld besetzen.
+
+\ea \label{ea:keineMVB}
+\ea\label{ea:der Universität} [Der Universität] gratulierte auch Bundesminister Dorothee Wilms zum Geburtstag.
+\ex \label{ex:zum Geburtstag} [Zum Geburtstag] gratulierte auch Bundesminister Dorothee Wilms der Universität. 
+\z 
+\z 
+
+In (\ref{ea:der Universität}) ist \textit{der Universität} eine unmittelbare Satzkonstituente und in (\ref{ex:zum Geburtstag}) ist \textit{zum Geburtstag} eine unmittelbare Satzkonstituente. In Bezug auf die schulische Anwendung zur Bestimmung von Satzgliedern bestehen beide für sich genommen den Voranstellbarkeitstest. Beide bilden aber auch zusammen mit einer infiniten Verbform -- analog zu den Beispielen in (\ref{ea:VPinf}) -- wieder eine unmittelbare Satzkonstituente, die vorfeldfähig ist, was in (\ref{ea:der Uni zum Geburtstag gratuliert}) gezeigt wird.
+
+\ea \label{ea:der Uni zum Geburtstag gratuliert} [Der Universität zum Geburtstag gratuliert] hat auch Bundesminister Dorothee Wilms.
+\z 
+
+Wie gesagt, gibt es in der Satzgliedtheorie keinen Begriff für solche Konstituenten. Aber kommen wir nun wieder zurück zu (\ref{ea:MVB}), wo \textit{der Universität} und \textit{zum Geburtstag} ohne eine infinite Verbform das Vorfeld besetzen. \citet[312--321]{Mueller2005} schlägt im Anschluss an \citet{Fanselow1993} auch für (\ref{ea:MVB}) vor, \textit{der Universität zum Geburtstag} als Verbalphrase, also als eine Konstituente zu analysieren. Allerdings ist ihr verbaler Kopf \textit{gratuliert} unsichtbar.\footnote{Eine umfangreiche Datensammlung und Diskussion bietet \citet{Mueller2003}. Zu den Funktionen der scheinbaren Mehrfachbesetzung des Vorfeldes empfehlen wir \citet{MuellerBildhauerCook2012}.} 
+
+Analog können wir dann auch Fälle wie in (\ref{AngabeAngabeVF}) analysieren, in denen das Vorfeld durch zwei verbale Angaben besetzt ist.
+
+\ea 
+\ea \label{AngabeAngabeVF} [Vor einer Woche] [in Verona] hat bereits das erste dieser Rennen stattgefunden.\footnote{St. Galler Tagblatt, 08.03.2019.}
+\ex \label{AngabeAngabeVF_V} [Vor einer Woche in Verona stattgefunden] hat bereits das erste dieser Rennen.
+\z 
+\z 
+
+Sowohl die Angabe \textit{vor einer Woche} als auch die Angabe \textit{in Verona} können als unmittelbare Satzkonstituenten alleine das Vorfeld besetzen. Wenn sie wie in (\ref{AngabeAngabeVF}) zusammen das Vorfeld besetzen, handelt es sich um eine unmittelbare Satzkonstituente. Anders als bei der Verbalphrase in (\ref{AngabeAngabeVF_V}) ist in (\ref{AngabeAngabeVF}) der infinite Verbteil \textit{stattgefunden} im Vorfeld jedoch unsichtbar. Auch für diese unmittelbare Satzkonstituente gibt es in der Satzgliedtheorie (vgl. Kapitel~\ref{chap:Satzgliedanalyse}) keine Bezeichnung.
+
+
+\section{Zusammenfassung Konstituenz}\label{section:Zfsg_Konstituenz}
+
+Bevor wir uns im folgenden Kapitel~\ref{chap:Phrasen} mit dem internen Bau der Konstituenten als Phrasen beschäftigen, fassen wir die wesentlichen Punkte zum Thema Satzkonstituenten in Stichpunkten zusammen:
+
+\begin{itemize}
+
+\item Satzkonstituenten: Sätze bestehen nicht aus aneinandergereihten Wörtern, sondern aus Satzkonstituenten, die aus mehreren zusammenhängenden Wörtern oder einem Wort bestehen. Primär handelt es sich um diejenigen Wortgruppen oder Wörter, die Ergänzungen und Angaben des Verbs sind.
+
+\item Konstituenten: Auch unmittelbare Satzkonstituenten können intern wieder Konstituenten enthalten.
+
+\item Tests: Für den Status als unmittelbare Satzkonstituente sprechen verschiedene testbare Eigenschaften: Sie sind als Ganzes ersetzbar, insbesondere durch Pro-Formen, sie sind erfragbar und verschiebbar, insbesondere ins Vorfeld, das aber nur von einer Satzkonstituente besetzt werden kann. Nicht alle Eigenschaften treffen auf alle Satzkonstituenten zu.
+
+\item Satzkonstituenten vs. Satzglied: Satzkonstituenten sind typischerweise diejenigen Wortgruppen, denen ganz bestimmte Satzgliedfunktionen wie Subjekt, Objekt oder Adverbial zukommen. Aber nicht alle Satzkonstituenten sind Satzglieder.  
+
+\end{itemize}
+
+Der folgende letzte Abschnitt dieses Kapitels bietet Ihnen die Gelegenheit, durch Übungen zu lernen.
+
+\section{Aufgaben zu unmittelbaren Satzkonstituenten}\label{section:Aufgaben_Konstituenz}
+
+In den folgenden vier Aufgaben können Sie Ihr Wissen zum Thema unmittelbare Satzkonstituenten anwenden. Wir empfehlen, dass Sie die Aufgaben zuerst selbstständig lösen. Im Anschluss können Sie Ihre Lösungen mit unseren Lösungen und Kommentaren vergleichen.
+
+
+\subsection{Konstituententests}\label{subsection:A_Konstituenz1}
+
+In diesem Kapitel haben wir gesehen, dass Sätze nicht einfach aus Wörtern bestehen, sondern aus Wortgruppen, die man unmittelbare Satzkonstituenten nennt. Zu ihrer Ermittlung haben wir verschiedene Tests vorgestellt. Bestimmen Sie die unmittelbaren Satzkonstituenten der in (\ref{ea:KonstituententestsA1}) folgenden Sätze.
+
+\ea \label{ea:KonstituententestsA1}
+\ea  \label{ea:KonstituententestsA1_1} Lehrer Rumposch nimmt meine Eltern in den Skatverein auf.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 48.}  
+\ex \label{ea:KonstituententestsA1_2} Lehrer Rumposch sagt, die Zeit, in der wir jetzt leben, wäre besser als die, von der uns Großvater erzähle.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 354.}
+\z 
+\z 
+
+Stellen Sie zuerst eine vom Hauptverb ausgehende Hypothese über die Kandidaten für unmittelbare Satzkonstituenten auf. Prüfen Sie Ihre Hypothese mittels der folgenden Tests:
+
+\newpage
+
+\begin{itemize}
+\item Ersetzungstest (vgl. Abschnitt~\ref{section:Ersetzung}), 
+\item Proform-Test (vgl. Abschnitt~\ref{section:Pronominalisierung}), 
+\item Erfragbarkeitstest (vgl. Abschnitt~\ref{section:Erfragbarkeit}), 
+\item Voranstellbarkeitstest (vgl. Abschnitt~\ref{section:Voranstellungstest}).
+
+\end{itemize}
+
+
+Kommen wir nun zu den Lösungen: In Satz (\ref{ea:KonstituententestsA1_1}) ist das Hauptverb \textit{nimmt auf}. Wir finden das Finitum \textit{nimmt} in der linken Satzklammer. Die Verbpartikel \textit{auf} steht in der rechten Satzklammer. Das Hauptverb ist zweiwertig und verlangt nach einer Nominalphrase im Nominativ, die den Aufnehmenden bezeichnet, und nach einer Nominalphrase im Akkusativ, die den Aufgenommenen bezeichnet. Wir gehen von der Hypothese aus, dass der Satz mindestens aus zwei unmittelbaren Satzkonstituenten besteht, nämlich \textit{Lehrer Rumposch} und \textit{meine Eltern}. Bei \textit{in den Skatverein} handelt es sich vermutlich auch um eine unmittelbare Satzkonstituente. Sie bezeichnet den Verein oder die Organisation, in die jemand aufgenommen wird. Zuerst führen wir in (\ref{ea:Ersetzungsprobe_K1}) die Ersetzungsprobe durch, indem wir die Kandidaten für unmittelbare Satzkonstituenten durch andere Wortgruppen ersetzen.
+
+\ea \label{ea:Ersetzungsprobe_K1} Der Chorleiter nimmt meine Geschwister in den Chor auf. 
+\z 
+
+Das Testergebnis spricht dafür, dass unsere Hypothese richtig ist. Nun führen wir in (\ref{ea:Proform_K1}) den Proform-Test durch. Wir ersetzen die Kandidaten für unmittelbare Satzkonstituenten durch Proformen. 
+
+\ea \label{ea:Proform_K1} Er nimmt sie dorthin auf.  
+\z 
+
+Das Testergebnis spricht dafür, dass unsere Hypothese richtig ist. Wenn wir uns etwas unsicher mit \textit{dorthin} als Proform sind, dann liegt es erstens daran, dass diese Richtungsergänzung metaphorisch verstanden wird und zweitens, dass wir auch \textit{dort} einsetzen könnten. Jedoch müsste der Ausgangssatz dann anders lauten, nämlich: \textit{Lehrer Rumposch nimmt meine Eltern in dem Skatverein auf}. Nun ersetzen wir in (\ref{ea:Erfragbarkeit_K1}) die Satzkonstituenten-Kandidaten durch Fragewörter. 
+
+\ea \label{ea:Erfragbarkeit_K1} Wer nimmt wen wohin auf?  
+\z 
+
+Auch dieses Testergebnis spricht für den Status der Wortgruppen als unmittelbare Satzkonstituenten. Zuletzt prüfen wir die Voranstellbarkeit der Wortgruppen. Im Ausgangssatz (\ref{ea:KonstituententestsA1_1}) steht \textit{Lehrer Rumposch} bereits im Vorfeld. Also führen wir den Test nur für \textit{meine Eltern} und \textit{in den Skatverein} durch.
+
+\ea 
+\ea \label{ea:Voranstellung_K1_1} Meine Eltern nimmt Lehrer Rumposch in den Skatverein auf.  
+\ex \label{ea:Voranstellung_K1_2} In den Skatverein nimmt Lehrer Rumposch meine Eltern auf.
+\z
+\z 
+
+Die Ergebnisse aller Tests bestätigen, dass der Satz (\ref{ea:KonstituententestsA1_1}) aus den folgenden drei unmittelbaren Satzkonstituenten besteht: 
+
+\begin{itemize}
+
+\item \textit{Lehrer Rumposch}
+
+\item \textit{meine Eltern}
+
+\item \textit{in den Skatverein}
+
+\end{itemize}
+
+
+In Satz (\ref{ea:KonstituententestsA1_2}) ist das Hauptverb \textit{sagt}. Wir finden es an der zweiten Position, in der sogenannten linken Satzklammer. Es ist mindestens zweiwertig und verlangt nach einer Nominalphrase im Nominativ, die den Sagenden bezeichnet, und einer Nominalphrase im Akkusativ, die das Gesagte bezeichnet. Wir gehen von der Hypothese aus, dass der Satz mindestens aus zwei unmittelbaren Satzkonstituenten besteht. Diese sind \textit{Lehrer Rumposch} und \textit{die Zeit, in der wir jetzt leben, wäre besser als die, von der uns Großvater erzähle}. Die zweite vermutliche Satzkonstituente ist zwar intern sehr komplex und besteht auch wieder aus zahlreichen Konstituenten, aber bezüglich des Hauptverbs bildet sie eine Einheit. Wir prüfen unsere Hypothese wieder zuerst durch den Ersetzbarkeitstest in (\ref{ea:Ersetzungsprobe_K2}).
+
+\ea \label{ea:Ersetzungsprobe_K2} Der Onkel sagt diesen Satz.  
+\z 
+
+Das Testergebnis spricht dafür, dass unsere Hypothese richtig ist. Nun führen wir in (\ref{ea:Proform_K2}) den Proform-Test durch. Wir ersetzen die Kandidaten für unmittelbare Satzkonstituenten durch Proformen. 
+
+\ea \label{ea:Proform_K2} Er sagt das.  
+\z 
+
+Das Testergebnis spricht dafür, dass unsere Hypothese richtig ist. Nun ersetzen wir in (\ref{ea:Erfragbarkeit_K2}) die Satzkonstituenten-Kandidaten durch Fragewörter. 
+
+\ea \label{ea:Erfragbarkeit_K2} Wer sagt was?  
+\z 
+
+Auch dieses Testergebnis spricht für den Status der Wortgruppen als unmittelbare Satzkonstituenten. Zuletzt prüfen wir die Voranstellbarkeit der Wortgruppen. Im Ausgangssatz (\ref{ea:KonstituententestsA1_2}) steht \textit{Lehrer Rumposch} bereits im Vorfeld. Also führen wir den Test nur für \textit{die Zeit, in der wir jetzt leben, wäre besser als die, von der uns Großvater erzähle} in (\ref{ea:Voranstellung_K2_1}) durch.
+
+\ea \label{ea:Voranstellung_K2_1} Die Zeit, in der wir jetzt leben, wäre besser als die, von der uns Großvater erzähle, sagt Lehrer Rumposch.  
+\z 
+
+Die Ergebnisse aller Tests bestätigen, dass der Satz (\ref{ea:KonstituententestsA1_2}) aus den folgenden beiden unmittelbaren Satzkonstituenten besteht: 
+
+\begin{itemize}
+
+\item \textit{Lehrer Rumposch}
+
+\item \textit{die Zeit, in der wir jetzt leben, wäre besser als die, von der uns Großvater erzähle}
+
+\end{itemize}
+
+
+
+\subsection{Versagen einzelner Tests}\label{subsection:A_Konstituenz2}
+
+Nicht immer führen alle Tests bei allen unmittelbaren Satzkonstituenten zu einem positiven Ergebnis. Begründen Sie, warum die kursiv gesetzten Einheiten unmittelbare Satzkonstituenten der jeweiligen Sätze sind.
+
+\ea \label{ea:Testversagen}
+\ea \label{ea:keine_Ersetzung} Obwohl Lehrer Heier den Hohenfriedberger Marsch selber vervielfältigt, gibt \textit{es} später beim Singen Schwierigkeiten.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 466.} 
+\ex \label{ex:keine_Voranstellung} Der Schulrat tut, \textit{als sähe er den eintretenden Lehrer nicht}.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 153.}
+\ex \label{ex:keine_Voranstellung2} Lehrer Heier hat \textit{es} mit nach Bossdom gebracht.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 479.}
+\z 
+\z 
+
+Nennen Sie mindestens einen Test, der bei den kursiv gesetzten unmittelbaren Konstituenten zu einem negativen Ergebnis führt. Warum handelt es sich dennoch um unmittelbare Satzkonstituenten?
+
+
+Kommen wir nun zu den Lösungen: In Satz (\ref{ea:keine_Ersetzung}) können wir \textit{es} nicht ersetzen und nicht erfragen. Es handelt sich dennoch um eine unmittelbare Satzkonstituente, weil es als formales Subjekt von \textit{gibt} verlangt wird. Es kann wie in (\ref{ea:es_Vorfeld}) vorangestellt werden.
+
+\ea \label{ea:es_Vorfeld} Es gibt später beim Singen Schwierigkeiten, obwohl Lehrer Heier den Hohenfriedberger Marsch selber vervielfältigt. 
+\z 
+
+In Satz (\ref{ex:keine_Voranstellung}) ist die kursiv gesetzte unmittelbare Satzkonstituente \textit{als sähe er den eintretenden Lehrer nicht} nicht voranstellbar. Wir können sie aber durch eine Proform ersetzen (\ref{ea:als_Proform}) und erfragen (\ref{ex:als_Frage}). Sie kann ebenso durch eine andere Wortgruppe ersetzt werden (\ref{ex:als_Ersatz}).
+
+\ea 
+\ea \label{ea:als_Proform} Der Schulrat tut so.
+\ex \label{ex:als_Frage} Wie tut der Schulrat?
+\ex \label{ex:als_Ersatz} Der Schulrat tut, als höre er die anklopfende Lehrerin nicht.
+\z 
+\z 
+
+Die in Satz (\ref{ex:keine_Voranstellung2}) kursiv gesetzte unmittelbare Satzkonstituente \textit{es} ist nicht ohne weiteres voranstellbar. Aber es handelt sich um die zweite Ergänzung des Verbs \textit{bringen}. Wir können dieses \textit{es} durch eine Nominalphrase ersetzen (\ref{ea:es_Ersatz}) und erfragen (\ref{ex:es_Frage}).
+
+\ea 
+\ea \label{ea:es_Ersatz} Lehrer Heier hat dieses Wort mit nach Bossdom gebracht. 
+\ex \label{ex:es_Frage} Was hat Lehrer Heier mit nach Bossdom gebracht? 
+\z 
+\z  
+
+
+
+\subsection{Ambiguität}\label{subsection:A_Konstituenz3}
+
+Die folgenden beiden Sätze in (\ref{ea:Ambiguität_A_K}) sind doppeldeutig. 
+
+\ea \label{ea:Ambiguität_A_K}
+\ea \label{ea:Ambiguität_A_K_1} Die Trump-Geschwister verkaufen das Haus ihrer Mutter Ivana.\footnote{Spiegel-Online, 18.11.2022.} 
+\ex \label{ea:Ambiguität_A_K_2} Prompt kommen die Leute aus dem Westen und sagen ihnen: Das macht man (besser) so.\footnote{Die Zeit, 29.03.1991.}
+\z 
+\z
+
+Die verschiedenen Lesarten beruhen auf Umgruppierungen auf der Ebene der unmittelbaren Satzkonstituenten. Benennen Sie die jeweils möglichen unmittelbaren Satzkonstituenten, die für die jeweilige Lesart verantwortlich sind. Formulieren Sie für jede Lesart durch Umstellung einen eindeutigen Satz, ohne Wörter oder Wortgruppen hinzuzufügen oder wegzulassen. 
+
+
+Kommen wir nun zu den Lösungen: Den Satz (\ref{ea:Ambiguität_A_K_1}) können wir so verstehen, dass die Trump-Geschwister ein bestimmtes Haus an ihre Mutter Ivanka verkaufen. In dieser Lesart ist \textit{ihrer Mutter Ivanka} genauso wie \textit{das Haus} eine unmittelbare Satzkonstituente. Durch Voranstellung der Konstituente \textit{das Haus} (\ref{ea:eindeutig_A_K_1_1}) oder der Konstituente \textit{ihrer Mutter Ivanka} (\ref{ex:eindeutig_A_K_1_2}) ist diese Lesart eindeutig.
+
+\ea 
+\ea \label{ea:eindeutig_A_K_1_1} Das Haus verkaufen die Trump-Geschwister ihrer Mutter Ivana.
+\ex \label{ex:eindeutig_A_K_1_2} Ihrer Mutter Ivanka verkaufen die Trump-Geschwister das Haus.
+\z 
+\z 
+
+Wir können den Satz (\ref{ea:Ambiguität_A_K_1}) aber auch so verstehen, dass die Geschwister das Haus von ihrer Mutter Ivanka an irgendjemanden verkaufen. Bei dieser Lesart bildet \textit{das Haus ihrer Mutter Ivanka} eine einzige unmittelbare Konstituente. Durch deren Voranstellung (\ref{ea:eindeutig_A_K_1_3}) ist diese Lesart eindeutig.  
+
+\ea \label{ea:eindeutig_A_K_1_3} Das Haus ihrer Mutter Ivanka verkaufen die Trump-Geschwister.
+\z 
+
+Den Satz (\ref{ea:Ambiguität_A_K_2}) können wir so verstehen, dass die Leute, deren Herkunft der Westen ist, also die Westdeutschen von irgendwoher kommen und anderen etwas sagen. In dieser Lesart ist \textit{die Leute aus dem Westen} eine unmittelbare Satzkonstituente. Durch deren Voranstellung (\ref{ea:eindeutig_A_K_2_1}) wird diese Lesart eindeutig. 
+
+\ea \label{ea:eindeutig_A_K_2_1} Die Leute aus dem Westen kommen prompt und sagen ihnen: Das macht man (besser) so.
+\z 
+
+Wir können den Satz (\ref{ea:Ambiguität_A_K_2}) aber auch so verstehen, dass sich irgendwelche Leute vom Westen aus irgendwohin bewegen und dort anderen Leuten etwas sagen. Bei dieser Lesart ist \textit{die Leute} eine unmittelbare Satzkonstituente und \textit{aus dem Westen} ist eine andere unmittelbare Satzkonstituente. Durch Voranstellung der Konstituente \textit{die Leute} (\ref{ea:eindeutig_A_K_2_2}) oder der Konstituente \textit{aus dem Westen} (\ref{ex:eindeutig_A_K_2_3}) ist diese Lesart eindeutig.
+
+\ea 
+\ea \label{ea:eindeutig_A_K_2_2} Die Leute kommen prompt aus dem Westen und sagen ihnen: Das macht man (besser) so.
+\ex \label{ex:eindeutig_A_K_2_3} Aus dem Westen kommen die Leute prompt und sagen ihnen: Das macht man (besser) so.
+\z 
+\z 
+
+
+\subsection{Konstituenten, die keine Satzglieder sind}\label{subsection:A_Konstituenz4}
+
+Bestimmen Sie die unmittelbaren Satzkonstituenten in dem folgenden Satz. 
+
+\ea \label{ea:Aufgabe1_Konstituenz} Obwohl ich nur ein halber Heide-Sorbe bin, empfehle ich denen, die da sagen, ich würde ihnen mit Skepsis begegnen, darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten.\footnote{Erwin Strittmatter: \textit{Der Laden}. Berlin: Aufbau-Verlag 1983, S. 460.}
+\z 
+
+
+Stellen Sie zuerst eine valenzbasierte Hypothese über die möglichen Kandidaten für unmittelbare Satzkonstituenten auf. Führen Sie danach den Voranstellbarkeitstest 
+(vgl. Abschnitt~\ref{section:Voranstellungstest}) durch.
+
+
+Kommen wir nun zu den Lösungen: Ausgehend von der Valenz des Hauptverbs stellen wir eine Hypothese über die unmittelbaren Satzkonstituenten auf. Das Hauptverb \textit{empfehle} finden wir in der linken Satzklammer. Es braucht drei Ergänzungen: eine Nominalphrase im Nominativ, die den Empfehlenden bezeichnet, eine Nominalphrase im Dativ, die diejenige Person bezeichnet, der etwas empfohlen wird, und eine Nominalphrase im Akkusativ oder einen äquivalenten Nebensatz bzw. eine äquivalente \textit{zu}-Infinitivgruppe, die das bezeichnet, was empfohlen wird. Aufgrund der Valenz des Hauptprädikats gehen wir davon aus, dass der Satz mindestens aus drei unmittelbaren Satzkonstituenten besteht, nämlich aus \textit{ich} (Empfehlender), \textit{denen, die da sagen, ich würde ihnen mit Skepsis begegnen} (Rezipient der Empfehlung) und \textit{darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten} (Empfohlenes). 
+
+Bevor wir unsere Hypothese durch den Voranstellbarkeitstest prüfen, nutzen wir die gegebene Vorfeldbesetzung. Wie wir gesehen haben, steht das finite Verb \textit{empfehle} in der linken Satzklammer. Wir wissen, dass das Vorfeld vor der linken Satzklammer von einer unmittelbaren Satzkonstituente besetzt wird, nämlich von \textit{obwohl ich nur ein halber Heide-Sorbe bin}. Diese unmittelbare Satzkonstituente ist eine Angabe. Nun testen wir unsere Hypothesen, indem wir die ermittelten Kandidaten für unmittelbare Satzkonstituenten ins Vorfeld setzen (\ref{ea:K1_Voranstellung}).
+
+\ea \label{ea:K1_Voranstellung}
+\ea \label{ea_K1_V1_1} Ich empfehle, obwohl ich nur ein halber Heide-Sorbe bin, denen, die da sagen, ich würde ihnen mit Skepsis begegnen, darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten.
+\ex \label{ex_K1_V1_2} Denen, die da sagen, ich würde ihnen mit Skepsis begegnen, empfehle ich, obwohl ich nur ein halber Heide-Sorbe bin, darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten.
+\ex \label{ex_K1_V1_3} Darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten, empfehle ich, obwohl ich nur ein halber Heide-Sorbe bin, denen, die da sagen, ich würde ihnen mit Skepsis begegnen.
+\z 
+\z 
+
+Die Testergebnisse bestätigen unsere Hypothese. Der Satz (\ref{ea:Aufgabe1_Konstituenz}) besteht erst einmal aus vier unmittelbaren Satzkonstituenten:
+
+\begin{itemize}
+
+\item \textit{obwohl ich nur ein halber Heide-Sorbe bin}
+
+\item \textit{ich} 
+
+\item \textit{denen, die da sagen, ich würde ihnen mit Skepsis begegnen}
+
+\item \textit{darüber nachzudenken, wann und wo sie mit ihrer Ehrlichkeit geizten}
+
+\end{itemize}
+
+Es ist jedoch auch noch eine andere Voranstellung möglich. Wir können auch die Ergänzung des Infinitivs \textit{nachzudenken} voranstellen.
+
+\ea \label{ea:K1_V1_4} Darüber, wann und wo sie mit ihrer Ehrlichkeit geizten, empfehle ich, obwohl ich nur ein halber Heide-Sorbe bin, denen nachzudenken, die da sagen, ich würde ihnen mit Skepsis begegnen.
+\z 
+
+Diese unmittelbare Satzkonstituente ist jedoch kein Satzglied im Sinne der Satzgliedtheorie. Denn sie hat keine Funktion gegenüber dem Hauptprädikat. Sie hängt von dem \textit{zu}-Infinitiv \textit{nachzudenken} ab. Dieser Infinitiv ist zusammen mit seiner Ergänzung \textit{darüber, wann und wo sie mit ihrer Ehrlichkeit geizten} eine Ergänzung von \textit{empfehle}.   

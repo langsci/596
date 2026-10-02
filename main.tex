@@ -1,0 +1,66 @@
+\documentclass[output=book, booklanguage=german, 
+%   colorlinks, citecolor=brown,
+%   draftmode
+%  ,showindex
+]{langscibook}    
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%          additional packages                 %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\input{localmetadata.tex}
+\input{localpackages.tex}
+\input{localhyphenation.tex}
+\bibliography{localbibliography} 
+%\showindex
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Frontmatter                      %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% \includeonly{chapters/Wortbildung}
+\begin{document}     
+\input{localcommands.tex}
+
+
+
+
+\maketitle                
+\frontmatter
+
+% %% uncomment if you have preface and/or acknowledgements
+
+\currentpdfbookmark{Inhaltsverzeichnis}{name} % adds a PDF bookmark
+\tableofcontents
+\listofexkurse
+% \include{chapters/acknowledgments}
+% \include{chapters/abbreviations}
+\include{chapters/preface}
+\mainmatter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%             Chapters                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{chapters/Valenz}
+\include{chapters/Feldermodell}
+\include{chapters/Konstituenz}
+\include{chapters/Phrasen}
+\include{chapters/Satzgliedanalyse}
+\include{chapters/Wort}
+\include{chapters/Wortbildung}
+\include{chapters/Phonetik}
+\include{chapters/Phonologie}
+\include{chapters/Graphematik}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Backmatter                       %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{localseealso.tex} 
+% There is normally no need to change the backmatter section
+\input{backmatter.tex} 
+
+
+\end{document} 

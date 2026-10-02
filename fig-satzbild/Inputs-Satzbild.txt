@@ -1,0 +1,36 @@
+Package:
+
+%% von Sigi geladen:
+\usepackage{arydshln} % for dashed lines in table
+	\newcommand{\sbdashline}[1]{\cdashline{#1}[2pt/2pt]}
+
+\usepackage{makecell} % for linebreaks in cells
+	\renewcommand\cellgape{\Gape[5pt][4pt]}  % for vertical space in cells; first option for top, second for bottom space
+%%
+
+
+
+Befehle:
+
+\input{fig-satzbild/abb-01}
+
+
+\input{fig-satzbild/abb-02}
+
+
+\input{fig-satzbild/abb-03}
+
+
+\input{fig-satzbild/abb-04}
+
+
+\input{fig-satzbild/abb-05}
+
+
+\input{fig-satzbild/abb-06}
+
+
+\input{fig-satzbild/abb-07}
+
+
+\input{fig-satzbild/abb-08}

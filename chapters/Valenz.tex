@@ -1,0 +1,1313 @@
+\chapter{Valenz}\label{chapter:Valenz}
+
+In der Linguistik bezeichnet der Begriff \textit{Valenz} die Fähigkeit eines Wortes, andere Wörter an sich zu binden. Für den Satzbau spielt die Verbvalenz eine ganz zentrale Rolle. Denn Verben verlangen eine bestimmte Anzahl und Form von Ergänzungen, um einen vollständigen und grammatisch korrekten Satz zu bilden. Somit legen Verben die semantische und syntaktische Struktur von Sätzen fest.
+In dem folgenden Abschnitt~\ref{section:KonzeptVerbvalenz} erklären wir das Konzept der Verbvalenz. Danach unterscheiden wir im Abschnitt~\ref{subsection:EvsA} verbale Ergänzungen von Angaben. Im Abschnitt~\ref{subsection:TestsAngabeErgänzung} stellen wir für diese Unterscheidung verschiedene Tests vor. Im Abschnitt~\ref{subsection:Verbklassen} geht es um semantische Verbklassen -- anstelle des schulischen Begriffs des Verbs als Tu-Wort -- und wir abstrahieren Satzbaupläne von einzelnen Verbvalenzen. Im Abschnitt~\ref{subsection:Valenzdynamik} geht es unter dem Stichwort der \textit{Valenzdynamik} um die Erhöhung und Reduktion der Valenz. Im Abschnitt~\ref{section:RegierteVerben} beschäftigen wir uns mit Verben, von denen andere Verben abhängen. Stichpunktartig fassen wir dieses Kapitel im Abschnitt~\ref{section:Zfsg_Valenz} zusammen. Der letzte Abschnitt~\ref{section:Aufgaben_Valenz_Rektion} bietet vier verschiedene Anwendungsaufgaben samt Lösungen zum Thema Valenz. 
+
+\section{Konzept der Verbvalenz} \label{section:KonzeptVerbvalenz}
+
+Betrachten wir zum Einstieg die folgenden missglückten Äußerungen in (\ref{ea:bestiehlt1}) und (\ref{ex:schenkt1}). 
+
+\ea 
+\ea [*] {Die große Anna bestiehlt.}\label{ea:bestiehlt1}
+\ex [*] {Die große Anna schenkt dem kleinen Paul.}\label{ex:schenkt1}
+\z 
+\z 
+
+Diese Äußerungen sind mit einem Sternchen versehen, weil sie ungrammatisch sind, d.\,h. sie entsprechen nicht bestimmten grammatischen Anforderungen. Diese Anforderungen sind recht einfach zu beschreiben. Die Verbform \textit{bestiehlt} in (\ref{ea:bestiehlt1}) benötigt neben einem Dieb (\textit{die große Anna}) auch jemanden, der wie in (\ref{ea:bestiehlt}) bestohlen wird (\textit{den kleinen Paul}). Die Verbform \textit{schenkt} in (\ref{ex:schenkt1}) verlangt nicht nur jemanden, der schenkt (\textit{die große Anna}), und jemanden, der beschenkt wird (\textit{dem kleinen Paul}), sondern auch wie in (\ref{ex:schenkt}) ein Geschenk (\textit{einen Ball}).  
+
+\ea 
+\ea \label{ea:bestiehlt} \fbox{Die große Anna} bestiehlt \fbox{den kleinen Paul}.
+\ex \label{ex:schenkt} \fbox{Die große Anna} schenkt \fbox{dem kleinen Paul} \fbox{einen Ball}.
+\z 
+\z 
+
+Man kann auch sagen, dass Verben über \textit{Leerstellen} verfügen, die gesättigt werden müssen. Diese Leerstellen werden in (\ref{ea:bestiehlt}) und (\ref{ex:schenkt}) durch Boxen symbolisiert. Die in den Boxen stehenden Ausdrücke sättigen die Leerstellen. Die Sätze in (\ref{ea:bestiehlt}) und (\ref{ex:schenkt}) tragen kein Sternchen, weil sie wohlgeformt sind. Die Leerstellen der Verben sind gesättigt.
+
+Die Zahl der Leerstellen eines Verbs gibt an, wie viele Ergänzungen es benötigt, damit wir einen minimal grammatikalisch korrekten Satz bilden können. Wie der Vergleich von (\ref{ea:bestiehlt1}) mit (\ref{ea:bestiehlt}) sowie von (\ref{ex:schenkt1}) mit (\ref{ex:schenkt}) zeigt, können diese Ergänzungen obligatorisch\is{Ergänzung!obligatorisch} sein, d.\,h. ihr Fehlen führt zu ungrammatischen Sätzen. 
+
+Im Unterschied zu obligatorischen Ergänzungen gibt es auch fakultative\is{Ergänzung!fakultativ} Ergänzungen. Verben können auch Leerstellen für Ergänzungen eröffnen, die nicht obligatorisch zu realisieren sind. Dies sei kurz an dem folgenden Beispiel illustriert. Die Verbform \textit{liest} kann wie in (\ref{ea:lesen2}) zwei Ergänzungen an sich binden, nämlich jemanden, der liest (\textit{die große Anna}) und das, was diese Person liest (\textit{einen spannenden Roman}). Wie in (\ref{ex:lesen1}) kann aber von dem, was jemand liest, abgesehen werden, \zB als Antwort auf die Frage: \textit{Was macht die große Anna gerade}? 
+
+\ea \label{ea:fakultativeErg}
+\ea \label{ea:lesen2} \fbox{Die große Anna} liest \fbox{einen spannenden Roman}.
+\ex \label{ex:lesen1} \fbox{Sie} liest \fbox{\phantom{einen Text}}.
+\z 
+\z 
+
+Auch wenn \textit{liest} in (\ref{ex:lesen1}) nur eine Ergänzung hat, nämlich \textit{sie}, so verfügt es dennoch über die Möglichkeit, eine zweite Ergänzung wie in (\ref{ea:lesen2}) an sich zu binden. Es hat also die gleichen Anschlussfähigkeiten, die gleiche Wertigkeit. Hierfür steht die leere Box in (\ref{ex:lesen1}).  
+
+In der Chemie ist es üblich, von der \textit{Wertigkeit} oder\is{Valenz!Wertigkeit} eben von der \textit{Valenz} eines Elements zu sprechen. So besteht Wasser (H$_{2}$O) aus einem Sauerstoffatom, das zwei Wasserstoffatome an sich bindet. Das Sauerstoffatom bildet mit zwei Wasserstoffatomen eine stabile Verbindung, was in der Abbildung \ref{caption:Chemie} dargestellt ist.
+
+\begin{figure}[htbp!]
+\centering 	
+\begin{forest}	
+ [O[H][H]]	
+\end{forest}
+\caption{Valenz in der Chemie: H$_{2}$O} \label{caption:Chemie}
+\end{figure}
+
+Das Konzept der Wertigkeit oder Valenz lässt sich auch auf Sprache übertragen. Der Begründer der modernen Valenztheorie, Lucien Tesnière, hat daher 1959 die Atommetapher vom Verb formuliert:
+
+\begin{quote}
+	Man kann [\ldots{}] das Verb mit einem Atom vergleichen, an dem Häkchen angebracht sind, so daß es -- je nach Anzahl der Häkchen -- eine wechselnde Zahl von Aktanten (Ergänzungen, MF) an sich ziehen und in Abhängigkeit halten kann. Die Anzahl der Häkchen, die ein Verb aufweist [...], ergibt das, was man die Valenz des Verbs nennt. \citep[161]{Tesniere1980deutsch} 
+\end{quote}
+
+Die Sättigung der Valenz\is{Valenz} eines Wortes ist eine wesentliche Voraussetzung dafür, semantisch vollständige und grammatisch korrekte Ausdrücke/Sätze zu bilden.
+
+\begin{Definition}{Valenz}
+    
+\noindent 
+Valenz ist die Fähigkeit von Wörtern, insbesondere von Verben, aufgrund ihrer Bedeutung eine bestimmte Anzahl an Ergänzungen in einer ganz bestimmten Form zu fordern. 
+\end{Definition}
+
+
+
+Im Folgenden betrachten wir nur Verben als Valenzträger.\footnote{Auch Adjektive verfügen über Valenz. Denn als Eigenschaftsausdrücke verlangen sie mindestens nach einer Ergänzung, die den Träger der Eigenschaft ausdrückt. Auch manche Substantive verfügen über Valenz, insbesondere diejenigen, die von Verben abgeleitet sind. Auch Adverbien wie \textit{gerne} können als Valenzträger aufgefasst werden, da sie einen Verbausdruck verlangen.} Der Prototyp der vom Verb geforderten Ergänzungen sind Substantivgruppen. So bindet die Verbform \textit{bestiehlt} in (\ref{ea:bestiehlt}) die beiden Substantivgruppen \textit{die große Anna} und \textit{den kleinen Paul} an sich und bildet somit eine stabile Verbindung, nämlich einen Satz.
+
+Verbformen, die wie \textit{bestiehlt} zwei Ergänzungen verlangen, sind zweiwertig. Im Satz\is{Valenz!Wertigkeit} (\ref{ex:schenkt}) bindet die Verbform \textit{schenkt} drei Ergänzungen an sich, nämlich \textit{die große Anna}, \textit{dem kleinen Paul} und \textit{einen Ball}. Daher wird \textit{schenkt} als dreiwertig bezeichnet. Es gibt auch einwertige Verben bzw. Verbformen wie \textit{schläft} oder \textit{arbeitet}. Diese verlangen jeweils nach einer Ergänzung, für die Rolle des Schlafenden bzw. für die des Arbeitenden. Witterungsverben wie \textit{regnet} oder \textit{schneit} sind nullwertig. Zwar muss formal \textit{es} als erste Ergänzung in \textit{es regnet} realisiert werden. Aber auf semantischer Ebene können wir diesem \textit{es} keine Rolle zuordnen. Dieses \textit{es} verweist nicht auf eine regnende Entität. Es gibt nichts, von dem man sagt, dass es regnet. Originär vierwertige Verben gibt es nicht. Auf die Möglichkeit der Valenzerhöhung und der Valenzreduktion gehen wir im Abschnitt~\ref{subsection:Valenzdynamik} genauer ein. 
+
+Bisher haben wir von Substantivgruppen gesprochen, die die Valenzanforderungen einer Verbform sättigen. Eine Substantivgruppe wird auch als \textit{Nominalphrase} (NP) bezeichnet. Anstelle eines Substantivs (Nomen) bilden auch Pronomen Nominalphrasen: \textit{sie bestiehlt ihn} oder \textit{sie schenkt ihn ihm}. Um NPs geht es gesondert im Abschnitt~\ref{section:NP}.\footnote{In der \citet{Duden2022} wird nur der Begriff \textit{Nomen} verwendet. Im Register wird beim Stichwort \textit{Substantiv} auf \textit{Nomen} verwiesen. \citet[11]{Eisenberg2020_Satz} verwendet beide Begriffe als Synonyme. Unter syntaktischem Aspekt sind Nomen diejenigen Wörter, die den Kopf von NPs (vgl. Abschnitt~\ref{section:NP}) bilden. Typischerweise sind das Substantive.}
+
+Neben dem Prototyp einer NP als Ergänzung gibt es auch zweiwertige und dreiwertige Verben, die eine Ergänzung in Form einer Präpositionalphrase (PP) verlangen. Präpositionalphrasen sind Wortgruppen wie \textit{auf den kleinen Paul} oder \textit{auf den Tisch}, die von einer Präposition regiert werden. Wir werden sie in Abschnitt~\ref{section:PP} gesondert vorstellen. So verfügt \zB das zweiwertige \textit{wartet} neben der ersten Ergänzung im Nominativ über eine zweite Ergänzung, die durch eine \textit{auf}-PP wie in (\ref{ea:wartetAuf}) realisiert wird. Das dreiwertige \textit{stellt} hingegen verlangt nach einer zweiten Ergänzung in Form einer NP im Akkusativ und nach einer dritten Ergänzung in Form einer direktionalen (die Richtung/das Ziel angebenden) Präpositionalphrase wie in (\ref{ex:stelltWohin}). Die Boxen sollen wieder die durch die Verbformen eröffneten Leerstellen veranschaulichen. Die in den Boxen stehenden Phrasen sättigen die Leerstellen.
+
+\ea 
+\ea \label{ea:wartetAuf} \fbox{Die große Anna} wartet \fbox{auf den kleinen Paul}.
+\ex \label{ex:stelltWohin} \fbox{Der kleine Paul} stellt \fbox{den Kaffee} \fbox{auf den Tisch}.
+\z 
+\z 
+
+\largerpage[2]
+Alternativ zu einer NP wie \textit{einen Brief} in (\ref{ea:schreiben_Akk}) oder einer PP wie \textit{um seine Hilfe} in (\ref{ex:bitten_um}) können auch Nebensätze wie in (\ref{ea:schreiben,dass}) und (\ref{ex:bitten,dass}) Ergänzungen eines übergeordneten Verbs sein.
+
+\ea 
+\ea \label{ea:schreiben_Akk} \fbox{Die große Anna} schreibt \fbox{dem kleinen Paul} \fbox{einen Brief}.
+\ex \label{ex:bitten_um} \fbox{Die große Anna} bittet \fbox{den kleinen Paul} \fbox{um seine Hilfe}.
+\z 
+\z 
+
+\ea \label{ea:NeSaErgänzung}
+\ea \label{ea:schreiben,dass} \fbox{Die große Anna} schreibt \fbox{dem kleinen Paul}, \fbox{dass sie ihn vermisst}.
+\ex \label{ex:bitten,dass} \fbox{Die große Anna} bittet \fbox{den kleinen Paul}, \fbox{dass er ihr hilft}.
+\z 
+\z\clearpage
+
+Der Nebensatz \textit{dass sie ihn vermisst} in (\ref{ea:schreiben,dass}) ist die dritte Ergänzung von \textit{schreibt}. Der Nebensatz \textit{dass er ihr hilft} in (\ref{ex:bitten,dass}) ist die dritte Ergänzung von \textit{bittet}. 
+
+Anstelle der Nebensätze können auch satzwertige Infinitivkonstruktionen mit einem \textit{zu}-Infinitiv die entsprechende Leerstelle des übergeordneten Verbs als Ergänzungen sättigen.
+
+\ea \label{ea:zuInfErgänzung}
+\ea \label{ea:schreiben_zu} \fbox{Die große Anna} schreibt \fbox{dem kleinen Paul}, \fbox{ihn zu vermissen}.
+\ex \label{ex:bitten_zu} \fbox{Die große Anna} bittet \fbox{den kleinen Paul}, \fbox{ihr zu helfen}.
+\z 
+\z 
+
+In (\ref{ea:schreiben_zu}) ist \textit{ihn zu vermissen} die dritte Ergänzung von \textit{schreibt}. In (\ref{ex:bitten_zu}) ist \textit{ihr zu helfen} die dritte Ergänzung von \textit{bittet}.\footnote{Einige wenige Verben haben ausschließlich satzwertige Ergänzungen, \zB \textit{geruhen} wie in \textit{der König geruhte zu lächeln}. Diesen Ergänzungstyp bezeichnet man als \textit{Verbativergänzung}. Allerdings fällt die Einordnung von Ergänzungen in die Klasse der Verbativergänzungen unterschiedlich aus. \citet[1118]{ZifHoffStr1997} zählen nur solche Infinitivkonstruktionen und Nebensätze zu den Verbativergänzungen, die nicht durch ein Pronomen ersetzt werden können. \citet[213--214]{Eroms2000} hingegen zählt auch manche durch ein Pronomen ersetzbare Infinitivkonstruktionen und Nebensätze zu den Verbativergänzungen, so \zB bei \textit{ich frage mich, ob er nicht doch Recht hat}, obwohl auch gesagt werden kann \textit{Ich frage mich das}.} Auf den internen Bau solcher Infinitivkonstruktionen gehen wir gesondert in Abschnitt~\ref{section:VP} ein. In Abschnitt~\ref{subsection:NebensatzähnlicheK} geht es um die Funktion solcher Infinitivgruppen in Sätzen.
+
+Doch kommen wir erst einmal zurück zu dem prototypischen Fall, dass NPs die verbalen Leerstellen sättigen. Erinnern wir uns an die beiden Beispielsätze (\ref{ea:bestiehlt}) und (\ref{ex:schenkt}), die hier noch einmal als (\ref{ea:bestiehlt2}) und (\ref{ex:schenkt2}) aufgeführt werden. 
+
+\ea 
+\ea \label{ea:bestiehlt2} \fbox{Die große Anna} bestiehlt \fbox{den kleinen Paul}.
+\ex \label{ex:schenkt2} \fbox{Die große Anna} schenkt \fbox{dem kleinen Paul} \fbox{einen Ball}.
+\z 
+\z 
+
+\largerpage
+Die aufgrund der Wertigkeit realisierten Bindungen an ein Verb nennt man \textit{Konnexionen}. Sie lassen sich analog zur Chemie in Baumdiagrammen (\textit{Stemmata}) darstellen. Das Stemma für den Satz (\ref{ea:bestiehlt2}) zeigen wir in der Abbildung~\ref{caption:Zweiwertig}. Die Abbildung~\ref{caption:Dreiwertig} zeigt das Stemma für den Satz (\ref{ex:schenkt2}). Auf die Konnexionen innerhalb der NPs gehen wir hier nicht weiter ein.
+
+\begin{figure}[htbp!]
+\centering
+\begin{forest}
+ [bestiehlt[Anna [die] [große]] [Paul [den] [kleinen]]]
+\end{forest}
+\caption{Verbvalenz: zweiwertige Verbvalenz}\label{caption:Zweiwertig}
+\end{figure}
+
+\begin{figure}[htbp!]
+\centering
+\begin{forest}
+	[schenkt [Anna [die] [große] ] [Paul [dem] [kleinen] ] [Ball [einen] ]]
+\end{forest}
+\caption{Verbvalenz: dreiwertige Verbvalenz}\label{caption:Dreiwertig}
+\end{figure}
+
+\largerpage
+Die beiden\is{Dependenz} Abbildungen zeigen einen ganz wesentlichen Strukturaspekt von Sprache, nämlich \textit{Dependenzen}, d.\,h. Abhängigkeitsbeziehungen. Diese finden sich auf allen sprachlichen Ebenen. Sie bestehen aus Beziehungen zwischen einem regierenden, in den Stemmata jeweils oben stehenden Wort und dem abhängigen, in den Stemmata jeweils darunter stehenden Wort. Das regierende Wort nennt man \textit{Regens}\is{Dependenz!Regens}, das abhängige Wort \textit{Dependens}\is{Dependenz!Dependens}. Auf der Ebene des selbständigen Satzes steht das finite Verb an der Spitze der Abhängigkeitsbeziehungen. Es hängt selbst von nichts im Satz ab. Von ihm hängen die übrigen Wörter im Satz direkt oder indirekt ab.  
+
+\begin{Definition}{Dependenz}
+    
+\noindent 
+Dependenz ist die Abhängigkeitsbeziehung zwischen Wörtern bzw. Wortgruppen. Ein Wort bzw. eine Wortgruppe B hängt von einem Wort bzw. einer Wortgruppe A ab, wenn das Vorkommen von A Voraussetzung für das Vorkommen von B ist und/oder wenn A ein Formmerkmal von B regiert.
+\end{Definition}
+
+
+
+Wenn das Regens\is{Prädikation} so wie die Verbformen in den Abbildungen~\ref{caption:Zweiwertig} und \ref{caption:Dreiwertig} gleichzeitig \textit{Valenzträger} ist, so verläuft auch die Rollenzuweisung vom Regens an das Dependens. Die Verbform \textit{bestiehlt} in \ref{caption:Zweiwertig} weist dem Individuum Anna die Rolle der Stehlenden und dem Individuum Paul die Rolle des Bestohlenen zu. In \ref{caption:Dreiwertig} vergibt \textit{schenkt} an das Individuum Anna die Rolle der Schenkenden, an das Individuum Paul die Rolle des Beschenkten und an den mit \textit{einen Ball} bezeichneten Gegenstand die Rolle des Geschenks. Jene Rollenzuweisung durch das Verb\is{Ergänzung!Rollenzuweisung} als Valenzträger lässt sich mit einer mathematischen Funktion vergleichen.\footnote{Diese Modellierung geht auf \citet[XIII, 2]{Frege1993_1879} in seiner erstmals 1879 veröffentlichten \textit{Begriffsschrift} zurück.} Sehen wir das Verb als Funktion und seine Ergänzung(en) als deren Argument(e), so lassen sich Werte, eben auch semantische Rollen ermitteln, die denjenigen Individuen zukommen, die von den Ergänzungen bezeichnet werden. Vereinfacht stellen wir das wie folgt für \textit{bestiehlt} (\ref{ea:FktBestiehlt}) dar.
+
+\ea \label{ea:FktBestiehlt} BESTIEHLT (Anna, Paul) = Szenario mit dem Individuum namens Anna als Stehlende und mit dem Individuum namens Paul als Bestohlenem.
+\z 
+
+Die Zuweisung von verbspezifischen Rollen heißt \textit{Prädikation}. Das Verb prädiziert über diejenigen Entitäten, welche die Ergänzungen bezeichnen.\footnote{Die etwas komplizierte Beschreibung beruht auf der Tatsache, dass die semantischen Rollen nicht die Bedeutung eines Wortes oder einer NP betreffen. Die Rollenzuweisung in (\ref{ea:FktBestiehlt}) erfolgt bezüglich der mit \textit{Anna} und \textit{Paul} bezeichneten Personen.} Hierauf zielt der Begriff \textit{Prädikat} in der Satzgliedanalyse ab, worum es im Abschnitt~\ref{subsection:komplexe Prädikate I} geht.
+
+\begin{Definition}{Prädikation}\label{Def_Prädikation}
+    
+\noindent 
+Prädikation ist die Zuordnung von Eigenschaften zu Entitäten. Im Satz spielt das verbale Prädikat die zentrale Rolle bei der Zuweisung von Eigenschaften an die Entitäten, die von den Ergänzungen bezeichnet werden. 
+\end{Definition}
+
+
+
+Wir greifen das Konzept der\is{Valenz!Grundvalenz} \textit{Grundvalenz} aus den 1970er Jahren auf und konkretisieren mit \citet[122]{Welke2011}: das \textit{finite aktivische Verb} verfügt über Grundvalenz(en). Sie umfasst diejenigen Ergänzungen, die am häufigsten mit einem Verb vorkommen. Die Grundvalenz, so \citet[63]{Welke1988}, repräsentiere das Wissen von Sprecherinnen und Sprechern über die typischerweise mit einem Verb gebrauchten Ergänzungen und somit über die übliche Bedeutung eines Verbs. So verfügt die Verbform \textit{packt} in den Sätzen (\ref{ea:packenAkk}) und (\ref{ex:packenAkkPP}) über zwei verschiedene Lesarten und damit zwei Grundvalenzen. Auch hier stehen die Boxen wieder für die entsprechenden Leerstellen, die durch die Ausdrücke in ihnen gesättigt werden.
+
+\ea
+\ea \label{ea:packenAkk} \fbox{Anna} packt \fbox{ihren Koffer}.
+\ex \label{ex:packenAkkPP} \fbox{Anna} packt \fbox{den Pullover} \fbox{in ihren Koffer}.
+\z
+\z 
+
+In (\ref{ea:packenAkk}) benötigt \textit{packt} zwei Ergänzungen. Die erste Ergänzung ist eine NP im Nominativ (\textit{Anna}) und die zweite eine NP im Akkusativ (\textit{ihren Koffer}). Diese Ergänzungen sind für die Lesart \gq{etwas befüllen} notwendig. Hingegen braucht \textit{packt} in (\ref{ex:packenAkkPP}) drei Ergänzungen. Die erste Ergänzung ist wieder eine NP im Nominativ. Die zweite Ergänzung wird durch eine NP im Akkusativ realisiert (\textit{den Pullover}), aber es handelt sich um einen Gegenstand, der nicht befüllt, sondern bewegt wird. Die dritte Ergänzung wird durch die PP (\textit{in ihren Koffer}) realisiert. Sie gibt das räumliche Ziel der Handlung an. 
+
+Die Annahme von Grundvalenz(en) ermöglicht es, Abweichungen von dieser zum Beispiel durch entsprechende Regeln zu erklären. Denn wir können die Verbform \textit{packt} aus (\ref{ea:packenAkk}) auch einwertig gebrauchen: \textit{Anna packt gerade.} Ebenso möglich ist der dreiwertige Gebrauch wie in \textit{Anna packt ihrem Opa den Koffer}. Um solche Erhöhungen und Reduktionen der Grundvalenz geht es im Abschnitt~\ref{subsection:Valenzdynamik} unter dem Stichwort \textit{Valenzdynamik}. 
+
+Bisher haben wir einfach von der Valenz bzw. Grundvalenz gesprochen. Genauer müsste es aber Valenzpotenz bzw. Grundvalenzpotenz \is{Valenz!Valenzpotenz} heißen. Denn Verben verfügen über die Fähigkeit (Potenz), Leerstellen zu eröffnen. Wie diese dann in einer Äußerung tatsächlich gesättigt werden, mitunter sogar, ob sie tatsächlich gesättigt werden, ist eine Frage der Valenzrealisierung.\footnote{Die Unterscheidung zwischen Valenzpotenz und Valenzrealisierung hat \citet{Agel1995Valenz} ausgearbeitet. Diese Unterscheidung ist besonders sprachvergleichend von Bedeutung. So verfügen sowohl die deutsche Verbform der ersten Person Singular Indikativ Aktiv \textit{liebe} als auch die spanische Entsprechung \textit{amo} über eine zweiwertige Valenzpotenz. Anders als im Deutschen bei \textit{ich liebe dich} wird im Spanischen aber normalerweise die erste Ergänzung nur auf der Ebene der Verbflexion durch -\textit{o} in \textit{amo} realisiert. Auf Spanisch \textit{te amo} bedeutet auf Deutsch \gq{ich liebe dich}, obwohl es wörtlich \textit{dich liebe} heißt. Die in den beiden Sprachen identischen Valenzpotenzen werden unterschiedlich realisiert.}
+
+Verben dienen dem Ausdruck von Sachverhalten. Sachverhalte beschreiben außersprachliche Situationen. Das sind Relationen zwischen Entitäten, \zB zwischen Personen, Dingen und Orten. Deren sprachliche Realisierung durch ein Verb und seine Ergänzungen beschreibt \citet[93]{Tesniere1980deutsch} als \gqq{ein kleines Drama}. Die konstitutiv an dem Drama beteiligten Mitspieler sind die Ergänzungen des Verbs. Anstelle eines Dramas sprechen wir mit \citet[39]{Agel2017} in Anlehnung an \citet[28]{Fischer2003} von einem\is{Szenario} \textit{Szenario}. Mit dem \textit{Szenario}-Begriff grenzen wir die sprachliche Realisierung eines Sachverhalts von außersprachlichen Situationen ab. 
+\citet[96]{Welke2005} schreibt diesbezüglich: 
+
+\begin{quote}
+Es gibt aber keinen außersprachlichen Sachverhalt an und für sich. Was es gibt, sind immer nur sprachliche Beschreibungen eines mit der Beschreibung als unabhängig angenommenen Sachverhalts. [\ldots{}] Realität als solche ist schlechterdings nicht zu bekommen. Wenn wir Sätze bilden, so bilden wir mit diesen nicht Sachverhalte ab, sondern konstruieren sie erst. \citep[96]{Welke2005} 
+\end{quote}
+
+
+\begin{Definition}{Szenario}\label{Def:Szenario}
+    
+\noindent 
+Ein Szenario ist der von einem Verb und seinen Ergänzungen realisierte einzelsprachliche Sachverhalt, mit dem außersprachliche Situationen aus einer bestimmten Perspektive beschrieben werden.  
+
+\end{Definition}
+
+
+
+Die Differenzierung zwischen Szenarios und außersprachlichen Situationen ist deshalb notwendig, weil eine außersprachliche Situation an sich sprachlich immer perspektiviert wird. So sind die sprachlich realisierten Szenarios in (\ref{ea:Perspektive}) verschieden, obwohl sie sich auf ein und dieselbe Situation in der Welt beziehen können. Die jeweiligen Leerstellen werden wieder durch Boxen verbildlicht. Die in ihnen stehenden Ausdrücke sättigen als Ergänzungen die Leerstellen.
+
+\ea \label{ea:Perspektive}
+\ea \label{ea:schenkenAktivPerspektive} \fbox{Die große Anna} schenkt \fbox{dem kleinen Paul} \fbox{den Ball}.
+\ex \label{ex:geschenktwerdenPerspektive} \fbox{Der Ball} wird \fbox{dem kleinen Paul} geschenkt.
+\ex \label{ex:geschenktbekommenPerspektive} \fbox{Der kleine Paul} bekommt \fbox{den Ball} geschenkt.
+\z 
+\z 
+
+Auf solche sprachlichen Perspektivierungen als Szenarios  gehen wir in Abschnitt~\ref{subsection:Verbklassen} genauer ein. In Abschnitt~\ref{subsection:Passiv} erläutern wir die verschiedenen Passivtypen. 
+
+Die konstitutive Beteiligtheit an einem Szenario ist die wesentliche Eigenschaft derjenigen Entitäten, die von Ergänzungen bezeichnet werden. Sie sind konstitutiv für das entsprechende Szenario. So setzt ein Bestehlen-Szenario jemanden voraus, der stiehlt, und jemanden, der bestohlen wird. Die entsprechende Rolle im Szenario wird ihnen durch das Verb zugewiesen. In dem Satz \textit{Die große Anna bestiehlt den kleinen Paul} sind die große Anna als Diebin und der kleine Paul als Bestohlener an dem Bestehlen-Szenario konstitutiv beteiligt. Ohne die entsprechenden Rollenträger gäbe es kein Bestehlen-Szenario. In dem Satz \textit{Die große Anna schenkt dem kleinen Paul den Ball} sind die große Anna als Schenkende, der kleine Paul als Beschenkter und der Ball als Geschenk konstitutiv an dem Schenken-Szenario beteiligt. Ohne entsprechende Rollenträger gäbe es kein Schenken-Szenario.
+
+Ausgehend von der Verbbedeutung, von dem Szenario, das ein Verb typischerweise ausdrückt, kann auf die am Szenario konstitutiv Beteiligten geschlossen werden.\footnote{Es gibt wenige Sonderfälle, in denen Beteiligtheit und Ergänzungsstatus nicht zusammenfallen. So ist \zB die erste Ergänzung von Witterungsverben wie bei \textit{es regnet} nicht am Szenario beteiligt. Bei einem Verb wie \textit{zuschlagen} im Sinne von \gq{jemand verpasst jemandem einen oder mehrere Schläge} verstehen wir zwar einen zweiten Beteiligten (den, dem der Schlag gilt) mit. Dieser kann aber formal nicht als Ergänzung ausgedrückt werden: *\textit{Er schlägt ihn zu}. Bei Interesse verweisen wir auf \citet[263--264]{Fischer2001}.} Daher schreibt \citet[49]{Heringer84}: \gqq{Ein Verb, das ist so, wie wenn man im dunklen Raum das Licht anknipst. Mit einem Schlag ist eine Szene da.} Nach \citet[259]{Fischer2001} ist die Beteiligtheit diejenige Valenzdimension, \gqq{die eigentlich über den Ergänzungsstatus entscheidet.}
+
+Die Kenntnis der Verbvalenz und ihre Sättigung durch die Ergänzungen ist eine ganz wesentliche Voraussetzung dafür, richtige Sätze zu bilden. Dies wird neben den Beispielen (\ref{ea:bestiehlt1}) und (\ref{ex:schenkt1}) auch bei den folgenden Äußerungen (\ref{ea:Kategorie}) bis (\ref{ex:Sem}) deutlich.
+
+\ea 
+\ea \label{ea:Kategorie} * Die große Anna schenkt dem kleinen Paul schön.
+\ex \label{ex:Kasus} * Der großen Anna schenkt den kleinen Paul einem Ball.
+\ex \label{ex:Sem} ? Die große Anna schenkt dem Teppich einen Ball.
+\z  
+\z 
+
+Zur Valenz\is{Valenz!Valenzforderungen} eines Verbs zählt nicht nur die Zahl der Ergänzungen, sondern auch die syntaktische Kategorie, durch welche die Ergänzungen typischerweise realisiert werden, die Form, in der sie realisiert werden, und semantische Eigenschaften, die der Ergänzungsausdruck haben muss. 
+
+In (\ref{ea:Kategorie}) steht das Adjektiv \textit{schön} anstelle einer NP. Bei (\ref{ex:Kasus}) liegt das Problem in der formalen Kennzeichnung\is{Rektion} der Ergänzungen. Verben fordern ihren Ergänzungen ganz bestimmte Kasusmerkmale ab. Man sagt, Verben regieren ganz bestimmte Kasus, weshalb von \textit{Rektion} gesprochen wird. Die Verbform \textit{schenkt} regiert den Nominativ, den Dativ und den Akkusativ. Die erste Ergänzung, die die Rolle des Schenkenden realisiert, muss im Nominativ stehen, also \textit{die große Anna} und nicht \textit{der großen Anna}. Die zweite Ergänzung, welche die Rolle des Beschenkten realisiert, muss im Dativ stehen, also \textit{dem kleinen Paul} und nicht \textit{den kleinen Paul}. Die dritte Ergänzung, die die Rolle des Geschenks realisiert, muss im Akkusativ stehen, also \textit{einen Ball} und nicht \textit{einem Ball}. Bei der Frage danach, ob es sich bei einer Wortgruppe um eine verbale Ergänzung handelt, spielt der Nachweis der Rektion eine ganz zentrale Rolle. Wenn nämlich nachgewiesen werden kann, dass der entsprechende Kasus oder an seiner Stelle eine ganz bestimmte Präposition vom Verb regiert wird, dann handelt es sich um eine Ergänzung. Hierauf kommen wir detailliert in Abschnitt~\ref{subsubsection:TestFOSP} zurück. 
+
+\begin{Definition}{Rektion}
+    
+\noindent 
+Rektion ist die Fähigkeit von Wörtern, insbesondere von Verben und Präpositionen, ein variables Formmerkmal, insbesondere den Kasus von anderen Wörtern und Wortgruppen zu bestimmen. 
+\end{Definition}
+
+
+
+Im Beispiel (\ref{ex:Sem}) ist das Problem semantischer Natur. Zum Ausdruck eines Schenken-Szenarios müssen die Ergänzungen bestimmte begriffliche Eigenschaften aufweisen. Die Rolle des Beschenkten setzt das Merkmal [Belebtheit] voraus.\footnote{Von Verbindungen wie \textit{jemandem} oder \textit{einer Sache Aufmerksamkeit schenken} sehen wir hier ab. Um diese geht es unter dem Stichwort \textit{Funktionsverbgefüge} in Abschnitt~\ref{subsection:IdiomeNVGFVG}.} Dagegen verstößt der \textit{Teppich} in (\ref{ex:Sem}), weshalb dieser Satz nur in einer Fantasiewelt möglich wäre. Die Prädikation ist aber so mächtig, dass wir Unbelebtes sprachlich als belebt darstellen können, so wie das Brot in dem Märchen \textit{Frau Holle}: \gqq{das Brot aber rief: \frqq Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich: ich bin schon längst ausgebacken\flqq.}\footnote{Jacob und Wilhelm Grimm: \textit{Kinder- und Hausmärchen}. Vollständige Ausgabe. Erstdruck 1812. Berlin: Europäischer Literaturverlag GmbH, 2015, S. 75.} Jene Macht der Prädikation erklärt sich durch ein Grundprinzip unseres sprachlichen Handelns: Kooperation. Wir akzeptieren die Verletzung der begrifflichen Eigenschaften (ein \textit{sprechendes} Brot), so lange wir ihnen einen Sinn zuschreiben können.
+
+Die verschiedenen Valenzforderungen über die Zahl, die Kategorie, die Form und die begrifflichen Eigenschaften der Ergänzungen stellen wir in Bezug auf die Verbform \textit{schenkt} in der folgenden Abbildung~\ref{caption:Valenzschenkt} dar. 
+
+
+\begin{figure}
+	\begin{forest}
+		[schenkt [1{.} Ergänzung\\NP\\Nominativ\\Schenkender\\typ{.} menschlich] [2{.} Ergänzung\\NP\\Dativ\\Beschenkter\\typ{.} belebt] [3{.} Ergänzung\\NP\\Akkusativ\\Geschenk\\typ. nicht menschlich]]
+	\end{forest}
+	\caption{Valenzinformation von \textit{schenkt}}\label{caption:Valenzschenkt}
+\end{figure}
+
+
+Bevor wir in dem Exkurs~\ref{ExkursValenzSchule} auf die Notwendigkeit des Valenzkonzepts in der Schule eingehen und im folgenden Abschnitt~\ref{subsection:EvsA} Ergänzungen von nicht valenzbedingten Angaben unterscheiden, fassen wir die Grundlagen des hier vorgestellten Valenzkonzepts zusammen.
+
+\newpage
+\begin{itemize}  
+
+\item Grundvalenz: Die Grundvalenz eines Verbs umfasst die Anzahl und Art der Ergänzungen, die ein Verb in seiner grundlegenden Bedeutung erfordert und die am häufigsten realisiert werden, um einen vollständigen Satz zu bilden. 
+
+\item Wertigkeit: Nach der Anzahl der Ergänzungen unterscheiden wir zwischen null-, ein-, zwei- und dreiwertigen Verben. Durch bestimmte Operationen kann die Wertigkeit eines Verbs erhöht oder vermindert werden.
+
+\item Ergänzungsausdruck: Ergänzungen werden durch NPs im Nominativ, Akkusativ und Dativ, durch bestimmte Präpositionen sowie durch Nebensätze und Infinitivkonstruktionen mit \textit{zu} ausgedrückt. Ihre Realisierung kann obligatorisch oder fakultativ sein.
+
+\item Szenario: Mit einem Verb und seinen Ergänzungen drücken wir ein Szenario aus. Mit diesem beziehen wir uns auf eine außersprachliche Situation aus einer ganz bestimmten einzelsprachlichen Perspektive. 
+
+\item Beteiligtheit: Die von den Ergänzungen bezeichneten Entitäten sind konstitutiv an dem Szenario beteiligt. Das Verb weist den Szenariobeteiligten eine Rolle in dem Szenario zu. Die Szenariorolle verlangt den Ergänzungen bestimmte semantische Eigenschaften ab. 
+
+\end{itemize}  
+
+\newpage
+
+\begin{Exkurs}{Valenz und Schule}
+\label{ExkursValenzSchule}
+
+In der Schule spielte Valenz lange Zeit keine oder kaum eine Rolle, weder in Lehrplänen noch in Schulbüchern.\footnote{Eine detaillierte, wenn auch mittlerweile etwas überholte Untersuchung zum Valenzkonzept in Lehrplänen, Lehrbüchern und Unterrichtsmaterialien bieten \citet{Kobler_Trill2006}.} Einzelne Aspekte der Valenz fanden meist nur im Fremdsprachenunterricht Eingang, wenn zum Beispiel Verben danach geordnet werden, welche Form sie ihren Objekten abverlangen, also bezüglich ihrer Rektion.\footnote{Eine detaillierte Übersicht zum Valenzkonzept in Grammatiken für Deutsch als Fremdsprache bieten \citet{Thurmair2006} und \citet{Fobbe2010Valenz_Daf}.} So muss man \zB lernen, dass \textit{helfen} den Dativ regiert (\textit{ich helfe dir}), aber \textit{unterstützen} den Akkusativ (\textit{ich unterstütze dich}).\footnote{Ein durchgängig valenziell ausgerichtetes Arbeitsbuch für Erwachsene und Jugendliche gibt es unseres Wissens bisher nur für Deutsch als Fremdsprache: Brinitzer, Michaela \& Verena Damm (2003): \textit{Grammatik sehen. Arbeitsbuch für Deutsch als Fremdsprache}. München: Max Hueber. Valenziell ausgerichtet ist auch eine lehrplanunabhängige Übungsgrammatik ohne Ausrichtung auf Deutsch als Zweit- oder Fremdsprache: Schoebe, Gerhard (2008): \textit{Grammatik kompakt.} München: Oldenbourg.}
+
+Das aktuelle \citet[30]{KMK2019} hat das Thema Valenz aufgenommen. Denn für den Grammatikunterricht ist die Verbvalenz aus zwei Gründen wichtig. Erstens ist sie eine wesentliche Grundlage dafür, korrekte Sätze bilden zu können. Dies spielt insbesondere für Deutsch als Fremd- und Zweitsprache eine zentrale Rolle. Denn in verschiedenen Sprachen gibt es unterschiedliche Valenzmuster. So können wir im Deutschen sagen \textit{Anna lügt}, aber nicht *\textit{Anna lügt ihren Bruder}. Im Spanischen ist das zum Beispiel möglich, weil die entsprechende spanische Verbform \textit{miente} \gq{lügt} zwei Ergänzungen an sich binden kann: \textit{Anna miente a su hermano}, was im Deutschen \zB mit dem zweiwertigen Präfixverb \textit{belügen} möglich ist: \gq{Anna belügt ihren Bruder}. Zweitens ist die Kenntnis der Verbvalenz eine wesentliche Voraussetzung dafür, die Struktur von Sätzen verstehen zu können. Sie erlaubt Einsicht darin, wie die Satzbildung hierarchisch vom Verb aus funktioniert. \citet[114]{Flaemig1971} sieht in seinem frühen Plädoyer für die schulische Nutzung der Valenztheorie insbesondere den Vorteil, dass der Begriff des einfachen Satzes nicht mehr an die Subjekt-Prädikat-Verbindung gebunden wird, sondern an das Verb und seine Ergänzungen, wohingegen erweiterte Sätze neben den Ergänzungen auch nicht valenziell verankerte Angaben enthalten. Ein valenzieller Zugang ermöglicht relativ einfach sowohl eine valenzbasierte Differenzierung der Vollverben nach der Zahl und Form ihrer Ergänzungen als auch Einsicht in die syntaktisch-semantische Grundstruktur von Sätzen. Denn der valenzielle Zugang, so \citet[115]{Flaemig1971}, mache den Schülerinnen und Schülern verständlich, dass Sätze nicht aus einer beliebigen Aneinanderreihung von Satzgliedern und Wörtern bestehen, sondern strukturierte Einheiten sind, deren Bestandteile in motivierten Beziehungen zueinander stehen.  
+
+\citet[122--128]{Peschak2024} stellt ein Valenzglossar für den Einsatz in der Primarstufe vor. Denn, so \citet[116]{Peschak2024}, ein valenzbasierter Deutschunterricht fördere die Entwicklung der vier Kompetenzdimensionen der Sprachbetrachtung: das fachliche Wissen, das Problemlösungswissen, das prozedurale Wissen und die Metakognition. \citet[204--211]{Christ2017} zeigt konkret, wie eine valenziell basierte Satzgliedanalyse -- unter Einbeziehung des Feldermodells (vgl. Kapitel~\ref{chapter:Feldermodell}) -- im schulischen Grammatikunterricht umgesetzt werden kann. 
+
+Umsetzungen in Lehrmaterialien finden sich in Darstellungen des Verbs als König von Sätzen sowie der Ergänzungen und Angaben als Untertanen, so \zB bei \citet[28--35] {LindauerSutter2005}, die es für die Vermittlung der Kommasetzung nutzen. Wir gehen hierauf im Exkurs~\ref{Ex:Didaktik Satzgrenzenkomma} in Kapitel~\ref{kap:Graphematik} ein. Ebenso wird in einigen neueren Unterrichtsmaterialien von Verbszenen gesprochen, von Mitspielern (Ergänzungen) und Kulissen (Angaben).\footnote{So zum Beispiel in \citet[36--43]{HoelzenWiechmann2020}, die entsprechendes Unterrichtsmaterial vorstellen.} \citet{Borggrefe_Krafft2023} schlagen vor, valenzbasierte Satzbildungsmuster für die Vermittlung der Kasusformen in der Grundschule zu nutzen und entwickeln hierfür eine konkrete Unterrichtseinheit. Auf valenzbasierte Satzbildungsmuster gehen wir in Abschnitt~\ref{subsection:Verbklassen} unter dem Stichwort \textit{Satzbauplan} ein. Auch die schulische Satzgliedanalyse sollte valenziell, d.\,h. vom Prädikat und dessen Valenz ausgehend, unterrichtet werden.
+
+\end{Exkurs}
+
+
+\section{Ergänzungen und Angaben}\label{subsection:EvsA}
+
+Der Ausdruck eines Szenarios basiert minimal auf einer finiten Verbform, deren Valenzstellen durch\is{Ergänzung} Ergänzungen gesättigt sind. Somit handelt es sich bei Ergänzungen um eine besondere Kategorie sprachlicher Ausdrücke in ihrer Beziehung zum Verb.
+
+\newpage
+\begin{Definition}{Ergänzungen}
+    
+\noindent Ergänzungen realisieren die in der Verbvalenz angelegten notwendigen Szenariobeteiligten und erfüllen damit die Forderungen des Verbs. Ergänzungen sind obligatorisch und/oder formal regiert, d.\,h. nur mit denjenigen Verben kombinierbar, die über die entsprechende Rektion verfügen. 
+\end{Definition}
+
+
+Einführend haben wir im Abschnitt~\ref{section:KonzeptVerbvalenz} von obligatorischen im Gegensatz zu fakultativen Ergänzungen gesprochen. Wenn eine fragliche Wortgruppe obligatorisch ist, so ist sie eine Ergänzung. Den entsprechenden Test stellen wir in Abschnitt~\ref{subsubsection:TestNOT} vor. Wenn die fragliche Wortgruppe fakultativ ist, d.\,h. sie kann weggelassen werden, ohne dass der Satz ungrammatisch wird oder zu einer anderen Interpretation führt, so muss ihr Ergänzungsstatus anders nachgewiesen werden. Hier kommt als zweites Kriterium die Rektion ins Spiel. Wenn die Form, d.\,h. das Kasusmerkmal oder die Präposition der Wortgruppe vom Verb regiert wird, so handelt es sich um eine Ergänzung. Den entsprechenden Test stellen wir in Abschnitt~\ref{subsubsection:TestFOSP} vor. Wie beide Tests praktisch durchgeführt werden, wird kompakt in Abschnitt~\ref{subsubsection:ZusammenspielTest} illustriert. Im Kapitel~\ref{chap:Satzgliedanalyse} kommen wir auf die Ergänzungen im Rahmen der Satzgliedanalyse zurück und werden sie primär nach ihren Funktionen als Subjekt, Objekt und Direktivum (Richtungsergänzung) unterscheiden.
+
+In Sätzen gebrauchen wir natürlich nicht nur Verben mit ihren Ergänzungen. Die durch sie ausgedrückten Szenarios können bezüglich des Ortes (lokal), der Zeit (temporal), des Grundes (kausal), der Bedingung (konditional) etc. näher bestimmt werden. Diese näheren Bestimmungen werden in der Valenztheorie\is{Angabe} \textit{Angaben} genannt. Angaben sind im Gegensatz zu den Ergänzungen nicht in der Verbvalenz enthalten.\footnote{Mitunter werden andere Bezeichnungen verwendet. So schreiben \citet{ZifHoffStr1997} von \textit{Supplementen}, was \citet{Agel2017} übernimmt. In Anlehnung an \citet{Tesniere1980deutsch} wird die Angabe auch als \textit{Zirkumstant} bezeichnet. In anderen Theorien findet sich das Konzept als \textit{Adjunkt} wieder.} Das bedeutet, dass die Form von Angaben nicht durch das Verb bestimmt wird. Semantisch unterliegen auch Angaben bestimmten Anforderungen des Verbs bzw. sind nur mit bestimmten Verbeigenschaften kompatibel. So kann man nicht *\textit{schnell liegen}, weil \textit{liegen} als Zustandsverb eine statische Relation beschreibt.
+
+Angaben\is{Angabe} werden typischerweise durch Adverbphrasen (\ref{ea:Adverb}), PPs (\ref{ex:PP}) oder durch Nebensätze (\ref{ex:NeSa}) realisiert. Handelt es sich wie in (\ref{ex:NeSa}) um einen Nebensatz, so drückt dieser selbst ein Szenario aus, welches durch die Valenz von \textit{hat} geprägt ist. 
+
+\ea \label{ea:kontextualisierende_Angaben}
+\ea \label{ea:Adverb} Anna schenkt Paul \textit{morgen} einen Ball.
+\ex \label{ex:PP} Anna schenkt Paul \textit{zum Geburtstag} einen Ball.
+\ex \label{ex:NeSa} Anna schenkt Paul einen Ball, \textit{weil er Geburtstag hat}.
+\z 
+\z 
+
+Es gibt eine zweite Gruppe von Angaben, die nicht das Szenario näher bestimmen, sondern es von außen durch den Sprecher kommentieren. Der Unterschied zwischen näher bestimmenden Angaben wie in (\ref{ea:kontextualisierende_Angaben}) und (\ref{ea:Verbangabe}) und kommentierenden Angaben (\ref{ex:Satzangabe}) wird deutlich bei Paraphrasen und hat weitere strukturelle Reflexe, auf die wir im Abschnitt~\ref{subsection:Adverbial} unter dem Stichwort \textit{Kommentaradverbial} eingehen werden.  
+
+\ea
+\ea \label{ea:Verbangabe} Anna läuft \textit{schnell}. = Annas Laufen geschieht schnell.
+\ex \label{ex:Satzangabe} Anna läuft \textit{wahrscheinlich}. = Es ist wahrscheinlich der Fall, dass Anna läuft. 
+\z
+\z 
+
+\citet[222--223]{Eroms2000} trennt daher die Angaben in die Klasse der Verbangaben und die der kommentierenden Satzangaben. 
+
+
+\begin{Definition}{Angaben}
+    
+\noindent Angaben sind sprachliche Ausdrücke, die zusätzlich zu den valenziell geforderten Ergänzungen das Verb oder das Szenario näher spezifizieren. Sie sind nicht notwendig für das Formulieren eines minimalen grammatischen Satzes. 
+\end{Definition}
+
+
+
+Da Angaben\is{Angabe} nicht in der Valenz eines Verbs enthalten sind, haben sie andere Eigenschaften als Ergänzungen. Die von den Angaben bezeichneten Entitäten sind nicht konstitutiv an einem Szenario beteiligt, sondern bestimmen dieses näher. Angaben bekommen ihre semantische Rolle nicht vom Verb und sind auch nicht formal vom Verb regiert. Im Kapitel \ref{chap:Satzgliedanalyse} kommen wir auf die Angaben im Rahmen der Satzgliedanalyse als \textit{Adverbiale} zurück. 
+
+Die Grenze zwischen Ergänzungen und Angaben hält \citet[36]{Helbig1982b} für \gqq{intuitiv ziemlich gesichert}. Dennoch ist die konkrete Abgrenzung nach \citet[167]{Agel2000} das \gqq{meistbehandelte Problem} der Valenztheorie. Die Ursachen und Etappen jener Diskussion analysieren \citet[Kap. 7]{Agel2000} und \citet[Kap. 3]{Welke2011}. Wir werden nur am Rande darauf eingehen. Stattdessen werden wir anhand relativ klarer Fälle praktische Tests zur Differenzierung der beiden Klassen vorstellen. 
+
+
+\section{Tests zur Unterscheidung zwischen Ergänzungen und Angaben}\label{subsection:TestsAngabeErgänzung}    
+
+Der Valenzbegriff\is{Valenz!Valenzebenen} umfasst verschiedene pragmatische, semantische und formale Beziehungen. Mit \citet{Jacobs1994} unterscheiden wir zwischen den folgenden Eigenschaften von Ergänzungen: Beteiligtheit am Szenario, inhaltliche Spezifizität (Woher kommt die semantische Rolle?), formale Spezifizität (Woher kommt die grammatische Form?) und Notwendigkeit. Im Anschluss werden Möglichkeiten vorgestellt, das jeweilige Merkmal zu testen. Eine umfassende Diskussion der Tests bietet \citet[Kap. 5--6]{Storrer1992}.   
+
+\subsection{Ermittlung der Beteiligtheit}\label{subsubsection:TestBET} 
+
+ Die von den Ergänzungen bezeichneten Entitäten sind konstitutiv an dem Szenario beteiligt. Die entsprechende Rolle im Szenario wird ihnen durch das Verb zugewiesen. Sagt man, \textit{die Frau liebt ihren Nachbarn}, so sind die Frau als Liebende und der Nachbar als Geliebter konstitutiv an dem Lieben-Szenario beteiligt. Sagt man aber, \textit{die Frau hasst ihren Nachbarn}, so sind die Frau als Hassende und der Nachbar als Gehasster konstitutiv an dem Hassen-Szenario beteiligt. Selbst ohne die sprachliche Realisierung der jeweils zweiten Ergänzung schließen wir bei Sätzen wie \textit{sie liebt endlich wieder} oder \textit{sie hat so sehr gehasst} auf eine zweite beteiligte, auf eine geliebte oder gehasste Entität.
+ 
+ Zur Ermittlung der Szenario-Beteiligten (Ergänzungen) schlagen \citet[145]{ProjektgruppeValenz} den\is{Ergänzung!Implikationstest} \textit{Implikationstest} vor. Es geht um Folgebeziehungen zwischen Sätzen. Aus dem Satz S1 in (\ref{ea:JemandIsst}) folgt der Satz S2 in (\ref{ex:JemandIsstEtwas}). 
+
+\ea 
+\ea \label{ea:JemandIsst} Jemand isst.
+\ex \label{ex:JemandIsstEtwas} Jemand isst etwas. 
+\z 
+\z 
+ 
+Das aus (\ref{ea:JemandIsst}) gefolgerte \textit{etwas} in (\ref{ex:JemandIsstEtwas}) ist folglich eine Ergänzung. Wenn jemand isst, muss darauf geschlossen werden, dass etwas gegessen wird. Der Folgerungstest zielt nach \citet[259]{Fischer2001} letztlich auf die \gqq{Valenzintuition} ab. Denn ein Essen-Szenario verstehen wir als zweistellige Relation zwischen einem Essenden und etwas Gegessenem.\footnote{Unter dem Stichwort \textit{Valenzdynamik} gehen wir in Abschnitt~\ref{subsection:Valenzdynamik} auf Sätze wie \textit{Paul isst gerne} ein, in denen die erwartbare zweite Ergänzung nicht realisiert wird.} Analog folgern wir von S1 \textit{er hilft} auf S2 \textit{er hilft jemandem}. Anders sieht es bei einem Verb wie \textit{schlafen} aus. Aus S1 \textit{er schläft} folgt kein Satz S2.
+
+Allerdings stößt der Test an seine Grenzen. Aus S1 in (\ref{ea:schneidet}) folgt S2 in (\ref{ex:schneidet etwas}). Aber folgt aus (\ref{ea:schneidet}) nicht auch S3 in (\ref{ex:schneidetEtwasMitEtwas})?
+
+\ea 
+\ea \label{ea:schneidet} Jemand schneidet.
+\ex \label{ex:schneidet etwas} Jemand schneidet etwas.
+\ex \label{ex:schneidetEtwasMitEtwas} Jemand schneidet etwas mit etwas.
+\z 
+\z 
+
+Eine auf die kognitive Verankerung von Valenz abzielende Untersuchung führt \citet{HERINGER86} mittels des Assoziationstests durch. Dieser besteht darin, die durch eine Verbform assoziierten W-Fragewörter zu nennen.\footnote{\citet[83--84]{HERINGER86} bittet 100 Testpersonen zu 20 verschiedenen Verben W-Fragen zu stellen, die ihnen einfallen.} Die Hypothese ist, dass die auf die Szenario-Beteiligten abzielenden Fragewörter wie \textit{wer, wen, was} assoziierter sind als diejenigen, die wie \textit{warum}, \textit{wann} oder \textit{wie lange} auf die Umstände abzielen. Aus der Reihenfolge der Fragewort-Nennung, ihrer Häufigkeit und der Latenzzeit werden verschiedene Grade von Assoziiertheit ermittelt. Beispielsweise ermittelt \citet[87]{HERINGER86} für \textit{gehorchen} der Reihenfolge nach folgende Assoziationen (\ref{ea:lachenAssoz}).
+
+\ea \label{ea:lachenAssoz} \textit{gehorchen}: wem?, warum?, wer?, wie?, wann?, wozu?  
+\z 
+ 
+Hier wird deutlich, dass mittels des Assoziationstests keine klare Grenze zwischen Ergänzungen und Angaben gezogen werden kann. In Abhängigkeit vom einzelnen Verb können typische Angabe-Fragen wie \textit{warum} stärker assoziiert sein als typische Ergänzungsfragen wie \textit{wer}. Allerdings, so \citet[96]{HERINGER86}, zeichnet sich die Tendenz ab, dass typische auf Ergänzungen abzielende Fragen häufiger als typische auf Angaben abzielende Fragen gestellt werden. \citet[67--68]{KoepckeHinze2011} schlagen vor, zum Einstieg auch in der Schule den Assoziationstest durchzuführen.  
+
+Wie wir gesehen haben, kann weder über den Implikations- noch über den Assoziationstest eine klare Grenzziehung zwischen Ergänzungen und Angaben operativ ermittelt werden. 
+
+Wir schlagen in Anlehnung an \citet[39--40]{HelbigSchenkel1972} sowie \citet[29]{Helbig1982a} zusätzlich einen\is{Ergänzung!Auslagerungstest} \textit{Auslagerungstest} der fraglichen NP oder PP vor. Die Idee ist folgende: Wenn die fragliche NP oder PP aus dem Satz durch \textit{und das} ausgelagert werden kann, dann ist das ein Indiz dafür, dass sie keine Ergänzung ist.\footnote{Nach \citet[1052]{ZifHoffStr1997} weichen die Sprecherurteile über mögliche Auslagerungen besonders bei PPs und NPs im Dativ (durch die emphatische Lesart von \textit{und das mir}) voneinander ab. \citet[29]{Helbig1982a} testet die Auslagerung auch mittels \textit{und zwar}. Problematisch daran ist, dass auch Ergänzungen mit \textit{und zwar} auslagerbar sind, solange das Verb auch als pure Tätigkeit (ohne Ergänzung) verstanden werden kann: \textit{Er schreibt, und zwar einen Brief} versus *\textit{Er macht, und zwar einen Salat}.} Wir wenden den Test auf die Sätze (\ref{ex:schneidetEtwasMitEtwas}) und (\ref{ex:schneidet etwas}) an.
+
+\ea 
+\ea [] {Paul schneidet das Brot, und das mit dem Messer.}\label{ea:AuslagerungMIT}
+\ex [?] {Paul schneidet, und das das Brot.}\label{ex:AuslagerungAKK}
+\z 
+\z 
+
+Die Auslagerung der \textit{mit}-PP in (\ref{ea:AuslagerungMIT}) spricht dafür, sie als Angabe zu bestimmen. Im Gegensatz dazu ist die Auslagerung dessen, was geschnitten wird, problematisch (\ref{ex:AuslagerungAKK}), da es konstitutiv zu einem Schneiden-Szenario gehört. Während wir \textit{mit dem Messer} in (\ref{ea:AuslagerungMIT}) auch außerhalb des Satzes als Instrument verstehen, können wir das in (\ref{ex:AuslagerungAKK}) ausgelagerte \textit{das Brot} nicht mehr als das zu Schneidende verstehen.  
+
+
+\subsection{Ermittlung der inhaltlichen Spezifizität}\label{subsubsection:TestINSP} 
+
+Verben weisen den von den Ergänzungen bezeichneten Entitäten bestimmte Rollen zu. Dies wird beim Vergleich von (\ref{ea:bestiehltRollen}) mit (\ref{ex:schenktRollen}) deutlich.
+
+\ea 
+\ea \label{ea:bestiehltRollen} Anna bestiehlt ihren Nachbarn.
+\ex \label{ex:schenktRollen} Anna beschenkt ihren Nachbarn.
+\z 
+\z 
+
+In (\ref{ea:bestiehltRollen}) ist Anna eine Diebin und ihr Nachbar der Bestohlene. Die formgleichen NPs tragen jedoch in (\ref{ex:schenktRollen}) ganz andere\is{Ergänzung!Rollenzuweisung} Rollen. Anna ist hier eine Schenkende und ihr Nachbar der Beschenkte. Diese inhaltliche Spezifizität wird vom Verb auf diejenigen Entitäten übertragen, die die Ergänzungen bezeichnen (vgl. \textit{Prädikation} in Definition~\ref{Def_Prädikation}). 
+
+Wenn die jeweilige Rolle wie in (\ref{ea:bestiehltRollen}) und (\ref{ex:schenktRollen}) vom Verb zugewiesen wird, ist das ein starkes Indiz für den Status als Ergänzung. Trägt der fragliche Ausdruck auch in anderen Kontexten (mit vielen anderen Verben), also\is{Angabe!autonome Rollenkodierung} autonom eine bestimmte satzsemantische Information, dann spricht dies für ihren Status als Angabe.\footnote{\citet[1039--1040]{ZifHoffStr1997}: \gqq{X \textit{kodiert autonom} in einem Satz S, wenn aus der Art der Kodierung von X eine autonome -- d.\,h. in anderen Kontexten gültige -- satzsemantische Information herleitbar ist und genau diese satzsemantische Information auch in S Gültigkeit hat.}}
+ 
+ Sehen wir uns diesbezüglich den Satz in (\ref{ea:AutonomMit}) an.
+ 
+ \ea \label{ea:AutonomMit} Paul schneidet das Brot mit dem Messer.
+\z 
+
+In (\ref{ea:AutonomMit}) trägt Paul die Rolle des Schneidenden und das Brot die Rolle des Geschnittenen. Diese Rollen tragen weder Paul noch das Brot per se, sondern nur innerhalb der Prädikation durch das Verb. Dies spricht für ihren Status als Ergänzung.
+
+Im Gegensatz dazu verstehen wir die PP \textit{mit dem Messer} auch isoliert, d.\,h. außerhalb der Prädikation als \gq{das Messer ist dabei} und interpretieren jenes Dabeisein als Instrument. Die Präposition \textit{mit} kodiert autonom das Dabeisein von etwas.\footnote{Cf. \citet[118]{Coseriu1970}.} Hierauf zielt letztlich auch der in Abschnitt~\ref{subsubsection:TestBET} besprochene Auslagerungstest mit \textit{und das} ab. Die autonome Kodierung spricht für den Angabenstatus der PP \textit{mit dem Messer} in (\ref{ea:AutonomMit}).
+
+In dem folgenden doppeldeutigen Satz (\ref{ex:inLondonverliebt}) von \citet[259]{Fischer2001} interessiert uns die PP \textit{in London}. 
+
+\ea \label{ex:inLondonverliebt} Sie hat sich in London verliebt.
+\z 
+
+Wenn wir \textit{in London} als Objekt des Verliebtseins verstehen, dann handelt es sich um eine durch das Verb festgelegte spezifische Rolle. Dies spricht für ihren Status als Ergänzung. Im Gegensatz dazu können wir \textit{in London} auch als Ort verstehen, wo sie sich in irgendjemanden verliebt hat. Diese Kodierung geht hier nicht von der verbalen Prädikation aus, sondern die PP bringt sie mit, ist also autonom kodierend, was typisch für Angaben ist.
+
+Betrachten wir abschließend noch einmal die PP \textit{in London} in (\ref{ea:befindenOrt}) in Bezug auf ihre inhaltliche Spezifizität. 
+
+\ea \label{ea:befindenOrt} Sie befindet sich in London. 
+\z 
+
+Hier gibt es nur eine, nämlich die lokale Lesart. Diese haben wir als autonom kodierend bezeichnet. Dennoch ist das Verhältnis zwischen \textit{in London} und dem Verb \textit{sich befinden} in (\ref{ea:befindenOrt}) viel enger als das zwischen der lokal verstandenen PP und \textit{sich verlieben} in (\ref{ex:inLondonverliebt}). Hierauf deutet auch der bereits vorgestellte Auslagerungstest in (\ref{ea:verliebtunddasinLondon}) im Gegensatz zu (\ref{ex:befindetsichunddasinLondon}) hin. 
+
+\ea
+\ea [] {Sie hat sich verliebt, und das in London.}\label{ea:verliebtunddasinLondon}
+\ex [*] {Sie befindet sich, und das in London.}\label{ex:befindetsichunddasinLondon} 
+\z 
+\z 
+
+In wenigen Fällen liegt autonome Kodierung vor \textit{und} inhaltliche Spezifizität durch die Verbbedeutung. Neben \textit{sich irgendwo befinden} ist das auch der Fall bei \textit{irgendwo/irgendwie wohnen} oder \textit{sich irgendwie verhalten}. Ebenso kodieren Richtungsergänzungen wie \textit{an die Ostsee} oder \textit{in die Schule} autonom, sind aber dennoch Ergänzungen.
+
+Für Orts- und Zeit-Angaben gilt, dass sie gehäuft (akkumuliert) in einem Satz auftreten können. Der entsprechende Test wird als \textit{Akkumulierbarkeitstest} (auch \textit{Iterierbarkeitstest}) bezeichnet. Wir beziehen diesen \ua von \citet[15]{FourquetGrunig1971} vorgeschlagenen\is{Ergänzung!Akkumulierbarkeitstest} Akkumulierbarkeitstest auf die inhaltliche Spezifizität, die grundlegend auf die Beteiligtheit zurückzuführen ist. Die vom Verb vergebenen Rollen können nicht mehrfach vergeben werden (\ref{ea:EAkkumul}). Autonom kodierende Orts- und Zeit-Angaben hingegen können unter der Bedingung gehäuft (akkumuliert/iteriert) auftreten, dass sie einander spezifizieren oder sich auf verschiedene Bereiche des Szenarios oder seiner Gültigkeit beziehen. Typische Ergänzungen können nicht akkumuliert werden (\ref{ex:AAkkumul}).
+
+\ea 
+\ea [*] {Sie hat sich in Paul in Maria verliebt.}\label{ea:EAkkumul}  
+\ex [] {Sie hat sich in London im Stadtteil Greenwich in einer Bar verliebt.}\label{ex:AAkkumul} 
+\z  
+\z 
+
+In (\ref{ea:EAkkumul}) kann entweder nur Paul oder nur Maria das Objekt des Verliebtseins sein. Denn der Valenzträger \textit{sich verlieben} vergibt diese Rolle nur einmal. Möglich wäre nur die Verbindung beider zu einem Rollenträger durch Koordination \textit{in Paul und Maria}. Beide würden dann als \textit{eine} Ergänzung und als \textit{ein} Satzbaustein dieselbe Rolle tragen. Um diese Lesart auszuschließen und die Ungrammatikalität von (\ref{ea:EAkkumul}) besser zu erkennen, kann man eine Ergänzung wie in (\ref{ea:E_Akkumul2}) voranstellen. Die akkumulierbaren Angaben bestehen den Test auch bei der Voranstellung von einer Angabe wie in (\ref{ex:A_Akkum2}).
+
+\ea \label{ea:E_A_Akkum}
+\ea [*] {In Paul hat sie sich in Maria verliebt.}\label{ea:E_Akkumul2}  
+\ex [] {In London hat sie sich im Stadtteil Greenwich in einer Bar verliebt.}\label{ex:A_Akkum2}
+\z 
+\z 
+
+Autonom kodierende Richtungsergänzungen sind zwar in dem Sinne akkumulierbar, dass ein Richtungsausdruck wie \textit{an die Ostsee} durch weitere Richtungsausdrücke wie \textit{auf den Darß} und \textit{an den Weststrand} spezifiziert werden kann (\ref{ea:Dir_3}), sie bilden zusammen \textit{einen} hierarchisch strukturierten Richtungsausdruck, weshalb einer der Richtungsausdrücke alleine nicht vorangestellt werden kann (\ref{ex:Dir_Dir}).
+
+\ea \label{ea:Akkum_Dir}
+\ea [] {Anna fährt an die Ostsee auf den Darß an den Weststrand.} \label{ea:Dir_3}
+\ex [*] {An die Ostsee fährt Anna auf den Darß an den Weststrand.} \label{ex:Dir_Dir}
+\z 
+\z 
+
+Das Verb \textit{fahren} verfügt in seiner Valenz über \textit{eine} Leerstelle für \textit{eine} Richtungsergänzung. Richtungsergänzungen sind zwar spezifizierbar, aber nicht im Sinne einer mehrfachen Besetzung der semantischen Zielrolle akkumulierbar, was für ihren Ergänzungsstatus spricht. 
+
+Es muss allerdings beachtet werden, dass es auch Nicht-Ergänzungen gibt, die nicht akkumulierbar sind. Diese Einschränkung betrifft \zB sogenannte \textit{freie Prädikative} wie \textit{ungewaschen} in \textit{Paul isst den Apfel ungewaschen}. Diese sind nicht akkumulierbar, obwohl sie keine Ergänzungen sind: *\textit{Paul isst den Apfel ungewaschen ungeschält}. Hier wäre nur eine koordinierte Lesart als \textit{eine} Angabe möglich: \textit{Paul isst den Apfel ungewaschen und ungeschält}. Um solche sogenannten freien Prädikative geht es in Abschnitt~\ref{subsection:freiePräd}.
+
+Bevor es im folgenden Abschnitt~\ref{subsubsection:TestFOSP} um formale Regiertheit als ein wesentliches Merkmal von Ergänzungen geht, fassen wir kurz zusammen: Die von den Ergänzungen bezeichneten Entitäten erhalten ihre semantischen Rollen in der Regel vom Verb. Deshalb sind sie nicht akkumulierbar. Die von den Angaben bezeichneten Entitäten kodieren ihre satzsemantischen Informationen autonom. Einige Angaben können akkumuliert werden.
+
+
+\subsection{Ermittlung der formalen Spezifizität}\label{subsubsection:TestFOSP}
+
+Wir haben gesehen, dass die Form der meisten Ergänzungen vom Verb regiert wird. In der Regel regieren Verben für NP-Ergänzungen den Akkusativ, den Dativ oder eine ganz bestimmte Präposition. So regiert \textit{begrüßen} den Akkusativ, weshalb es \textit{einen Freund begrüßen} heißt, aber nicht *\textit{einem Freund begrüßen}. Das Verb \textit{helfen} regiert den Dativ, weshalb wir sagen \textit{einem Freund helfen} und nicht *\textit{einen Freund helfen}. Das Verb \textit{warten} regiert die Präposition \textit{auf} mit Akkusativ, weshalb wir sagen \textit{auf einen Freund warten} und nicht *\textit{einen Freund warten} oder *\textit{einem Freund warten}. Wie erwähnt gibt es nur noch wenige Verben oder Valenzvarianten von Verben, die den Genitiv regieren. Das Verb \textit{sich erinnern} regiert entweder die Präposition \textit{an} mit einer NP im Akkusativ oder den Genitiv, weshalb wir sagen \textit{sich an einen Freund erinnern}, aber auch \textit{sich eines Freundes erinnern}, nicht jedoch \textit{sich auf einen Freund erinnern} oder *\textit{sich einem Freund erinnern}. 
+
+
+Angaben\is{Angabe!Restriktionen} sind nicht formal vom Verb regiert. So ist zum Beispiel die Wortgruppe \textit{am Wochenende} zur Angabe der Zeit nicht rektional an bestimmte Verben gebunden. Sie ist mit allen Verben, die ein zeitlich verortbares Szenario ausdrücken, kompatibel. So kann man sagen \textit{am Wochenende einen Freund begrüßen}, \textit{am Wochenende einem Freund helfen}, \textit{am Wochenende auf einen Freund warten} und \textit{sich am Wochenende an einen Freund erinnern} bzw. \textit{sich am Wochenende eines Freundes erinnern}.  
+
+Aber auch Angaben können nicht beliebig zu einem Verb hinzugefügt werden, weil das Verb bzw. der Szenarioausdruck bestimmte semantische Eigenschaften aufweisen muss, die durch die Bedeutung der Angabe spezifiziert werden. So verlangt \textit{gerne} als Angabe, dass die erste Ergänzung emotionsfähig, also belebt ist: \textit{Paul liegt gerne in der Hängematte} versus \#\textit{Das Besteck liegt gerne in der Schublade}. Mit der Raute kennzeichnen wir jene Inkompatibilität. Wenn wir \textit{langsam} als Angabe gebrauchen, muss der Szenarioausdruck über Dynamik verfügen, was bei Zustandsausdrücken nicht der Fall ist: \#\textit{das Besteck liegt langsam in der Schublade}.\footnote{\citet[388]{Jacobs2003} bestimmt aufgrund dieser Restriktionen Ergänzungen \textit{und} Angaben als Argumente. Während Ergänzungen die beteiligten Individuen identifizieren, modifizieren die Angaben den Szenarioausdruck. Begrifflich werden die Argumente, die kategorial im Valenzeintrag festgelegt sind, als \textit{Komplemente} von den Angaben unterschieden \citep[391]{Jacobs2003}.} Aber die Form der Angaben ergibt sich aus anderen grammatischen Regeln der Sprache.
+
+Die formale Regiertheit lässt sich durch den sogenannten Subkategorisierungstest\is{Ergänzung!Subkategorisierungstest} prüfen. Dieser beruht auf einer Umkehrung der Rektion. Man testet, ob eine gegebene formale Umgebung rektionsbedingt nur mit ganz bestimmten Verben, mit einer Subkategorie von Verben, kompatibel ist -- oder ob die Form verbunabhängig ist. Wenn nur bestimmte Verben in der Struktur vorkommen können, dann ist diese sehr wahrscheinlich vom Verb bzw. einer Verbgruppe regiert und es handelt sich um eine Ergänzung. Ist die Form nicht rektional verb- oder verbgruppenspezifisch, dann liegt keine Rektionsbeziehung vor und es handelt sich sehr wahrscheinlich um eine Angabe.\footnote{So \ua bei \citet[72]{Helbig1992b}, \citet[65]{Jacobs1994}, \citet[99]{Engel2009} und \citet[53]{Welke2011}.}
+ 
+Wir gehen von dem Satz in (\ref{ea:begrüßen}) aus und fragen, ob die NP im Akkusativ \textit{einen Freund} formal vom Verb regiert ist. Dazu ersetzen wir die konkrete Verbform der 3. Person Singular \textit{begrüßt} in (\ref{ea:Nachbar_V_Freund}) durch eine Box. Dann prüfen wir, ob in die übrig gebliebene Umgebung mit der NP im Nominativ \textit{er} und der NP im Akkusativ \textit{einen Freund} nur bestimmte Verben der 3. Person Singular in die leere Box eingesetzt werden können oder ob das Einsetzen der Verben rektionsunabhängig funktioniert. Da es uns nicht um semantische Selektionsanforderungen wie belebt oder unbelebt geht, ersetzen wir in (\ref{ea:NPNom_V_NPAkk}) \textit{einen Freund} durch \textit{ihn}, denn das Pronomen verweist nicht nur auf Lebewesen.   
+
+\ea \label{ea:Subkategorisierungstest}
+\ea \label{ea:begrüßen} Er begrüßt einen Freund.
+\ex \label{ea:Nachbar_V_Freund} Er \fbox{\phantom{begrüßt}} einen Freund.
+\ex \label{ea:NPNom_V_NPAkk} Er \fbox{\phantom{begrüßt}} ihn.
+\z 
+\z   
+
+Anstelle von \textit{begrüßt} in (\ref{ea:begrüßen}) können wir in (\ref{ea:Nachbar_V_Freund}) viele Verben in die Verbbox einsetzen, \zB \textit{bestiehlt}, \textit{trifft}, \textit{sieht} oder \textit{malt}. Aus logisch-semantischen Gründen passen aber Verben wie \textit{trinkt}, \textit{pflanzt} oder \textit{schreibt} nicht. Da uns aber nur die Form interessiert, testen wir lieber in der Testumgebung in (\ref{ea:NPNom_V_NPAkk}). Jetzt passen auch \textit{trinkt}, \textit{pflanzt} oder \textit{schreibt}: \textit{er trinkt ihn}, \zB den Wein, \textit{er pflanzt ihn}, \zB den Strauch und \textit{er schreibt ihn}, \zB den Brief. Es gibt aber auch viele Verben, die nicht in die Verbbox in (\ref{ea:NPNom_V_NPAkk}) gesetzt werden können, \zB \textit{sitzt}, \textit{hilft}, \textit{arbeitet} oder \textit{wartet}. Diese Tatsache spricht dafür, dass die Umgebung eben nur für Verben zugänglich ist, die den Akkusativ regieren. Folglich ist die NP im Akkusativ \textit{einen Freund} in (\ref{ea:begrüßen}) eine Ergänzung von \textit{begrüßt}. Auf solche Ergänzungen im Akkusativ kommen wir im Rahmen der Satzgliedanalyse in Abschnitt~\ref{subsection:Akkusativobj} als \textit{Akkusativobjekt} zurück.
+
+Jetzt wollen wir testen, ob die Wortgruppe \textit{am Wochenende} in dem Satz (\ref{ea:arbeitet_TEMP}) formal vom Verb \textit{arbeitet} regiert ist oder nicht. Dazu ersetzen wir das Verb in (\ref{ex:V_TEMP}) durch eine Box und prüfen, ob die Verbbox nur von bestimmten Verben bzw. einer Verbgruppe besetzt werden kann oder ob ihre Besetzung rektionsunabhängig ist. Jetzt können wir \textit{am Wochenende} nicht durch \textit{an ihm} oder \textit{daran} ersetzen, weil wir somit die temporale Bedeutung zugunsten der Objektlesart \textit{an etwas arbeiten} verändern würden. Unter Beibehaltung der temporalen Bedeutung wäre eine Ersetzung von \textit{am Wochenende} durch \textit{dann} möglich. 
+
+\ea \label{ea:Subkategorisierungstest2}
+\ea \label{ea:arbeitet_TEMP} Er arbeitet am Wochenende.
+\ex \label{ex:V_TEMP} Er \fbox{\phantom{arbeitet}} am Wochenende.
+\ex \label{ex:V_dann} Er \fbox{\phantom{arbeitet}} dann.
+\z 
+\z   
+
+Wir können in (\ref{ex:V_TEMP}) oder (\ref{ex:V_dann}) eigentlich alle Verben einsetzen, die ein Szenario ausdrücken, das zeitlich verortet werden kann. Während wir ohne Weiteres \zB \textit{schläft}, \textit{trainiert} oder \textit{joggt} einsetzen können, müssen wir bei anderen Verben zusätzlich deren Valenzanforderungen erfüllen, damit sie mit \textit{am Wochenende} oder \textit{dann} einen korrekten Satz bilden: \zB \textit{er begrüßt am Wochenende einen Freund}, \textit{er zeigt am Wochenende einem Freund die Urlaubsfotos} oder \textit{er hilft am Wochenende einem Freund}. Bezüglich der Kombinierbarkeit mit \textit{am Wochenende} können wir keine Restriktionen bezüglich der verbalen Rektion ausmachen. Folglich ist \textit{am Wochenende} in (\ref{ea:arbeitet_TEMP}) nicht formal von \textit{arbeitet} regiert und somit eine Angabe. 
+
+Jetzt wollen wir testen, ob in dem Satz (\ref{ea:warten_auf}) die Präpositionalphrase \textit{auf ihren Freund} formal vom Verb \textit{warten} regiert ist oder nicht. Wir ersetzen die Verbform \textit{wartet} wieder durch eine Box und \textit{auf ihren Freund} durch \textit{auf ihn}. Jetzt testen wir, ob die Verbbox nur von bestimmten Verben bzw. einer Verbgruppe besetzt werden kann oder potenziell durch alle.
+
+\ea \label{ea:Subkategorisierungstest3}
+\ea \label{ea:warten_auf} Sie wartet auf ihren Freund.
+\ex \label{ea:Sie_V_auf_ihn} Sie \fbox{\phantom{wartet}} auf ihn.
+\z 
+\z   
+
+Anstelle von \textit{wartet} können wir in (\ref{ea:Sie_V_auf_ihn}) auch \textit{hofft}, \textit{freut sich}, oder \textit{spekuliert} einsetzen. Die meisten Verben sind jedoch nicht einsetzbar, so können wir \textit{sitzt}, \textit{hilft}, \textit{arbeitet} oder \textit{begrüßt} nicht einsetzen. Das Ergebnis spricht dafür, dass die PP \textit{auf ihren Freund} in (\ref{ea:warten_auf}) von \textit{wartet} regiert wird und somit eine Ergänzung ist. Dies zeigt sich auch daran, dass wir die Präposition \textit{auf} mit folgender NP im Akkusativ nicht durch eine andere Präposition ersetzen können: *\textit{sie wartet unter ihn} oder *\textit{sie wartet neben ihn}. Auf diesen Typ von Präpositionalergänzung kommen wir im Rahmen der Satzgliedanalyse in Abschnitt~\ref{subsection:Pobj} als \textit{Präpositionalobjekt} zurück.
+
+Jetzt wollen wir testen, ob in dem Satz (\ref{ea:wartenLOC}) die PP \textit{auf dem Bahnhof} formal vom Verb \textit{wartet} regiert ist oder nicht. Wir ersetzen die Verbform \textit{wartet} in (\ref{ex:Sie_V_auf_Bahnhof}) wieder durch eine Box. Die Wortgruppe \textit{auf dem Bahnhof} könnten wir wie in (\ref{ex:Sie_V_dort}) unter Beibehaltung der lokalen Bedeutung mit \textit{dort} ersetzen, um die Tests mit einem abstrakten Ortsausdruck durchzuführen. Jetzt testen wir, ob die Verbbox nur von bestimmten Verben bzw. einer Verbgruppe besetzt werden kann oder ob die Besetzung rektionsunabhängig ist.
+
+\ea \label{ea:Subkategorisierungstest4}
+\ea \label{ea:wartenLOC} Sie wartet auf dem Bahnhof.
+\ex \label{ex:Sie_V_auf_Bahnhof} Sie \fbox{\phantom{wartet}} auf dem Bahnhof.
+\ex \label{ex:Sie_V_dort} Sie \fbox{\phantom{wartet}} dort.
+\z 
+\z   
+
+Anstelle von \textit{wartet} können wir in (\ref{ex:Sie_V_auf_Bahnhof}) rektionsunabhängig alle Verben einsetzen, deren Szenarioausdruck durch eine Ortsangabe spezifizierbar ist, \zB \textit{arbeitet}, \textit{hilft} oder \textit{schläft}. Auch \textit{begrüßt} oder \textit{zeigt} können wir einsetzen, wenn wir zusätzlich die Valenzanforderungen dieser Verben erfüllen: \textit{sie begrüßt auf dem Bahnhof einen Freund} oder \textit{sie zeigt auf dem Bahnhof einem Freund Urlaubsfotos}. Nun mag es logisch-semantische Probleme mit \textit{auf dem Bahnhof} geben, wie bei \textit{sie steigt auf dem Bahnhof auf den Gipfel} oder \textit{sie wandert auf dem Bahnhof}. Dann testen wir besser in der Umgebung von (\ref{ex:Sie_V_dort}): \textit{sie steigt dort auf den Gipfel} oder \textit{sie wandert dort}. Das Ergebnis des Tests spricht dafür, dass die Wortgruppe \textit{auf dem Bahnhof} nicht von \textit{wartet} regiert und somit eine Angabe ist.
+
+Allerdings sind Ortsangaben wie \textit{auf dem Bahnhof} in (\ref{ea:wartenLOC}) daran gebunden, dass das vom Verb ausgedrückte Szenario durch einen Ort spezifizierbar ist. Das ist bei einer relativ kleinen Gruppe von Zustandsverben nicht ohne Weiteres der Fall: ?\textit{Sie ähnelte auf dem Bahnhof ihrer Mutter} oder ?\textit{Sie wog auf dem Bahnhof 75 Kilo}.\footnote{Es handelt sich um sogenannte Kim’sche Zustandsverben, die ihrem Subjekt eine Eigenschaft zuweisen, die ortsunabhängig gilt. Hierzu zählen insbesondere die Eigenschaftszuweisungen durch die Kopula \textit{sein} mit Subjektsprädikativ. Bei Interesse verweisen wir auf \citet{Maienborn2000}, \citet[116--122]{Maienborn2003} und \citet{Maienborn2007Kimian}.}
+  
+Jetzt prüfen wir, ob die PP \textit{auf den Bahnhof} in (\ref{ea:gehtDIR}) formal vom Verb \textit{geht} regiert ist. Dazu ersetzen wir in (\ref{ex:Sie_V_in_Park}) wieder das Verb durch eine Box. Auch \textit{auf den Bahnhof} können wir unter Beibehaltung der Richtungsbedeutung durch \textit{dorthin} ersetzen.
+
+\ea \label{ea:Subkategorisierungstest5}
+\ea \label{ea:gehtDIR} Sie geht auf den Bahnhof.
+\ex \label{ex:Sie_V_in_Park} Sie \fbox{\phantom{geht}} auf den Bahnhof.
+\ex \label{ex:Sie_V_dorthin} Sie \fbox{\phantom{geht}} dorthin.
+\z 
+\z   
+
+In die Verbbox in (\ref{ex:Sie_V_in_Park}) können wir Verben wie \textit{fährt}, \textit{läuft}, \textit{hüpft} oder \textit{blickt} einsetzen. Auch \textit{schwimmt} oder \textit{fliegt} könnten wir einsetzen, wenngleich das aus logisch-semantischen Gründen besser in (\ref{ex:Sie_V_dorthin}) gelingt. Aber viele Verben können wir nicht in die Verbbox in (\ref{ex:Sie_V_dorthin}) einsetzen, \zB nicht \textit{sitzt}, \textit{arbeitet}, \textit{hilft} oder \textit{wartet}. Das spricht dafür, dass die Wortgruppe \textit{auf den Bahnhof}, also die direktionale Präposition \textit{auf} mit einer NP im Akkusativ bzw. \textit{dorthin} nur mit bestimmten Verben kompatibel und deshalb eine verbspezifische Ergänzung, in (\ref{ea:gehtDIR}) eine Ergänzung von \textit{geht} ist. Allerdings regiert \textit{gehen} -- anders als \textit{warten} in (\ref{ea:warten_auf}) -- nicht die Präposition \textit{auf}. Denn wir könnten \textit{auf} in (\ref{ea:gehtDIR}) problemlos ersetzen durch \textit{in}, \textit{vor}, \textit{durch} oder \textit{um}.\footnote{\citet[33]{Breindl1989} bestimmt verschiedene Übergänge zwischen verb- und verbklassenspezifischer Vorhersagbarkeit von Präpositionen bei Präpositionalergänzungen.} Das, was durch das Verb bzw. die Gruppe der möglichen Verben festgelegt ist, ist der Kasus, den die Präposition verlangt, nämlich der Akkusativ zum Ausdruck einer Richtung. Insofern ist in (\ref{ea:gehtDIR}) nicht die Präposition verb- bzw. verbgruppenspezifisch, sondern der von ihr verlangte Akkusativ. Auf diesen Typ von Richtungsergänzung kommen wir im Rahmen der Satzgliedanalyse in Abschnitt~\ref{subsection:Direktivum} als \textit{Direktivum} zurück.
+
+Den Subkategorisierungstest können wir auch auf Ergänzungen in Form von Nebensätzen und nebensatzähnlichen Infinitivgruppen anwenden. Wir führen den Test in Bezug auf \textit{ihren Diener zu loben} in (\ref{ea:geruht}) durch. Wir ersetzen zuerst die Verbform \textit{geruht} wieder durch eine Box (\ref{ex:sie_V_zu_speisen}). Die Wortgruppe \textit{ihren Diener zu loben} können wir in (\ref{ea:geruht}) nicht durch eine äquivalente NP ersetzen. Aber wir können sie durch \textit{das zu tun} in (\ref{ex:sie_V_zu_Inf}) von der Bedeutung von \textit{ihren Diener zu loben} abstrahieren.
+
+\ea \label{ea:Subkategorisierungstest6}
+\ea \label{ea:geruht} Die Prinzessin geruhte, ihren Diener zu loben.
+\ex \label{ex:sie_V_zu_speisen} Sie \fbox{\phantom{geruhte}}, ihren Diener zu loben.
+\ex \label{ex:sie_V_zu_Inf} Sie \fbox{\phantom{geruhte}}, das zu tun.
+\z 
+\z   
+
+In (\ref{ex:sie_V_zu_Inf}) können wir viele Verben einsetzen, \zB \textit{behauptet}, \textit{hat vor}, \textit{sagt}, \textit{beginnt} oder \textit{beschließt}. Allerdings können viele Verben nicht eingesetzt werden, \zB nicht \textit{arbeitet}, \textit{sitzt} oder \textit{geht}. Die Infinitivgruppe \textit{ihren Diener zu loben} in (\ref{ea:geruht}) ist von \textit{geruht} regiert, was für ihren Ergänzungsstatus spricht. Allerdings wäre das Einsetzen von \textit{arbeitet}, \textit{sitzt} oder \textit{geht} dann möglich, wenn wir diese Verben mit veränderter Bedeutung mit einer präpositionalen Ergänzung gebrauchen, deren Bestandteil die Wortgruppe \textit{das zu tun} wäre: \textit{sie arbeitet daran, das zu tun}, \textit{sie sitzt daran, das zu tun} und \textit{sie geht daran, das zu tun}. In diesen Fällen ist die Infinitivgruppe mit \textit{zu} keine eigenständige Ergänzung. Immer dann, wenn eine solche \textit{da}-Form mit einer Präposition vor der Infinitivgruppe oder dem Nebensatz steht oder stehen kann, handelt es sich erst einmal nicht um Ergänzungen: \textit{sie wartet darauf, das zu tun}, \textit{sie hilft dabei, das zu tun}. Auf solche Verbindungen kommen wir im Rahmen der Satzgliedanalyse in Abschnitt~\ref{subsection:Korrelat} zurück.
+
+Bisher haben wir mehr oder weniger aufs Geratewohl getestet, indem wir verschiedene Verben in die Verbboxen eingesetzt haben. Da es beim Subkategorisierungstest um den Nachweis einer Rektionsbeziehung geht, können wir den Test immer mit der gleichen Gruppe von Verben durchführen, deren Rektion verschieden ist. Wir testen mit dem einwertigen Verb \textit{arbeiten}, mit \textit{helfen}, das den Dativ regiert, mit \textit{begrüßen}, das den Akkusativ regiert, mit \textit{warten}, das die Präposition \textit{auf} mit einer NP im Akkusativ regiert und mit \textit{gehen}, das eine Richtungsergänzung erlaubt. Wenn eines oder mehrere dieser Verben nicht in eine Testumgebung eingesetzt werden können, spricht viel dafür, dass es sich um formal regierte Ergänzungen handelt. Können alle diese Verben eingesetzt werden, spricht viel dafür, dass es sich um nicht-formal regierte Angaben handelt.
+
+Bisher haben wir die ersten Ergänzungen im Nominativ übergangen. Fast alle finiten Verben weisen ihrer ersten Ergänzung, wenn diese eine NP ist, den Nominativ zu. Wir können mit einer gegebenen NP im Nominativ wie \textit{der Junge} -- oder stellvertretend \textit{er} -- fast alle Verben der 3. Person Singular kombinieren, \zB \textit{er arbeitet}, \textit{er hilft} (\textit{ihr}), \textit{er begrüßt ihn}, \textit{er wartet} (\textit{auf jemanden}) oder \textit{er geht} (\textit{irgendwohin}). Deshalb können wir nicht von verbspezifischer Kasusmarkierung sprechen. \citet[37]{Eisenberg2020_Satz} schlägt bezüglich der Nominativzuweisung den Begriff der \textit{kategorialen Rektion} vor. Die Kategorie finites Verb weist der ersten Ergänzung den Nominativ zu. 
+
+Nur wenige Verben bzw. Verbvarianten weisen relikthaft ihrer ersten Ergänzung wie in (\ref{ea:michfriert2}) und (\ref{ex:mirgruselt}) nicht den Nominativ zu. 
+
+\ea 
+\ea \label{ea:michfriert2} Den Jungen friert.
+\ex \label{ex:mirgruselt} Dem Jungen/den Jungen gruselt vor etwas.
+\z 
+\z 
+
+Hier handelt es sich um historisch ältere Rektionen. Motiviert waren sie dadurch, dass die jeweils erste Ergänzung als Empfindungsträger das Verbgeschehen nicht kontrolliert, sondern ihm unterworfen ist. In den neueren Varianten hat sich, so \citet[110]{Bossong1992}, die Nominativkodierung der ersten Ergänzung in (\ref{ea:ich friere}) und (\ref{ex:ich grusel}) als Anpassung an das vorherrschende Darstellungsmuster in Nominativ-Akkusativ-Sprachen durchgesetzt. 
+
+\ea 
+\ea \label{ea:ich friere} Ich friere.
+\ex \label{ex:ich grusel} Ich grusle mich vor etwas.
+\z 
+\z
+
+In manchen Fällen liefert der Subkategorisierungstest das Ergebnis, dass eine Wortgruppe oder ein Wort formal nicht regiert ist. Dennoch handelt es sich bei der lokalen Wortgruppe \textit{in London} in (\ref{ea:lokErg}) und bei der modalen Wortgruppe \textit{sehr gut} in (\ref{ex:modErg}) um Ergänzungen. Denn sie werden obligatorisch von einigen wenigen Verben gefordert.  
+
+\ea 
+\ea \label{ea:lokErg} Sie befindet sich in London.
+\ex \label{ex:modErg} Sie verhält sich sehr gut.
+\z 
+\z 
+
+Wir haben bereits gesehen, dass eine lokale PP wie \textit{in London} in Bezug auf das Verb \textit{sich befinden} trotz autonomer Kodierung als Ort nicht auslagerbar ist (vgl. Abschnitt~\ref{subsubsection:TestINSP}). Das trifft auch auf \textit{sehr gut} zusammen mit dem Verb \textit{sich verhalten} in (\ref{ex:modErg}) zu und spricht für ihren Status als Ergänzung. Der Subkategorisierungstest führt aber zu dem Ergebnis, dass diese Wortgruppen formal nicht regiert sind. Denn wir könnten in die Verbboxen in (\ref{ea:LOKMODErg}) rektionsunabhängig alle Verben einsetzen, die mit der entsprechenden lokalen oder modalen Bedeutung kompatibel sind. 
+
+\ea \label{ea:LOKMODErg}
+\ea \label{ea:subklassLOK} Sie \fbox{\phantom{verbt sich}} in London/dort. 
+\ex \label{ex:subklassdenMOD} Sie \fbox{\phantom{verbt sich}} sehr gut/so.  
+\z 
+\z 
+
+Erst der letzte Test, den wir im Folgenden vorstellen, bestätigt den Status dieser formal nicht regierten Phrasen als Ergänzungen. Denn sie sind nicht weglassbar, ohne dass die entsprechenden Sätze ungrammatisch werden.
+
+
+
+
+\subsection{Ermittlung der Obligatheit}\label{subsubsection:TestNOT}
+
+Im Sinne der Grundvalenz sind Ergänzungen bezüglich des vom Verb ausgedrückten Szenarios notwendig. Denn sie sind konstitutiv an jenem Szenario beteiligt. Sie sind Teil der Bedeutung (Semantik) eines Verbs. Wer weiß, was \textit{schreiben} bedeutet, der weiß, dass mindestens zwei Ergänzungen notwendig sind: jemand, der schreibt, und etwas, was geschrieben wird. Wer weiß, was \textit{geben} bedeutet, der weiß, dass mindestens drei Ergänzungen notwendig sind: ein Gebender, ein Gegebenes und jemand, der es bekommt. 
+
+Aus dieser semantischen Notwendigkeit kann folgen, dass die entsprechende Ergänzung auch\is{Ergänzung!obligatorisch} obligatorisch, d.\,h. nicht weglassbar ist, ohne dass der Satz ungrammatisch wird oder zu einer anderen Interpretation führt. Aus der Nicht-Weglassbarkeit der fraglichen Phrase folgt, dass es sich um eine Ergänzung handelt. Obligatorisch zu realisieren ist \zB bei aktivischen Verbformen die erste Ergänzung im Nominativ, das Subjekt: *\textit{bestiehlt ihren Nachbarn}. Bei einem Verb wie \textit{bestehlen} ist auch die zweite Ergänzung obligatorisch: *\textit{Anna bestiehlt}. Wenn es neben einer Ergänzung im Dativ auch eine Ergänzung im Akkusativ gibt wie bei \textit{Paul offenbarte ihr sein Geheimnis}, so ist letztere meistens obligatorisch: *\textit{Paul offenbarte ihr}. 
+
+Aber nicht alle sinnnotwendigen Ergänzungen sind obligatorisch zu realisieren. Es gibt auch\is{Ergänzung!fakultativ} fakultative Ergänzungen. Seit \citet[22]{Pasch1977} wird zwischen Valenzpotenz (vgl. Abschnitt~\ref{section:KonzeptVerbvalenz}) und obligatorischer Ergänzungsbedürftigkeit unterschieden. 
+
+Obligatheit\is{Ergänzung!Weglassbarkeitstest} testen wir mithilfe des \textit{Weglassbarkeits-} oder \textit{Eliminierungstests} im Nebensatz. Der Test muss außerhalb von Kontexten durchgeführt werden, die vorhersagbar eine Nicht-Realisierung von relativ obligatorischen Ergänzungen erlauben. Auf solche vorhersagbaren Auslassungen von Ergänzungen gehen wir in dem Exkurs~\ref{Exkurs:Weglassbarkeit} am Ende dieses Abschnitts ein. Um kontextuelle Einflüsse möglichst auszuschalten, sollte in Nullkontexten getestet werden, \zB innerhalb der Struktur \textit{Hast du schon gehört, dass\ldots{}}. Wir illustrieren den Test für \textit{bestehlen} in (\ref{ea:bestehlen_itr}).  
+
+\ea [*] {(Hast du schon gehört,) dass sie bestiehlt?}\label{ea:bestehlen_itr}  
+\z 
+
+Nur die\is{Ergänzung!Weglassbarkeitstest} Nicht-Weglassbarkeit ist ein klares Indiz für den Status als Ergänzung. Kann die fragliche Einheit jedoch weggelassen werden, so müssen die anderen Tests herangezogen werden. Der Hintergrund ist, dass Angaben in Bezug auf den verbalen Valenzträger grundsätzlich weglassbar sind. Wenn eine Einheit nicht weglassbar ist, ohne dass der Satz ungrammatisch wird oder sich seine Interpretation ändert, dann handelt es sich um eine obligatorische Ergänzung. In Bezug auf die formal nicht vom Verb regierte lokale PP in \textit{er befindet sich in London} (\ref{ea:oblLOK}) und in Bezug auf die formal nicht vom Verb regierte Adverbphrase in \textit{er verhält sich gut} (\ref{ex:oblMOD}) liefert die  Weglassprobe ein klares Ergebnis.  
+
+\ea 
+\ea [*] {(Hast du schon gehört,) dass er sich \sout{in London} befindet?}\label{ea:oblLOK} 
+\ex [*] {(Hast du schon gehört,) dass er sich \sout{gut} verhält?}\label{ex:oblMOD}   
+\z 
+\z 
+
+Die\is{Ergänzung!Weglassbarkeitstest} Sätze (\ref{ea:oblLOK}) und (\ref{ex:oblMOD}) sind ohne \textit{in London} bzw. \textit{gut} ungrammatisch, weil die Verben aufgrund ihrer Bedeutung die Sättigung der Merkmale Ort oder eben Modalität verlangen. Dies spricht dafür, sie als Ergänzungen zu klassifizieren. Wir bezeichnen sie als\is{Ergänzung!Situativergänzung} \textit{Situativergänzung}.\footnote{Die Bezeichnungen für diese untypischen, da formal nicht vom Verb regierten und autonom kodierenden Ergänzungen sind unterschiedlich. \citet[1101]{ZifHoffStr1997} bezeichnen sie als \textit{Situativkomplemente}, in der \citet[485--486, §798]{Duden2022} werden sie als \textit{adverbiale Ergänzungen} bezeichnet. Wir halten diese Bezeichnung für problematisch. Denn in Abschnitt~\ref{subsection:Adverbial} knüpfen wir den Begriff des \textit{Adverbials} in der Satzgliedanalyse an den Begriff der Angabe in der Valenztheorie. Da es sich bei diesen formal nicht vom Verb regierten Phrasen um Ergänzungen und nicht um Angaben handelt, lehnen wir die Adverbialbezeichnung ab.}
+
+In dem folgenden Abschnitt~\ref{subsubsection:ZusammenspielTest} geben wir eine kurze Übersicht über die vorgestellten Tests und werden die Weglassprobe und den Subkategorisierungstest zu einem einfachen Kompakttest verbinden. Davor wollen wir aber in dem Exkurs~\ref{Exkurs:Weglassbarkeit} wesentliche Faktoren für die Weglassbarkeit auch obligatorischer Ergänzungen aufführen.
+
+
+\begin{Exkurs}{Vorhersagbare Weglassbarkeit von Ergänzungen}\label{Exkurs:Weglassbarkeit}
+
+In\is{Ergänzung!fakultativ} konkreten Gesprächssituationen (Kontext) kann diejenige Ergänzung unausgedrückt bleiben, um die es gerade geht bzw. die in der Situation präsent ist. So wird bei \textit{Hab ich gehört} in (\ref{ea:habichgehört}) die zweite Ergänzung von \textit{hab gehört} ausgelassen, bei \textit{freut mich} in (\ref{ex:freutmich}) die erste Ergänzung.  
+
+\ea \label{ea:SitEllipse}
+\ea\label{ea:habichgehört} \frqq Stimmt das, dass Spaghetti entstehen, wenn man die Löcher in Makkaroni macht? \flqq, fragte Katharina. Wer so etwas erzählt, wollte ich wissen. \frqq Hab ich gehört \flqq, sagte das kleine Mädchen.\footnote{Braunschweiger Zeitung, 19.02.2009.}
+\ex \label{ex:freutmich} \frqq Dir dürfte nicht unbekannt sein,\flqq fuhr sie fort, \frqq daß Prinz Klaus Heinrich heute mit uns den Tee nimmt?\flqq \frqq Nein, freut mich, freut mich\flqq, sagte Herr Spoelman [...]\footnote{Thomas Mann: \textit{Königliche Hoheit.} In: Werke. Taschenbuchausgabe. Band 2. Frankfurt am Main, Hamburg: Fischer Bücherei, 1967, S. 176.}
+\z 
+\z 
+
+\citet[413, 418]{ZifHoffStr1997} bezeichnen diese Auslassungen als\is{situative Ellipse} \textit{situative Ellipse}, weil \gqq{eine gemeinsame Vor-Orientierung von Sprecher und Hörer auf ein Element in der Sprechsituation (bzw. im mit der Sprechsituation gegebenen Wahrnehmungsfeld)} besteht. Ohne diese Auslassung hieße es in (\ref{ea:habichgehört}) \textit{das hab ich gehört} und in (\ref{ex:freutmich}) \textit{das freut mich}. Das Gehörte sowie das, was Freude auslöst, sind den Kommunikationspartnern in der Gesprächssituation bekannt. Die ausgelassene Einheit ist das, worum es in dem Gespräch gerade geht, das sogenannte Thema oder \textit{Topik}, warum diese Auslassung auch als \textit{Topik-Drop} bezeichnet wird.
+
+Situative Ellipsen betreffen auch obligatorische Ergänzungen. Wir sehen anhand von (\ref{ea:dass_gehört}), dass \textit{hören} obligatorisch eine Akkusativergänzung braucht. Und \textit{freuen} (\ref{ex:dass_freut}) verlangt außerhalb der situativen Ellipse obligatorisch nach einer Ergänzung im Nominativ. 
+
+\ea \label{ea:Notwendigkeit:MF}
+\ea [*] {(Hast du schon gehört,) dass sie gehört hat?}\label{ea:dass_gehört}
+\ex [*] {(Hast du schon gehört,) dass mich freut?}\label{ex:dass_freut}
+\z 
+\z 
+
+Von Ellipsen zu unterscheiden ist die Reduktion der Grundvalenz, d.\,h. Verbvarianten mit reduzierter Valenz. Diese Reduktionen werden besonders in bestimmten Konstruktionen gebraucht.
+
+Bei\is{Valenz!Valenzdynamik} vielen zweiwertigen Verben kann die zweite Ergänzung im Akkusativ, Dativ oder mit einer Präposition, bei dreiwertigen die zweite Ergänzung im Dativ unrealisiert bleiben. Diese werden dann \textit{indefinit}, d.\,h.\ auf beliebige Personen oder Dinge bezogen mitverstanden. In diesen Fällen wird ein bloßes Tun ausgedrückt. Die Entität, auf die sich jenes Tun richtet, wird nicht ausgedrückt. Dies zeigt der folgende Beleg in (\ref{ex:aufhängen_Reihung}).
+
+\ea \label{ex:aufhängen_Reihung} Bis zum Mittag kochte, briet und buk sie und kaufte ein und schnitt klein und rührte und wischte und putzte und scheuerte und wusch und hängte auf und bügelte und faltete, bis die ganze Wohnung glänzte [...]\footnote{Amos Oz: \textit{Eine Geschichte von Liebe und Finsternis}. (suhrkamp pocket). Berlin: Suhrkamp, 2016, S. 871.}
+\z 
+
+Das, was die Person in (\ref{ex:aufhängen_Reihung}) kochte, briet, buk, einkaufte, klein schnitt, rührte usw. wird uns nicht gesagt. Wir verstehen es indefinit mit. Sie kochte, was man so kochen kann, briet, was man so braten kann usw. Durch das Ausblenden der jeweils zweiten Ergänzungen werden pure Tätigkeiten dargestellt. Mögliche Ergebnisse von Handlungen wie eine gekochte Suppe, ein gebratenes Huhn oder ein gebackener Kuchen werden nicht ausgedrückt. Solche Auslassungen können wie bei \textit{schnitt klein}, \textit{rührte}, \textit{hängte auf} und \textit{faltete} auch obligatorische Ergänzungen betreffen.  
+
+Die Nicht-Realisierung der zweiten Ergänzung kann einhergehen mit einer die erste Ergänzung charakterisierenden Lesart wie in (\ref{ea:habituell}).
+
+\ea \label{ea:habituell} Anna Seghers schreibt und ist Mutter.\footnote{aus \textit{Argonautenschiff 12. Jahrbuch der Anna-Seghers-Gesellschaft Berlin und Mainz}. Berlin, Aufbau, 2003, S. 41.}
+\z 
+
+Durch\is{Valenz!Valenzdynamik} die Nicht-Realisierung der zweiten Ergänzung von \textit{schreiben} interpretieren wir (\ref{ea:habituell}) als Charakterisierung von Anna Seghers als schreibende Frau bzw. als Schriftstellerin.\footnote{\citet[255]{Agel2000} bemerkt, dass jene Interpretation einer \gqq{kulturellen Umwelt} bedarf, die sinnvolle Interpretationen erlaubt. Bei (\ref{ea:habituell}) handelt es sich um den Beruf des Schriftstellers. Bei einer Äußerung wie \textit{Paul trinkt} handelt es sich um den kulturell etablierten Typ des regelmäßigen Alkoholtrinkens. Eine Äußerung wie \textit{Paul isst} können wir nicht charakterisierend verstehen.} Aus der valenziell angelegten Handlungsbedeutung wird eine Klassenzuweisung (\textit{sie schreibt} = \textit{ist Schriftstellerin}).
+
+Kontrastkonstruktionen des Musters \textit{er begrüßt nicht, sondern empfängt} können, wie \citet[23--24]{Pasch1977} zeigt, dazu führen, dass obligatorische Ergänzungen wie die zweiten Ergänzungen von \textit{begrüßt} (\ref{ea:begrüßtobl}), \textit{schlägt vor}, \textit{berät} und \textit{begleitet} nicht realisiert werden (\ref{ex:begrüßtnicht sondern}).\footnote{Der Beleg stammt aus \url{https://www.tripadvisor.de/ShowUserReviews-g198442-d6640767-r311258859-Il_Brunello-Erding_Upper_Bavaria_Bavaria.html} (22.06.19)}
+
+\ea \label{ea:Kontrast}
+\ea [*] {(Hast du schon gehört,) dass Paul begrüßt?}\label{ea:begrüßtobl} 
+\ex [] {\textit{Il Patrono} ist auf seine Art einmalig, er begrüßt nicht, sondern er empfängt, er schlägt nicht vor, sondern er berät, er ist nicht da, sondern er begleitet durch den Abend.}\label{ex:begrüßtnicht sondern}
+\z 
+\z 
+
+In (\ref{ex:begrüßtnicht sondern}) wird eine \gq{pure} Tätigkeit im Allgemeinen (keine Handlung) ausgedrückt. Es geht nicht um konkrete Szenarios, in denen jemand begrüßt, beraten oder begleitet wird. 
+
+Ähnlich kann die Nicht-Realisierung der zweiten Ergänzung motiviert sein in einer Modalverb-Konstruktion, wenn es wie im fünften Gebot (\ref{ea:5.Gebot}) um eine potentielle \textit{Töten}-Situation als allgemeine Tätigkeit geht.
+
+\ea \label{ea:5.Gebot} Du sollst nicht töten.\footnote{2. Buch Mose (Exodus) 20:13.}
+\z 
+ 
+
+Von jenen Nicht-Realisierungen zu unterscheiden sind\is{lexikalische Ellipse} \textit{lexikalische Ellipsen} im weiteren Sinne. Hierunter versteht \citet[35--37]{Agel1991} übertragene, teils metaphorische Verbbedeutungen bzw. Verbvarianten wie bei \textit{die Henne legt} für \gq{die Henne legt Eier} und \textit{er gibt} beim Kartenspiel für \gq{er gibt den Mitspielern Karten}. Es handelt sich um lesartspezifische Auslassungen, eigentlich obligatorischer Ergänzungen, welche jedoch mitgemeint und mitverstanden werden. Wer das einwertig gebrauchte \textit{legen} elliptisch für \gq{Eier legen} nicht kennt, der wird eine Äußerung wie \textit{die Henne legt gut} kaum verstehen. Wer die indefinit mitgemeinte Ergänzung nicht auslässt, der läuft Gefahr, redundant zu werden, so \zB die Frage beim Kartenspielen \textit{wer gibt uns als nächster die Karten}. 
+
+    
+\end{Exkurs}
+
+
+\subsection{Kompakttest}\label{subsubsection:ZusammenspielTest}
+
+In Tabelle \ref{tab:ValDimTest} sind die bisher dargestellten ebenenspezifischen Tests und ihre Ergebnisse in Bezug auf\is{Ergänzung} Ergänzungen und\is{Angabe} Angaben zusammengefasst. Die dreifach gesetzten Plus- bzw. Minuszeichen für Zutreffen und Nicht-Zutreffen des Testkriteriums deuten graduelle Unterschiede an. Das Fragezeichen steht für notorische Unsicherheiten bei der Beurteilung der Testergebnisse. 
+
+\begin{table}[!htbp]
+	\centering
+	\begin{tabular}{llll}
+		\lsptoprule
+		Ebene & Testkriterium & Ergänzung & Angabe \\
+		\midrule
+        Obligatheit & weglassbar & -- + ? & + + + \\
+		Formale Spezifizität & regiert &  + + -- & -- -- -- \\
+		& subkategorisierend & + + -- & -- -- + \\
+        Beteiligtheit & impliziert & + + ? & -- -- -- \\
+		&  assoziiert & + + ? & -- + + \\  
+		& \textit{und das}-Auslagerung & -- -- + & + + + \\
+		Inhaltliche Spezifizität & autonom kodierend & -- -- + & + + + \\
+		& akkumulierbar & -- -- -- & + + -- \\ 
+		\lspbottomrule
+	\end{tabular}
+	\caption{Dimensionsspezifische Eigenschaften von Ergänzungen und Angaben und ihre Ermittlung}
+	\label{tab:ValDimTest}
+\end{table}
+
+Es gibt nicht einen Test, der in allen Fällen darüber Aufschluss gibt, ob die fragliche Phrase eine Ergänzung oder eine Angabe des entsprechenden Verbs ist. Es genügen jedoch zwei Tests in der folgenden Anordnung, also eine Art minimaler Kompakttest. Zuerst sollte mittels der Weglassprobe auf Obligatheit getestet werden. Dieser Test sollte, wie in Abschnitt~\ref{subsubsection:TestNOT} dargestellt, möglichst in einem Nullkontext im Nebensatz durchgeführt werden. Wenn eine Phrase nicht weglassbar ist, ohne dass der Satz ungrammatisch wird oder sich seine Interpretation verändert, so ist diese Phrase eine Ergänzung. Denn Angaben sind immer weglassbar. Dafür stehen die drei Pluszeichen bei \textit{weglassbar} in der Tabelle \ref{tab:ValDimTest}. Bei Nicht-Weglassbarkeit ist kein weiterer Test nötig. In (\ref{ea:Obligatheit1}) wird gezeigt, dass \textit{die große Anna} in (\ref{ea:liesteinenRoman}) nicht weglassbar ist (\ref{ex:*liesteinenRoman}) und folglich eine Ergänzung von \textit{liest} ist. Hierfür steht das Minuszeichen bezüglich der Weglassbarkeit.
+
+\ea \label{ea:Obligatheit1}
+\ea [] {Die große Anna liest einen Roman.}\label{ea:liesteinenRoman} 
+\ex [*] {(Hast du schon gehört,) dass \sout{die große Anna} einen Roman liest?}\label{ex:*liesteinenRoman}
+\z 
+\z 
+
+Wenden wir den Test auf die NP im Akkusativ \textit{einen Roman} in (\ref{ea:liesteinenRoman1}) an, so werden sie wohl die meisten Sprecherinnen und Sprecher für weglassbar halten (\ref{ex:sieliest}). Hierfür steht das Pluszeichen bezüglich der Weglassbarkeit. Darauf, dass die Akzeptabilitätsurteile hier auseinandergehen können, weist \citet[14]{Heringer70} hin und merkt an, dass Sprecherinnen und Sprecher je nach Normenbewusstsein, d.\,h. Erlerntem, auch Sätze als unakzeptabel ablehnen, die sie selbst benutzen. Für diese Unsicherheit steht das Fragezeichen.
+
+\ea \label{ea:Obligatheit2}
+\ea Die große Anna liest einen Roman.\label{ea:liesteinenRoman1} 
+\ex (Hast du schon gehört,) dass die große Anna \sout{einen Roman} liest?\label{ex:sieliest}
+\z 
+\z 
+
+Bei diesem Testergebnis muss weiter getestet werden. Denn es kann sich um eine weglassbare, also fakultative Ergänzung handeln. Es kann sich aber auch um eine Angabe handeln, da diese grundsätzlich weglassbar sind. 
+
+Der zweite Test betrifft die formale Spezifizität, also die Frage danach, ob die entsprechende Form, d.\,h. der Kasus oder die Präposition vom Verb regiert wird. Angaben sind formal nie vom Verb regiert. Hierfür stehen bei \textit{regiert} die drei Minuszeichen. Ergänzungen werden jedoch in den meisten Fällen formal vom Verb regiert. Hierfür stehen die zwei Pluszeichen. Die Regiertheit der Form testen wir mit dem Subkategorisierungstest, den wir in Abschnitt~\ref{subsubsection:TestFOSP} vorgestellt haben. Wir ersetzen die konkrete Verbform \textit{liest} durch eine Box, um zu prüfen, ob innerhalb der gegebenen Kasusstruktur tendenziell alle Verben stehen können oder nur eine Subkategorie. Da uns nicht die Semantik von \textit{einen Roman} interessiert, sondern nur der Akkusativ, ersetzen wir in der Testumgebung (\ref{ea:Verbt_ihn}) \textit{einen Roman} durch das Pronomen \textit{ihn}.
+
+\ea \label{ea:Verbt_ihn} Die große Anna \fbox{\phantom{liest}} ihn.
+\z 
+
+In (\ref{ea:Verbt_ihn}) können wir in die Verbbox viele Verben einsetzen, \zB \textit{sieht}, \textit{kauft}, \textit{liebt} aber auch \textit{putzt}, \textit{schneidet} oder \textit{streicht}. Viele Verben sind jedoch nicht einsetzbar, \zB \textit{sitzt}, \textit{hilft}, \textit{arbeitet} oder \textit{wartet}. Das Testergebnis zeigt, dass der Akkusativ regiert ist. Er wird nicht nur von \textit{liest} regiert, sondern von einer großen Gruppe von Verben, nämlich von denjenigen Verben, die den Akkusativ regieren oder regieren können. Durch den Nachweis der Rektion können wir \textit{einen Roman} als Ergänzung von \textit{liest} klassifizieren. 
+
+Allerdings sind nicht alle Ergänzungen formal vom Verb regiert und folglich subkategorisierend. Dies trifft nicht auf Situativergänzungen wie \textit{in Berlin} bei \textit{er befindet sich in Berlin} zu. Hierfür steht das eine Minuszeichen in der Tabelle. Formal nicht vom Verb regierte Ergänzungen lassen sich durch Nicht-Weglassbarkeit als Ergänzungen klassifizieren.
+
+Mit \citet[71]{Jacobs1994} ermitteln wir den Ergänzungsstatus durch zwei Tests, die Weglassprobe und den Subkategorisierungstest. Denn Ergänzungen sind nicht weglassbar und/oder formal durch das Verb regiert. Obligatheit und formale Spezifiztät implizieren unabhängig voneinander die konstitutive Beteiligtheit. Aus der formalen Spezifizität folgt inhaltliche Spezifizität, aus der wiederum Beteiligtheit folgt. Durch jene Implikationsverhältnisse genügt zwar der Nachweis von Nicht-Weglassbarkeit und/oder formaler Spezifizität. Er genügt jedoch nicht zum Verständnis von Valenz. Hierfür ist bei der Beteiligtheit anzusetzen, welche typischerweise formale und inhaltliche Spezifizität, d.\,h. die Annahme einer semantischen Rolle durch den Valenzträger bedingt. Deshalb haben wir in Tabelle \ref{tab:ValDimTest} auch die anderen Tests aufgeführt, die auf die anderen Valenzebenen abzielen. 
+    
+Auch die Ergebnisse des Kompakttests sind interpretationsbedürftig. Die bereits thematisierte instrumentale \textit{mit}-PP ist weglassbar und nur bezüglich der Szenarioklassen Tätigkeit und Handlung subkategorisiert, nicht in Bezug auf einzelne Verben. Was die Assoziiertheit und Implikation angeht, so scheint im Valenzträger \textit{schneiden} viel stärker ein Instrument als Handlungsbeteiligter verankert zu sein als bei \textit{lesen} (\textit{mit der Brille}). \citet[117]{Fischer2013} meint, dass solche instrumentalen \textit{mit}-PPs bezüglich ihres Status als Angabe oder Ergänzung indeterminiert seien. Man könne sie als konstitutiv am Szenario beteiligt verstehen (ein Etwas-mit-dem-Messer-schneiden-Szenario) und folglich als Ergänzung bestimmen oder aber als das Szenario spezifizierend (ein Etwas-schneiden-Szenario, das mit einem Messer stattfindet) und folglich als Angabe bestimmen. \citet[99]{Welke2011} weist auf den möglichen Übergang von Angaben zu Ergänzungen hin. Dieser zeigt sich insbesondere dann, wenn die Instrumenthaftigkeit verblasst wie bei \textit{jdn. mit etw. beruhigen}. 
+
+Es gibt gewisse (und erwartbare) Unschärfen bei der Abgrenzung zwischen Ergänzungen und Angaben. \citet[328]{Eisenberg2020_Satz} meint diesbezüglich: \gqq{Möglich ist eine scharfe Abgrenzung überhaupt nur dort, wo die Grammatik nicht eine gegebene Sprache beschreibt, sondern wo sie selbst eine Sprache definiert, wie das formale Grammatiken tun.} Trotz jener Unschärfe ist das Valenzkonzept für alle Grammatiktheorien fundamental. Wir werden im Kapitel \ref{chap:Satzgliedanalyse} die traditionelle Satzgliedanalyse auf valenzielle Füße stellen. 
+
+
+\section{Szenarioklassen -- Satzbaupläne}\label{subsection:Verbklassen}
+
+Wir sind bisher von der Valenz des einzelnen Verbs ausgegangen. Denn jedes Verb verfügt über seine Grundvalenz(en). Daher haben wir nur von verbspezifischen Szenarios (\zB Schenken-Szenario) und folglich auch nur von verbspezifischen Rollen (\zB Schenkender, Beschenkter, Geschenk) gesprochen. In Anbetracht der großen Zahl von Verben stellt sich die Frage, ob sich beim Vergleich der einzelnen Verben und ihrer Valenzen auch allgemeinere Rollen abstrahieren lassen, indem spezifische Szenarios allgemeineren zugeordnet werden.
+ 
+Eine Voraussetzung\is{Verbklassen} hierfür ist die Bildung von Verb- bzw. von Szenarioklassen. Seit \citet{Vendler1957} ist es üblich, unter Rückgriff auf Aristoteles Verben bzw. das durch sie bezeichnete Geschehen nach temporalen (Dynamik/Statik) und semantischen Faktoren (Kausativität) in \textit{Handlungs-} (\ref{ea:Handlung_sign}), \textit{Tätigkeits-} (\ref{ex:Tätigkeit_sign}), \textit{Vorgangs-} (\ref{ex:Vorgang_sign}) und \textit{Zustandsverben} (\ref{ex:Zustand_sign}) zu klassifizieren.\footnote{Mit geringen Abweichungen in der Terminologie finden sich diese Verbklassen u.\,a. in der \citet[658--661, §1138--1146]{Duden2022} und bei \citet[67--68]{HelbigBuscha}. Seit \citet[51]{Dowty1979} wird auch von der \textit{Aristotle-Ryle-Kenny-Vendler-}Klassifizierung gesprochen. Allerdings wird in der Regel nicht zwischen Situationen in der Welt bzw. aus ihnen gewonnenen Konzepten und ihrer sprachlichen Perspektivierung als Szenario unterschieden. Mit \citet[92--104]{Welke2019} halten wir das jedoch für unbedingt nötig und kommen in diesem Kapitel mehrfach hierauf zurück.}
+
+\ea \label{ea:Verbklassen_sign}
+\ea \label{ea:Handlung_sign} John öffnete die Tür.
+\ex \label{ex:Tätigkeit_sign} Paul arbeitet.
+\ex \label{ex:Vorgang_sign} Die Wäsche trocknet.
+\ex \label{ex:Zustand_sign} Das Buch liegt auf dem Tisch.
+\z 
+\z
+
+Für unseren Ansatz ist es wesentlich, zwischen einer Situation in der Welt bzw. einem davon abstrahierten Konzept (Weltwissen) und ihrem sprachlichen Ausdruck als\is{Szenario} Szenario zu unterscheiden. Eine Situation, die mit dem Handlungsszenario in (\ref{ea:Handlung_sign}) beschrieben werden kann, könnte sprachlich auch aus einer ganz anderen Perspektive als ein anderes Szenario in den Blick genommen werden, \zB als ein von außen verursachter Vorgang wie bei \textit{die Tür wird von John geöffnet} oder als ein von selbst ablaufender Vorgang wie bei \textit{Die Tür öffnet sich}. Auch eine Situation, die mit dem Vorgangsszenario in (\ref{ex:Vorgang_sign}) beschrieben werden kann, können wir sprachlich aus einer ganz anderen Perspektive als ein anderes Szenario in den Blick nehmen, \zB als ein Handlungsszenario wie bei \textit{der Wind trocknet die Wäsche}.\footnote{Die Unterscheidung zwischen dem Bezeichneten in der Welt und der sprachlichen Bedeutung hat eine lange philosophische Tradition, die \citet[106]{Coseriu1970} aufführt. Die signifikative Semantik, die dem Szenariokonzept zugrunde liegt, wurde maßgeblich von Klaus Welke entwickelt: \citet[188--204]{Welke1988}, \citet[95--98]{Welke2005}, \citet[Kapitel 3]{Welke2019} und u.\,a. von \citet{Agel2017} übernommen.}
+
+Im Folgenden geht es erst einmal um die Klärung der Szenario-Begriffe Handlung, Tätigkeit, Vorgang und Zustand.  
+
+\textit{Handlungsverben} beschreiben durch\is{Verbklassen!Handlungsverb} ihre mindestens zweiwertige Grundvalenz dynamische Szenarios mit mindestens zwei Beteiligten. Die erste Ergänzung des Verbs im Nominativ übernimmt die Rolle des \textit{Handlungsträgers}. Dieser ist typischerweise belebt, existiert unabhängig von der Handlung, agiert willentlich und kontrolliert die Handlung. Sein Tun richtet sich auf die zweite Ergänzung im Akkusativ. Verben mit Akkusativobjekt werden\is{Verbklassen!transitiv} \textit{transitiv} genannt. Denn die Handlung geht direkt auf den \textit{Handlungsgegenstand} über. Dessen Zustand oder Position wird dabei typischerweise verändert: \textit{einen Brief zerknüllen} oder \textit{einen Brief einwerfen}. Möglich ist auch, dass der Handlungsgegenstand erst durch die Handlung hervorgebracht oder aber getilgt wird: \zB \textit{einen Brief schreiben} oder \textit{einen Brief verbrennen}. Die Rolle des Handlungsgegenstandes\is{Patiens} nennt man auch \textit{Patiens} (lat. \textit{patiens} \gq{erleidend}). Das transitive Handlungsmuster bietet ein sehr abstraktes grundlegendes Modell zum sprachlichen Ausdruck von Szenarios in indoeuropäischen Sprachen. Sprachlich kodieren wir auch das unwillentliche Einwirken von Naturgewalten auf Gegenstände, Menschen oder Orte als Handlungsszenarios. Hierauf macht bereits \citet[239]{Buehler1934} aufmerksam, wenn er schreibt: \gqq{Wir lassen faktisch auch Materialien wie das Wasser und Steine \gq{handeln}; das Wasser \gq{wälzt} den Stein, der Stein \gq{hemmt} den Wasserlauf.}\footnote{Es gibt Verben, die zwar eine Ergänzung im Akkusativ zu sich nehmen, dabei aber keine Handlungen ausdrücken: \textit{einen Zentner wiegen}/\textit{einen Tag dauern}/\textit{einen Euro kosten}. Bei diesen sogenannten Menge-Konstruktionen sind die Merkmale eines Handlungsträgers und Handlungsgegenstandes verblasst. Es handelt sich um den Ausdruck von Zuständen oder Vorgängen. Im Abschnitt~\ref{subsection:Akkusativobj} kommen wir auf diese Fälle unter dem Stichwort \textit{adverbialer Akkusativ} zurück. Um \gqq{krasse Ausnahme[\textit{n}]}, wie \citet[150]{Welke2019} schreibt, handelt es sich bei Sätzen wie \textit{Das interessiert mich} oder \textit{Der Satz enthält einen Fehler}. Auch hier werden keine Handlungen, sondern Vorgänge oder Zustände ausgedrückt. Wir verstehen die erste Ergänzung von \textit{Du interessierst mich} anders als bei \textit{Du weckst mein Interesse} nicht als Handlungsträger. Folglich kann zwar im Passiv ausgedrückt werden \textit{Mein Interesse wird von dir geweckt} aber nicht *\textit{Ich werde von dir interessiert}.}
+Das Grundmodell kann oder muss u.\,a. bei den Verben des Gebens und Nehmens um eine NP im Dativ zum Ausdruck des \textit{Handlungsbetroffenen} erweitert werden: \textit{er stiehlt ihr einen Ring}, bei den kausativen Positionsverben um eine richtungsergänzende PP: \textit{er stellt den Kaffee auf den Tisch} und bei anderen Verben um eine PP mit einer valenziell fixierten Präposition wie \textit{sie bereitet den Schüler auf die Prüfung vor}.
+Wir sprechen auch dann von Handlungsausdrücken, wenn der Handlungsträger kein Mensch, sondern eine Sache ist, die als für die Einwirkung verantwortlich dargestellt wird, \zB \textit{der Wind trocknet die Wäsche}. Somit fällt unter den Handlungsbegriff auch ein unabsichtliches Einwirken des Handlungsträgers auf den Handlungsgegenstand. Wir sprechen auch dann von Handlungsausdrücken, wenn der Handlungsträger Verfügungsgewalt über den Handlungsgegenstand hat oder haben will, ohne diesen physisch zu verändern, \zB \textit{er besitzt ein Haus} oder \textit{sie braucht einen Plan}. Wenn die zweite Valenzstelle fakultativ ist und nicht durch eine NP im Akkusativ gesättigt wird, \zB bei \textit{sie liest gerade} statt \textit{sie liest einen Roman}, dann wird ein Tätigkeitsszenario ausgedrückt.
+
+\textit{Tätigkeitsverben} beschreiben\is{Verbklassen!Tätigkeitsverb} Szenarios, die dynamisch sind und von der Entität ausgeführt werden, die die erste Ergänzung im Nominativ bezeichnet. Typischerweise handelt es sich um eine belebte, willentlich handelnde, das Szenario kontrollierende Entität. Die erste Ergänzung wird durch eine NP im Nominativ ausgedrückt. Wir bezeichnen ihre Rolle als \textit{Tätigkeitsträger}. Verben, die Tätigkeitsszenarios beschreiben, sind wie \textit{arbeiten, lachen, helfen, warten} intransitiv. Intransitive Verben haben keine zweite Ergänzung im Akkusativ. Möglich, teilweise nötig, sind aber zusätzliche Ergänzungen im Dativ zum Ausdruck des Tätigkeitsbetroffenen (\textit{sie hilft ihm}) oder durch eine PP mit einer valenziell fixierten Präposition (\textit{sie achtet auf ihn}). Eine wichtige Untergruppe der Verben, die Tätigkeiten ausdrücken, sind die Bewegungsverben. Ihre zweite Ergänzung kann durch eine richtungsergänzende PP ausgedrückt werden wie bei \textit{wir laufen in den Park}.
+
+Folgen\is{Agens} wir dem prototypischen Rollenkonzept von \citet[572]{Dowty1991}, so können wir Tätigkeits- und Handlungsträger als \textit{Agens} (lat. \textit{agens} \gq{handelnd}) zusammenfassen. Das Agens ist bei Handlungsausdrücken für die Handlung und die implizierte Zustandsveränderung des Patiens verantwortlich. Bei Tätigkeitsausdrücken ist das Agens für die Tätigkeit verantwortlich. Mit Bewegungsverben können Tätigkeiten wie \textit{Neil Armstrong flog 1969 auf den Mond} oder Vorgänge wie \textit{der Ball flog schon wieder auf das Dach} ausgedrückt werden. Der Tätigkeitsausdruck kann mit \textit{absichtlich} kombiniert werden: \textit{Neil Armstrong flog 1969 absichtlich auf den Mond}. Denn Tätigkeiten unterliegen der Kontrolle des Tätigkeitsträgers. Vorgänge hingegen laufen ab, ohne durch den Vorgangsträger kontrolliert zu werden: *\textit{der Stein flog schon wieder absichtlich auf das Dach}.   
+
+\textit{Vorgangsverben} sind\is{Verbklassen!Vorgangsverb} auch intransitiv und beschreiben auch dynamische Szenarios. Sie setzen aber kein Agens voraus. Durch die Ergänzung im Nominativ wird ein \textit{Vorgangsträger} bezeichnet, \zB \textit{das Kind wächst} oder \textit{der Regen fällt}. Im Unterschied zum Agens ist der Vorgangsträger nicht willentlich beteiligt, kontrolliert das Szenario nicht und ist nicht für dieses verantwortlich. Deshalb sind Vorgangsausdrücke, wie gerade erwähnt, nicht mit \textit{absichtlich} kombinierbar: *\textit{das Kind wächst absichtlich} oder *\textit{der Regen fällt absichtlich}. Sie können auch nicht im Imperativ gebraucht werden: *\textit{wachs!} oder *\textit{regne!}. Valenzbedingt gibt es Vorgangsausdrücke ohne Vorgangsträger. Das ist bei den nullwertigen Verben der Fall, bei denen das obligatorische \textit{es} semantisch leer ist, d.\,h. keine Entität bezeichnet, an der der Vorgang abläuft: \textit{es regnet} oder \textit{es hat geklingelt}. Durchgängig ist das beim sogenannten unpersönlichen\is{Passiv!mit \textit{werden}} \textit{werden}-Passiv (vgl. Abschnitt~\ref{subsection:Passiv}) der Fall, \zB \textit{jetzt wird gearbeitet} oder \textit{heute wird gefeiert}.
+Vorgänge können ohne eine Zustandsveränderung des Vorgangsträgers verlaufen wie bei \textit{die Kerze flackert} oder mit einer Zustandsveränderung, der der Vorgangsträger unterliegt wie bei \textit{die Kerze erlischt}. Reflexe dieses Unterschieds zeigen sich bei der Perfektbildung (vgl. Abschnitt~\ref{subsubsubsection:Perfekt}): \textit{die Kerze hat geflackert} versus \textit{die Kerze ist erloschen} und beim Gebrauch des Partizip II als attributives Adjektiv: ungrammatisch ist *\textit{eine geflackerte Kerze} versus \textit{eine erloschene Kerze}. 
+Vorgangsausdrücke können zusätzliche Ergänzungen aufweisen, \zB eine zweite Ergänzung im Dativ zum Ausdruck des Vorgangsbetroffenen wie bei \textit{die Ernte ist dem Bauern vertrocknet} oder eine richtungsergänzende PP wie bei \textit{der Apfel fiel auf den Rasen} oder eine PP mit fixierter Präposition wie bei \textit{der Patient starb an Herzversagen}.    
+
+Mit Verben, die\is{Verbklassen!Zustandsverb} statische Relationen beschreiben wie \textit{liegen, stehen, fehlen, ähneln}, werden \textit{Zustands}-Szenarios ausgedrückt. Der wesentliche Unterschied gegenüber den anderen Klassen ist die Abwesenheit von Dynamik. Zustandsverben beschreiben Szenarios, die zeitlich vollkommen homogen sind. In ihrer Bedeutung sind weder ein Anfangs- noch ein Endpunkt angelegt, obwohl die entsprechenden Zustände in der Welt durch äußere Einwirkungen irgendwann enden können. Aufgrund der Abwesenheit von Dynamik kann auf Zustandsausdrücke nicht mit \textit{passieren} oder \textit{geschehen} zugegriffen werden. Auf Äußerungen wie \textit{die Wäsche liegt im Schrank} oder \textit{das Geschirr steht auf dem Tisch} kann nicht mit *\textit{das geschieht während} zurückgegriffen werden. Ebenso wenig lassen sich Zustandsausdrücke durch \textit{schnell} oder \textit{langsam} modifizieren, da diese Dynamik voraussetzen: *\textit{die Wäsche liegt langsam im Schrank} oder *\textit{das Geschirr steht schnell auf dem Tisch}.\footnote{Allerdings kann bei \textit{schnell} eine Äußerung wie \textit{das Geschirr steht schnell auf dem Tisch} so verstanden werden, dass der Zustand schnell eintritt, weil der Tisch schnell gedeckt wurde. Bei Interesse verweisen wir auf \citet[61]{Maienborn2003}.}
+
+Die erste Ergänzung im Nominativ trägt die Rolle des \textit{Zustandsträgers}. Zustandsausdrücke können oder müssen neben der ersten Ergänzung im Nominativ zusätzliche Ergänzungen aufweisen, \zB eine zweite Ergänzung im Dativ zum Ausdruck des Zustandsbetroffenen wie bei \textit{du fehlst mir} oder eine ortsergänzende PP wie bei \textit{sie befinden sich in der Altstadt} oder eine fixierte PP wie bei \textit{Deutschland besteht aus 16 Bundesländern}.   
+
+Neben der Bestimmung des Verb- bzw. Szenariotyps ist die Unterscheidung zwischen \textit{telischen} und \textit{atelischen} Verben bzw. Szenarios wichtig. Telische\is{Verbklassen!telisch} Szenarios sind zeitlich begrenzt oder sogar punktuell. Sie implizieren einen Endpunkt, ein Ziel, mit dessen Erreichen das Szenario endet. Aufgrund jener Zielbezogenheit nennt man sie telisch (griech. \textit{telos} \gq{Ziel}). Jener Endpunkt bzw. jenes Ziel besteht im Zustandswechsel eines Szenariobeteiligten. Typische Handlungsszenarios sind telisch. Wenn \textit{jemand einen Baum pflanzt}, dann endet diese Handlung mit dem erreichten Ziel, nämlich dann, wenn der Baum in der Erde steckt, eben gepflanzt ist. Tätigkeiten sind typischerweise atelisch. Denn in ihrer Bedeutung ist kein Endpunkt, kein Ziel angelegt. Dies ist der Fall bei \textit{jemand arbeitet} oder \textit{jemand denkt über etwas nach}. Fortbewegungsverben werden zusammen mit einem Zielausdruck telisch gebraucht, \zB \textit{jemand schwimmt zu einer Insel}. Wenn er das Ziel, die Insel, erreicht hat, dann schwimmt er nicht mehr zur Insel. Ohne Ziel drücken sie\is{Verbklassen!atelisch} atelische Szenarios aus, \zB \textit{jemand schwimmt im See}. Telische Vorgänge werden häufig durch Präfix- oder Partikelverben ausgedrückt, \zB \textit{etwas verdampft} oder \textit{jemand schläft ein} im Gegensatz zu den atelischen Vorgangsausdrücken \textit{etwas dampft} oder \textit{jemand schläft}. Zustände sind aufgrund ihrer Statik immer atelisch.
+
+
+Bevor wir auch die formale Seite der Valenz vom einzelnen Verb abstrahieren, fassen wir noch einmal die vier grundlegenden Szenariotypen zusammen.
+
+\begin{itemize}
+
+    \item Handlungsszenarios werden durch Handlungsverben ausgedrückt, die minimal eine Ergänzung im Nominativ und eine Ergänzung im Akkusativ haben. Ein Handlungsträger ist für die direkte Einwirkung auf einen Handlungsgegenstand verantwortlich. Typischerweise sind Handlungsszenarios telisch. Die anderen Szenariotypen zeichnen sich formal durch die Abwesenheit einer Akkusativergänzung (oder eines äquivalenten Nebensatzes) aus. 
+
+    \item Tätigkeitsszenarios werden durch Tätigkeitsverben ausgedrückt, die minimal eine Ergänzung im Nominativ haben. Ein Tätigkeitsträger ist für die Ausführung einer Tätigkeit verantwortlich. Tätigkeitsszenarios sind atelisch. 
+
+    \item Vorgangsszenarios werden durch Vorgangsverben ausgedrückt, die minimal eine Ergänzung im Nominativ haben. Ein Vorgangsträger unterliegt einem Vorgang, ohne für ihn verantwortlich zu sein. Vorgangsszenarios können atelisch oder telisch sein. 
+
+    \item Zustandsszenarios werden durch Zustandsverben beschrieben, die minimal eine Ergänzung im Nominativ haben. Ein Zustandsträger befindet sich in einem Zustand, der ohne äußere Einwirkung homogen anhält. Zustandsszenarios sind atelisch. 
+
+\end{itemize}
+
+
+So wie es von den verbspezifischen Rollen abstrahierbare semantische Rollen wie Handlungsträger, Handlungsgegenstand und Handlungsbetroffener gibt, so gibt es auch bestimmte Kasus-Cluster, die nicht nur von einem spezifischen Verb, sondern von mehreren Verben (Subklassen) regiert werden. Diese Cluster werden \textit{Satzbaupläne} genannt. Teilweise werden auch Verben mit ihnen gebraucht, die sie eigentlich nicht regieren. So gehört die Dativ-Ergänzung neben der Akkusativ-Ergänzung unstrittig zum Satzbauplan, den das Verb \textit{geben} aufruft (\ref{ea:geben_V-3}). Aber auch ein Verb wie \textit{kochen} kann mit diesem Satzbauplan gebraucht werden (\ref{ex:kochen_Kx_3}).
+
+\ea \label{ea:Satzbauplan_V_Kx}
+\ea \label{ea:geben_V-3} Paul gibt seiner Schwester einen Apfel.
+\ex \label{ex:kochen_Kx_3} Paul kocht seiner Schwester einen Eintopf.
+\z 
+\z 
+ 
+Wird von den konkreten Verben abstrahiert, so erhält man die\is{Satzbauplan} Satzbaupläne des Deutschen. Es handelt sich um die mit Verben vorkommenden formal und semantisch spezifizierten Ergänzungen.\footnote{Grundlegende Arbeiten zu den Satzbauplänen des Deutschen stammen von \citet{Engelen1975} und \citet{Engelen1975b}. Eine kompakte Übersicht geben \citet[235--241]{AgelHoellein2021}.}
+
+\begin{Definition}{Satzbauplan}
+    
+\noindent Satzbaupläne sind primär Valenzrealisierungsmuster, das heißt Belegungspläne für alle von einem Verb eröffneten Ergänzungen. Die Satzbaupläne geben an, wie die Valenz gesättigt wird, um einen minimalen Satz zu erhalten. 
+\end{Definition}
+
+
+
+In grober Anlehnung an \citet[236--239]{Welke1994} unterscheiden wir formal zwischen vier grundlegenden\is{Satzbauplan} Satzbauplänen mit entsprechenden Untertypen. Typ 1 ist ein einstelliger Bauplan (\ref{ea:BauplanNom}). Er wird zum Ausdruck von Zustands- (\ref{ea:schläft}), Vorgangs- (\ref{ex:weht}) und Tätigkeitsszenarios (\ref{ex:arbeitet}) genutzt.
+
+
+\ea\label{ea:BauplanNom} \fbox{NP\textsubscript{Nominativ}} 
+\ea \label{ea:schläft} Der Mann sitzt.
+\ex \label{ex:weht} Der Wind weht.
+\ex \label{ex:arbeitet} Die Frau arbeitet.
+\z 
+\z 
+
+Der Satzbauplan\is{Satzbauplan} vom Typ 1 kann um eine fakultative oder obligatorische Ergänzung im Dativ erweitert sein und ist dann zweiwertig (\ref{ex:BauplanNom_Dat}).
+
+\ea\label{ex:BauplanNom_Dat} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Dativ}} 
+\ea \label{ea:schmerzt} Der Kopf schmerzt ihm.
+\ex \label{ex:nütz} Das neue Gesetz nützt dem Verbraucher.
+\ex \label{ex:hilft} Der Lehrer hilft dem Schüler.
+\z 
+\z 
+
+Zum Typ 2\is{Satzbauplan} zählen Baupläne, die neben einer Ergänzung im Nominativ über eine Ergänzung im Akkusativ verfügen. Sie drücken Handlungsszenarios aus. Es gibt den zweistelligen Bauplan (\ref{ea: N-A}) sowie den dreistelligen Plan, der zusätzlich eine Ergänzung im Dativ enthält, die den Betroffenen, \zB den Rezipienten ausdrückt (\ref{ex:N-D-A}). Verben, die mit dem zweistelligen Plan gebraucht werden wie in (\ref{ex:machtSalat}), können häufig durch den dreistelligen Plan (\ref{ex:N-D-A}) ausgebaut werden (\ref{ex:N-D-A-Ausbau}).
+
+
+\ea \label{ea: N-A} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Akkusativ}} 
+\ea \label{ex:machtSalat} Paul macht einen Salat.
+\z 
+\z 
+
+ 
+\ea \label{ex:N-D-A} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Dativ} NP\textsubscript{Akkusativ}}
+\ea \label{ex:schenktD_A} Anna schenkt dem Jungen einen Ball.
+\ex \label{ex:N-D-A-Ausbau} Paul macht seiner Schwester einen Salat.
+\z 
+\z 
+
+\largerpage
+Der Typ 3 ist\is{Satzbauplan} durch das Vorhandensein einer Ergänzung ausgezeichnet, die durch eine PP realisiert wird. Es kann sich um eine richtungsergänzende PP wie in (\ref{ea:dirPP}) und (\ref{ex:AkkdirPP}) handeln, aber auch um Präpositionalobjekte wie bei \textit{warten auf} (vgl. Abschnitt~\ref{subsection:Pobj}). Der zweiwertige Plan dient wie in (\ref{ea:dirPP}) dem Ausdruck von Vorgängen oder Tätigkeiten als Erweiterung des Satzbautyps 1. Der dreiwertige Typ mit einer Ergänzung im Akkusativ neben der PP dient wie in (\ref{ea:stellen_A_PP}) dem Ausdruck von Handlungen und ist eine Erweiterung des Typs 2.
+
+
+\ea \label{ea:dirPP} \fbox{NP\textsubscript{Nominativ} PP} 
+\ea \label{ea:krabbeln_PP} Paul krabbelt auf den Tisch.
+\z 
+\z 
+
+
+\ea \label{ex:AkkdirPP} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Akkusativ} PP}
+\ea \label{ea:stellen_A_PP} Anna stellt den Kaffee auf den Tisch.
+\z 
+\z 
+
+Unter gewissen Umständen kann der zweistellige Plan mit PP (\ref{ea:dirPP}) durch eine Ergänzung im Dativ  (\ref{ea:DatdirPP}) ausgebaut werden. Auch der dreistellige Plan mit PP (\ref{ex:AkkdirPP}) kann wie in (\ref{ex:DatAkkdirPP}) um eine Ergänzung im Dativ erweitert werden. Dieser Bauplan entspricht nicht der Grundvalenz von Verben, sondern führt immer zu einer Valenzerhöhung wie in (\ref{ea:stellen_A_PP}).
+
+ 
+\ea \label{ea:DatdirPP} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Dativ} PP}
+\ea \label{ea:krabbeln_Dat_PP} Paul krabbelt dem Vater auf die Schulter.
+\z 
+\z 
+
+\ea \label{ex:DatAkkdirPP} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Dativ} NP\textsubscript{Akkusativ} PP}
+\ea \label{ex:stellt_D_A_PP} Anna stellt den Gästen den Kaffee auf den Tisch.
+\z
+\z 
+
+Typ 4 zeichnet\is{Satzbauplan} sich dadurch aus, dass das Verb durch eine Adjektivphrase (AP) (oder durch eine NP im Nominativ bzw. im Akkusativ) ergänzt wird. Um die syntaktische Funktion dieser besonderen Ergänzungen geht es unter dem Stichwort \textit{Subjekts}- und \textit{Objektsprädikative} in Abschnitt~\ref{subsection:SP und OP}. An dieser Stelle unterscheiden wir zwischen einem zweistelligen Plan mit einer Ergänzung im Nominativ und einer AP (\ref{ea:NomPräd}) und einem dreistelligen Plan, der um eine Ergänzung im Akkusativ erweitert ist (\ref{ex:AkkPräd}). Durch Sätze wie (\ref{ea:NomPräd}) weist der Sprecher oder die Sprecherin dem Subjekt eine Eigenschaft zu. In Sätzen wie (\ref{ex:AkkPräd}) weist das Subjekt dem Objekt eine Eigenschaft zu, folglich wird auch hier eine Handlung ausgedrückt.
+
+
+
+\ea \label{ea:NomPräd} \fbox{NP\textsubscript{Nominativ} AP/NP\textsubscript{Nominativ}} 
+\ea \label{ea:sein_Eigenschaft} Der Wald ist \textit{schön}/\textit{ein Organismus}.
+\z 
+\z 
+
+\ea \label{ex:AkkPräd} \fbox{NP\textsubscript{Nominativ} NP\textsubscript{Akkusativ} AP/NP\textsubscript{Akkusativ}} 
+\ea \label{ea:nennen_A_Eigenschaft} Paul nennt den Wald \textit{schön}/\textit{einen Organismus}.
+\z
+\z 
+
+Es gibt natürlich viel mehr\is{Satzbauplan} Satzbaupläne. Unsere Darstellung zielt auf häufig gebrauchte, teilweise produktive Baupläne und einen systematischen Bezug zwischen grundlegenden und erweiterten Bauplänen ab. Eine Übersicht über die Satzbaupläne des Deutschen bieten \citet[235--241]{AgelHoellein2021}.
+
+
+\section{Valenzdynamik: Valenzerhöhung und Valenzreduktion}\label{subsection:Valenzdynamik}
+
+In Abschnitt~\ref{section:KonzeptVerbvalenz} haben wir das Konzept der Grundvalenz als diejenige Valenzrealisierung vorgestellt, die am häufigsten mit einem Verb vorkommt. Die Grundvalenz der finiten aktivischen Verbformen kann\is{Valenz!Valenzdynamik} durch bestimmte grammatische Prozesse erhöht oder reduziert werden. Um Erhöhungen\is{Dativobjekt!dynamisch} handelt es sich beispielsweise bei den Dativ-NPs, die bei zweiwertigen (\ref{ea:BENzuAkk}) und dreiwertigen Handlungsverben (\ref{ex:BENzuAkkPP}) hinzukommen und den Betroffenen der Handlung ausdrücken, den wir meist als Nutznießer oder Geschädigten interpretieren. 
+
+\ea \label{ea:freie_Dative}
+\ea \label{ea:BENzuAkk} Ich putze dir die Wohnung. 
+\ex \label{ex:BENzuAkkPP} Ich stelle dir die Blumen auf den Tisch.
+\z 
+\z 
+
+
+In\is{Valenz!Valenzdynamik} der Literatur ist die Bestimmung dieser zusätzlichen Dativ-NPs umstritten.\footnote{Nach \citet[368]{HeidolphFlaemigMotsch1981} aktualisiert dieser Dativtyp keine \gqq{in der Verbbedeutung latent angelegte Valenzstelle}. \citet[263--265]{HelbigBuscha} werten jene Dative ebenso als nicht valenzgebunden und somit als Angaben. \citet[320--323]{Eisenberg2020_Satz} zählt sie zu den Ergänzungen. Dies tun auch \citet[64--65]{PittnerBerman2021}, indem sie jene im Dativ ausgedrückten Ergänzungen direkt in der Verbvalenz verankern und Verben wie \textit{bügeln} per se als dreiwertig bestimmen. Im Gegensatz dazu bestimmen \citet[72]{Welke1988} und \citet[25--26]{Jacobs1994} diese Ergänzungen als Ergebnis eines produktiven Prozesses der Valenzerweiterung.} Bei dem von einem Szenario Betroffenen liegt keine direkte, notwendige Beteiligtheit am Szenario vor. Dennoch bestehen sie nach \citet[1088]{ZifHoffStr1997} den Implikationstest. Diese Dativ-NPs sind aber meist auslagerbar. Der isolierte Gebrauch von Dativ-NPs wie im Portal des Reichstags in Berlin \textit{Dem deutschen Volke} spricht für eine autonome Kodierung der Rolle. Das wesentliche Indiz für ihren Status liefert die formale Spezifizität. Der Subkategorisierungstest zeigt, dass nicht alle Verben mit einer Dativ-NP wie in (\ref{ea:freierDativ}) gebraucht werden können (*\textit{er wohnt dir in Berlin}/*\textit{sie arbeitet ihm}). Außerdem verhalten sie sich strukturell genauso wie unstrittige Dativergänzungen, worauf im Abschnitt~\ref{subsection:Datobj} eingegangen wird.
+
+Wir\is{Valenz!Valenzdynamik} zählen sie mit \citet[144]{Wegener1985} zu den Ergänzungen und führen sie auf Valenzerhöhungen zurück. Die Szenarios werden somit um eine Ergänzung erweitert, weshalb \citet[47--50]{Agel2017} von \textit{Umszenierungen} schreibt. Es handelt sich um Ergänzungen, die nicht in der Grundvalenz des Verbs enthalten sind, aber unter bestimmten, hier nicht weiter behandelten Bedingungen, hinzugefügt werden können. Somit handelt es sich bei \textit{putzt} um ein zweiwertiges Verb, das in (\ref{ea:BENzuAkk}) dreiwertig gebraucht wird. 
+
+Neben jenen Erweiterungen\is{Valenz!Valenzdynamik} um eine Dativ-Ergänzung sind im Deutschen besonders Erweiterungen um eine direktionale PP-Ergänzung produktiv. Es kann sich wie bei \textit{tuckern} um die Umszenierung von einem einwertigen Vorgangs- in ein zweiwertiges Bewegungsverb handeln (\ref{ea:knatternPP}). Ein anderes Ausdrucksmodell ist dreiwertig und verfügt neben der ersten Ergänzung im Nominativ über eine zweite Ergänzung im Akkusativ, die zu dem durch die dritte Ergänzung ausgedrückten Ziel befördert wird oder werden soll. Das ursprünglich einwertige \textit{klatscht} wird in (\ref{ex:klatschtAkkPP}) mit drei Ergänzungen gebraucht.
+
+\ea \label{ea:freiesDirektivum}
+\ea \label{ea:knatternPP} Der letzte VW-Käfer rollte am Mittwoch in Mexiko-City vom Band. Er tuckert ins Volkswagen-Museum nach Wolfsburg.\footnote{Berliner Zeitung, 31.07.2003.}
+\ex \label{ex:klatschtAkkPP} Also machten ihm seine Freunde [...] Mut und klatschten ihn auf die Theaterbühne.\footnote{Zürcher Tagesanzeiger, 29.03.1999, S. 5.}
+\z 
+\z 
+
+Die in (\ref{ea:freie_Dative}) und (\ref{ea:freiesDirektivum}) illustrierten Umszenierungen sind von solchen zu unterscheiden, bei denen das Verb morphologisch verändert wird. \citet[270]{Agel2017} bezeichnet jene morphologisch veränderten Verben als \textit{dynamische Prädikate} und unterscheidet zwischen \textit{kategorial dynamischen} und \textit{konstruktionell dynamischen} Prädikaten. 
+
+Bei kategorial\is{Valenz!Valenzdynamik} dynamischen Prädikaten handelt es sich um Veränderungen des Verbs bzw. der Verbform, die zu einer Veränderung von grammatischen Kategorien führen. So stehen sich die zweiwertige Valenz der aktivischen finiten Verbform \textit{bestiehlt} und die einwertige (reduzierte) Valenz des Passivprädikats\is{Passiv!mit \textit{werden}} \textit{wird bestohlen} gegenüber. Die kategoriale Valenzreduktion hat nicht nur eine unterschiedliche Zahl von Ergänzungen zur Folge, sondern auch die Abwandlung eines Handlungs- (\ref{ea:aktiv}) in ein passivisches Vorgangsszenario (\ref{ex:passiv}). Um Passivkonstruktionen geht es ausführlicher im Abschnitt~\ref{subsection:Passiv}.
+
+\ea
+\ea \label{ea:aktiv} Anna bestiehlt Paul.
+\ex \label{ex:passiv} Paul wird bestohlen.   
+\z 
+\z 
+
+Nicht kategorial, sondern konstruktionell dynamisch sind\is{Valenz!Valenzdynamik} Präfix- und Partikelverbbildungen. Entsprechende Grundvalenzen können erhöht oder verringert werden. Aus dem eigentlich einwertigen \textit{schwitzt} wird das zweiwertig dynamische \textit{schwitzt an} in (\ref{ea:schwitztan}). Und aus dem dreiwertigen \textit{schenkt} wird das zweiwertige Prädikat \textit{beschenkt} in (\ref{ex:beschenkt}). In Abschnitt~\ref{subsubsection:be_Präfix} geht es exemplarisch um die Valenzdynamik durch das Präfix \textit{be-} und im Abschnitt~\ref{subsection:Pt_Kopf} um die Valenzdynamik durch Partikeln.
+
+\ea \label{ea:schwitztan} Die Menschen waren mir alle widerwärtig, sie griffen mich an mit ihrem Gestank, sie schwitzten mich an [...]\footnote{Friedrich C. Delius: \textit{Mogadischu Fensterplatz.} Reinbek bei Hamburg: Rowohlt, 1987, S. 83.}
+\ex \label{ex:beschenkt} Anna beschenkt Paul.
+\z
+
+Um dynamische Prädikate\is{Valenz!Valenzdynamik} handelt es sich auch bei sogenannten Resultativkonstruktionen. Durch Einführung eines Objektprädikativs wie \textit{gesund} in (\ref{ea:gesundlächeln}) kann ebenso die Valenz erhöht bzw. verändert werden. So wird aus dem eigentlich einwertigen \textit{lächelt} das zweiwertige \textit{lächelt gesund} in (\ref{ea:gesundlächeln}). Aus einem Tätigkeitsszenario wird ein Handlungsszenario. 
+
+\eanoraggedright \label{ea:gesundlächeln} An diesem Tag gibt es in der Kantine \gqq{Männerportionen}, riesige Schnitzel, Pommes und rote Paprikasoße. Zu fettes Essen? Die deftigen Brötchen am Morgen hatte Stefan Nowak gesund gelächelt: \gqq{Mett? Das heißt hier Feuerwehrmarmelade!}\footnote{ver.di Publik 2/2017.}
+\z 
+
+Das dynamische Prädikat in (\ref{ea:gesundlächeln}) kann weiter um dynamische Ergänzungen erhöht werden, ohne dass dies am Prädikat sichtbar wird. So könnte dem Satz in (\ref{ea:gesundlächeln}) problemlos die Rolle eines Betroffenen im Dativ hinzugefügt werden (\ref{ea:RSKmitBEN}). 
+
+\ea \label{ea:RSKmitBEN} Er hat uns die deftigen Brötchen gesund gelächelt.
+\z 
+
+Aus dem dynamischen zweiwertigen Valenzträger \textit{lächelt gesund} ist nun ein dreiwertiger Valenzträger geworden.
+
+Wir können hier weder eine Übersicht über alle Möglichkeiten der Umszenierung geben noch die Restriktionen jener Valenzdynamik behandeln. Wesentlich ist, dass die Erhöhungen und Reduktionen der Grundvalenz in der Regel auf etablierten Mustern beruhen. Häufig basieren sie auf den unter \ref{subsection:Verbklassen} behandelten Satzbauplänen bzw. stellen einen Ausbau dieser dar. Verben können unter ganz bestimmten Bedingungen mit Satzbauplänen gebraucht werden, die nicht der verbalen Grundvalenz entsprechen. Insofern stellt die Grammatik einen geregelten Rahmen für kreative Neuschöpfungen auch im Bereich der Valenz dar. 
+
+
+\section{Hilfsverben und Valenz}\label{section:RegierteVerben}
+
+Bisher haben wir uns nur mit \textit{finiten} Verben beschäftigt, deren Valenz durch NPs, PPs , Nebensätze oder satzwertige Infinitivkonstruktionen gesättigt wird. Verben mit eigener Valenz werden \textit{Vollverben}\is{Vollverb} genannt. Vollverben zeichnen sich dadurch aus, dass sie in ihrer finiten Form zusammen mit ihren Ergänzungen minimal korrekte Sätze bilden können. Vollverben sind Hauptvalenzträger und dienen dem Ausdruck von Szenarios.
+
+In diesem Abschnitt beschäftigen wir uns mit Hilfsverben\is{Hilfsverb} im weitesten Sinne. Hierunter verstehen wir Verben, die erst zusammen mit einem Vollverb einen Verbkomplex oder ein komplexes Prädikat und damit einen Valenzträger bilden. Hilfsverben können mangels semantischer Valenz alleine keine Szenarios ausdrücken. Sie dienen der Modifikation der von den Vollverben ausgedrückten Szenarios. Formal regieren die Hilfsverben allerdings die jeweilige Form des infiniten Vollverbs. Zuerst geht es in dem folgenden Abschnitt~\ref{subsection:Hilfsverb_Inf_Part} um traditionelle Hilfsverben \zB bei der Perfektbildung (\textit{Anna hat ein Haus gebaut}). Im Anschluss geht es in Abschnitt~\ref{subsection:Modalverb_INF} um die Modalverben wie \textit{wollen} (\textit{Anna will schlafen}) sowie in Abschnitt~\ref{subsection:Modalitätsverb_zu_Inf} um die Modalitätsverben wie \textit{scheinen} (\textit{Anna scheint zu schlafen}). In Abschnitt~\ref{subsection:AcI_Inf} wenden wir uns dem Gebrauch einiger Wahrnehmungsverben wie \textit{sehen} mit einer NP im Akkusativ und einem Infinitiv zu (\textit{Anna sieht den kleinen Paul tanzen}). Abschließend werden wir in Abschnitt~\ref{subsection:Statusrektion} den Hilfsverben die von ihnen regierten Vollverbformen (reiner Infinitiv, \textit{zu}-Infinitiv und Partizip II) zuordnen.
+
+
+\subsection{Hilfsverb und Infinitiv/Partizip II}\label{subsection:Hilfsverb_Inf_Part}
+
+Die Verbformen \textit{hat}, \textit{wird} und \textit{würde} werden in den Sätzen (\ref{ea:Aux_VKomplexe}) als Hilfsverben gebraucht.
+
+\ea \label{ea:Aux_VKomplexe}
+\ea \label{ea:Aux_Perfekt} Anna hat das Haus in zwei Wochen gebaut.
+\ex \label{ex:Aux_Fut} Anna wird das Haus in zwei Wochen bauen.
+\ex \label{ex:Aux_Konj} Anna würde gerne ein Haus bauen.
+\z 
+\z 
+
+Hilfsverben\is{Hilfsverb} helfen dabei, grammatische Kategorien des Verbs auszudrücken. Deshalb werden sie \textit{Auxiliar}, im Plural \textit{Auxiliare} genannt (lat. \textit{auxiliaris} \gq{Hilfe leistend}). Hierzu verbinden sie sich mit einem infiniten Vollverb in Form eines Partizip II wie \textit{gebaut} in (\ref{ea:Aux_Perfekt}) oder in Form eines Infinitivs wie \textit{bauen} in (\ref{ex:Aux_Fut}) und (\ref{ex:Aux_Konj}). Die so gebildeten Verbkomplexe \textit{hat gebaut} (Perfekt), \textit{wird bauen} (Futur), \textit{würde bauen} (Konjunktiv II) übernehmen die Ergänzungen des zweiwertigen Vollverbs \textit{bauen}.\footnote{Beim Passiv mit den Hilfsverben \textit{werden} und \textit{bekommen} kommt es hierbei zu einer konstruktionsspezifischen Valenzreduktion (vgl. Abschnitt~\ref{subsection:Valenzdynamik}). Um das Passiv geht es im Abschnitt~\ref{subsection:Passiv}.}
+
+Hilfsverben sind aus Vollverben entstanden.\footnote{Reflexe dieser Herkunft zeigen sich bei doppeldeutigen Sätzen wie \textit{Guck mal, Paul hat ja die Haare geschnitten}. Das Hilfsverb \textit{hat} kodiert mit dem Partizip II \textit{geschnitten} das Perfekt. Wir können den Satz aber auch noch präsentisch verstehen mit \textit{hat} als präsentischem Vollverb, \textit{Haare} als dessen zweiter Ergänzung und \textit{geschnitten} als Zustand, in dem sich die Haare befinden. Hierauf kommen wir zurück, wenn es im Abschnitt~\ref{subsubsubsection:Perfekt} um das Perfekt geht.} Als Hilfsverben haben sie ihre ursprüngliche wörtliche Bedeutung (weitgehend) verloren und damit auch ihre Valenz. Zwar regieren sie die entsprechende Form eines Verbs, entweder einen reinen Infinitiv oder ein Partizip II. Aber sie drücken kein Szenario mehr aus und weisen deshalb auch keine semantischen Rollen zu. Die Verbkomplexe aus Hilfsverb und infiniter Vollverbform übernehmen die Ergänzungen des Vollverbs. Folglich bleibt auch der Verbkomplex subjektlos, wenn das Vollverb wie \textit{grauen} in (\ref{ea:Hilfsverb_subjektlos}) subjektlos ist. Wenn das Vollverb wie \textit{regnen} in (\ref{ex:Hilfsverb_Espletivum}) nullwertig ist, bleibt auch der Verbkomplex nullwertig.
+
+\ea \label{ea:Hilfsverb_Anhebung}
+\ea \label{ea:Hilfsverb_subjektlos} Ihm hat vor der Prüfung gegraut.
+\ex \label{ex:Hilfsverb_Espletivum} Es hat geregnet.
+\z 
+\z 
+
+
+Um das Stellungsverhalten von Hilfsverb und infiniter Vollverbform geht es in Abschnitt~\ref{subsection:KohärenteKonstruktion}. Um das Perfekt geht es detailliert in Abschnitt~\ref{subsubsubsection:Perfekt}, um das Futur I in Abschnitt~\ref{subsubsubsection:FuturI} und um den Konjunktiv II in Abschnitt~\ref{subsubsubsection:KonjII}. 
+
+
+
+\subsection{Modalverb und Infinitiv}\label{subsection:Modalverb_INF}
+
+Die Modalverben\is{Modalverb} \textit{dürfen}, \textit{können}, \textit{müssen}, \textit{sollen} und \textit{wollen} verbinden sich mit einem infiniten Vollverb zu einem Verbkomplex oder komplexen Prädikat. Der so gebildete Verbkomplex übernimmt die Valenz und Rektion des Vollverbs. Aus der Verbindung mit dem einwertigen Vollverb \textit{arbeiten} entsteht der einwertige Verbalkomplex \textit{muss arbeiten} (\ref{ea:muss_arbeiten}). Aus der Verbindung mit dem zweiwertigen Vollverb \textit{helfen} entsteht der zweiwertige Verbalkomplex \textit{will helfen} (\ref{ex:will_helfen}). Aus der Verbindung mit dem dreiwertigen Vollverb \textit{schenken} entsteht der dreiwertige Verbalkomplex \textit{will schenken} (\ref{ex:soll_geben}).
+
+\ea 
+\ea \label{ea:muss_arbeiten} Die große Anna muss arbeiten.
+\ex \label{ex:will_helfen} Die große Anna soll dem kleinen Paul helfen.
+\ex \label{ex:soll_geben} Die große Anna will dem kleinen Paul einen Ball schenken.
+\z 
+\z     
+
+Modalverben selbst sind nicht die Hauptvalenzträger. Sie modifizieren die Bedeutung des vom Vollverb ausgedrückten Szenarios.
+
+Modalverben werden auf zwei verschiedene Weisen gebraucht. In der einen Gebrauchsweise modifizieren sie das Vollverbszenario, indem sie dieses als möglich (\textit{können}), erwünscht (\textit{wollen}), erlaubt (\textit{dürfen}), notwendig (\textit{müssen}) oder als befohlen (\textit{sollen}) darstellen.\is{Modalverb!deontischer Gebrauch} Diesen Gebrauch nennt man \textit{deontisch}.\footnote{Manche deontisch gebrauchte Modalverben können ohne Infinitiv wie ein Vollverb mit einer Akkusativ-NP oder einer direktionalen PP als zweiter Ergänzung verwendet werden: \textit{Er will einen Kaffee} oder \textit{Er darf ins Schwimmbad}. Dieser Gebrauch beruht ursprünglich auf Ellipsen (Auslassungen) entsprechender Infinitive: \zB \textit{Er darf ins Schwimmbad gehen}.}
+
+Bestimmte Formen von Modalverben erlauben auch eine andere Gebrauchsweise.\is{Modalverb!epistemischer Gebrauch} Mit dieser drücken Sprecherinnen und Sprecher aus, für wie möglich oder für wie wahrscheinlich sie das Zutreffen des Szenarios halten. Diesen Gebrauch (\ref{ea:subj_Modalverb}) nennt man \textit{epistemisch}, d.\,h. wissensbezogen. Eine Äußerung wie (\ref{ea:subj_obj_muss}) kann entweder deontisch oder epistemisch verstanden werden.
+
+
+\ea \label{ea:subj_Modalverb}
+\ea \label{ea:subj_obj_muss} Anna muss arbeiten. (Deontisch: Denn sie braucht Geld. Epistemisch: Das vermutet der Sprecher mit ziemlicher Sicherheit, denn Anna ist nicht zu Hause.)
+\ex \label{ex:subj_soll} Paul soll im Lotto gewonnen haben. (Epistemisch: Der Sprecher weiß das nur vom Hören-Sagen anderer.)
+\ex \label{ex:subj_will} Anna will im Lotto gewonnen haben. (Epistemisch: Der Sprecher zweifelt das an, weil Anna das selbst gesagt hat.)
+\z 
+\z 
+
+Der epistemische Gebrauch hat sich aus dem deontischen entwickelt, was mögliche Doppel-Lesarten erklärt.\footnote{Übergänge zwischen dem deontischen Gebrauch wie \textit{Anna konnte das Problem lösen} und dem epistemischen Gebrauch wie \textit{Anna kann sich geirrt haben} (\gq{vielleicht hat sie sich geirrt}) bilden Gebrauchsweisen wie \textit{Anna kann durch gute Argumente überzeugt werden} (\gq{es ist möglich, sie zu überzeugen}). Das Modalverb bezieht sich nicht auf einen Zustand des Subjekts, sondern auf das ganze Szenario. Der Bedeutungsbeitrag ist aber wörtlich als Möglichkeit zu verstehen. Cf. \citet[33, 79--86]{Diewald1999}.}
+
+Um das Stellungsverhalten von Modalverb und Infinitiv geht es in Abschnitt~\ref{subsection:KohärenteKonstruktion}. Um Modalverben als Unterkategorie der Wortart Verb geht es im Abschnitt~\ref{subsection:Verbflexion}, um Besonderheiten ihrer Konjugation in Abschnitt~\ref{subsubsection:Pers_Num}.
+
+
+
+\subsection{Modalitätsverb und \textit{zu}-Infinitiv}\label{subsection:Modalitätsverb_zu_Inf}
+
+Den\is{Modalitätsverb} epistemisch gebrauchten Modalverben sind die sogenannten Modalitäts- oder Halbmodalverben ähnlich. Hierzu gehören \zB \textit{drohen}, \textit{pflegen}, \textit{scheinen} und \textit{versprechen}, wenn sie wie in (\ref{ea:Halbmodalverb}) einen \textit{zu}-Infinitiv regieren und sich damit formal und semantisch von entsprechenden Vollverben unterscheiden.
+
+\ea \label{ea:Halbmodalverb}
+\ea \label{ea:HalbMV_scheinen} Anna scheint ein Haus zu bauen.
+\ex \label{ex:HalbMV_drohen} Die Brücke droht einzustürzen.
+\z 
+\z 
+
+In (\ref{ea:HalbMV_scheinen}) scheint Anna nicht, wie die Sonne scheint und in (\ref{ex:HalbMV_drohen}) droht die Brücke nicht, wie ein Räuber jemandem mit einer Waffe droht. Es handelt sich um relativ durchsichtige metaphorische Abwandlungen von Vollverben. In (\ref{ea:HalbMV_scheinen}) wird gesagt, dass es so aussieht (den Anschein hat), dass Anna ein Haus baut; und in (\ref{ex:HalbMV_drohen}), dass es so aussieht, dass die Brücke in naher Zukunft einstürzt, was negativ (als Bedrohung) bewertet wird. 
+
+Die Modalitätsverben bilden mit einem \textit{zu}-Infinitiv Verbkomplexe oder komplexe Prädikate. Der so gebildete Verbkomplex übernimmt die Valenz und Rektion des Vollverbs.\footnote{Aufgrund der Herkunft der Modalitäts- aus Vollverben können doppelte Lesarten mit dem einbettenden Verb als Voll- oder als Modalitätsverb bestehen: \textit{Paul droht seinen Komplizen zu verraten}. Als Vollverb: \gq{Paul droht, \zB dem Komplizen selbst damit, ihn zu verraten}. Als Modalitätsverb: \gq{Es sieht danach aus, dass Paul (\zB unter dem Druck des Verhörs) gleich seinen Komplizen verrät}.} Dies zeigt sich besonders daran, dass bei nullwertigen Vollverben wie \textit{regnen} auch der Verbkomplex wie in (\ref{ea:droht_zu_regnen}) nullwertig bleibt. Bei den seltenen subjektlosen Vollverben -- das sind Vollverben, deren erste Ergänzung keine NP im Nominativ ist -- bleibt auch der Verbalkomplex wie in (\ref{ex:scheint_zu_grauen}) subjektlos.
+
+\ea \label{ea:HalbMV_Subjekt}
+\ea \label{ea:droht_zu_regnen} Es droht zu regnen.
+\ex \label{ex:scheint_zu_grauen} Ihm scheint vor der Prüfung zu grauen.
+\z 
+\z 
+
+Um das Stellungsverhalten von Modalitätsverb und \textit{zu}-Infinitiv geht es in Abschnitt~\ref{subsection:KohärenteKonstruktion}. Um Modalitätsverben als Unterkategorie der Wortart Verb geht es in Abschnitt~\ref{subsection:Verbflexion}.
+
+Auch das Verb \textit{brauchen} kann zu den Modalitätsverben gezählt werden, wenn es einen \textit{zu}-Infinitiv wie in (\ref{ea:brauchen_zu_Inf}) anschließt. Allerdings gebrauchen wir es auch mit einem reinen Infinitiv wie in (\ref{ex:brauchen_Inf}).
+
+\ea\label{ea:brauchen_(zu)_Inf}
+\ea \label{ea:brauchen_zu_Inf} Sie brauchen nicht zu befürchten, daß eine Videokamera sie filmt.\footnote{Berliner Zeitung, 25.07.1995.}
+\ex \label{ex:brauchen_Inf} Berlin brauche nicht befürchten, dass die WM-Party kippt.\footnote{Berliner Zeitung, 03.07.2004.}
+\z 
+\z 
+
+Während der Gebrauch ohne \textit{zu} wie in (\ref{ex:brauchen_Inf}) zumindest in der Schule lange Zeit als Fehler oder schlechter Ausdruck galt, führt ihn die \citet[639, §1093]{Duden2022} als zunehmend gebrauchte Variante auf. Der Gebrauch ohne \textit{zu} basiert auf dem Muster der Modalverben: \textit{er muss nicht befürchten}. 
+
+
+
+\subsection{AcI-Verben und Infinitiv}\label{subsection:AcI_Inf}
+\largerpage
+
+Einen Sonderfall stellen Konstruktionen mit Wahrnehmungsverben wie \textit{hören}, \textit{sehen} und marginal auch \textit{fühlen}, \textit{spüren} und \textit{riechen} dar. Diese Verben können mit einer NP im Akkusativ und einem Infinitiv gebraucht werden (\ref{ea:AcI}). 
+
+
+\ea \label{ea:AcI} 
+\ea \label{ea:hören_AcI} Anna sieht den Mann rauchen.
+\ex \label{ex:sehen_AcI} Anna hört den Mann die Tür ins Schloss ziehen.
+\z 
+\z 
+
+Diese Konstruktion nennt man lateinisch\is{AcI-Verb} \textit{accusativus cum infinitivo} (Akkusativ mit Infinitiv) oder kurz \textit{AcI}. Zu den AcI-Konstruktionen gehören auch Infinitiv-Verbindungen mit \textit{lassen} (Erlaubnis/Veranlassung) wie in (\ref{ea:lassen_AcI}), der archaisch-gehobene Gebrauch von \textit{heißen} in (\ref{ex:heißen_AcI}) und von \textit{machen} in (\ref{ex:machen_Inf}) sowie Verbindungen von \textit{finden} (\ref{ex:finden_AcI}) und \textit{haben} (\ref{ex:haben_AcI}) mit Zustandsverben. 
+
+\ea \label{ea:andere_AcI_Verben}
+\ea \label{ea:lassen_AcI} Sie lässt ihn kochen.
+ \ex \label{ex:heißen_AcI} Kowalski heißt ihn mit einer Handbewegung abwarten [\ldots{}]\footnote{Jurek Becker: \textit{Jakob der Lügner}. Berlin: Aufbau-Verlag 1969, S. 146.}
+ \ex \label{ex:machen_Inf} [\ldots{}] Selbstmitleid strömt, schüttelt, macht mich weinen [\ldots{}]\footnote{Hildegard Knef: \textit{Der geschenkte Gaul}. Berlin: Ullstein 1999 [1970], S. 149.}
+ \ex \label{ex:finden_AcI} Ich kam gerade rein und fand ihn auf dem Teppich liegen.\footnote{Süddeutsche Zeitung, 10.06.2006.}
+ \ex \label{ex:haben_AcI} Die Besitzer ahnten nicht, was für einen Schatz sie an der Wand hängen hatten.\footnote{St. Galler Tagblatt, 25.09.2010.}
+ \z 
+ \z 
+ 
+Anstelle des reinen Infinitivs in (\ref{ex:haben_AcI}) wird bei \textit{haben} insbesondere mit den Positionsverben \textit{liegen}, \textit{stehen}, \textit{sitzen} und \textit{hängen} regional auch der \textit{zu}-Infinitiv gebraucht: \textit{Die Besitzer ahnten nicht, was für einen Schatz sie an der Wand zu hängen hatten}. Dieser Gebrauch ist um Berlin und nördlich von Berlin verbreitet.
+
+Die AcI-Konstruktion ist auf wenige Verben beschränkt und nicht mehr produktiv: \textit{er fühlte}/\textit{spürte seine Kräfte schwinden} vs. ?\textit{er merkte seine Kräfte schwinden}.\footnote{\citet[237–239]{Fuss_Konopka_Woellstein2017} zeigen, dass AcI-Konstruktionen mit entsprechenden Verben gegenüber anderen Ergänzungen der gleichlautenden Vollverben selten sind, dass sie aber in literarischen Texten häufiger als erwartbar vorkommen und dass der Gebrauch des häufigsten AcI-Verbs \textit{sehen} von 1990–2010 deutlich zurückgegangen ist.}
+
+Die vom Latein beeinflusste Struktur des AcI wird kontrovers diskutiert.\footnote{Am bekanntesten ist wohl der dem Römer Cato zugeschriebene in (\ref{ea:Cato}) glossierte Satz.
+\ea\label{ea:Cato} 
+\gll Ceterum censeo Carthaginem esse delendam. \\
+Außerdem denk.1SG Karthago.AKK sein zu$\_$zerstörende.AKK.\\
+\glt \gq{Außerdem denke ich, dass Karthago zerstört werden muss}
+\z 
+
+Eine umfassende Übersicht zu den Eigenschaften von AcI-Konstruktionen und zur linguistischen Diskussion geben \citet[209--232]{Bausewein1990} und \citet[378--272]{MuellerLehrbuch4}. Beide Autoren, \citet[225--227]{Bausewein1990} und \citet[392]{MuellerLehrbuch4}, argumentieren, wenn auch vor dem Hintergrund verschiedener Theorien, für eine Analyse als Verbkomplex, die auch hier vertreten wird.} Die Ausgangsstruktur lässt sich wie folgt beschreiben: ein zweiwertiges Wahrnehmungsverb lässt neben seiner zweiten Ergänzung im Akkusativ (\textit{sie sieht ihn}) ein freies Prädikativ (vgl. Abschnitt~\ref{subsection:freiePräd}) in Form eines Infinitivs zu (\textit{sie sieht ihn rauchen}). Dieser Infinitiv weist dem Akkusativobjekt zur Zeit der Wahrnehmung die Eigenschaft zu, welche der ersten Ergänzung des Infinitivs, dem Subjekt, zukommt. Die Ergänzung im Akkusativ, das Gesehene (\ref{ea:sieht_aci_wärend}) oder Gehörte (\ref{ex:hört_aci_während}), verstehen wir gleichzeitig als Subjekt des Infinitivs, was durch die Nebensätze mit \textit{während} explizit gemacht wird.
+
+\ea \label{ea:aci_wie}
+\ea \label{ea:sieht_aci_wärend} Sie sieht ihn, während er raucht.
+\ex \label{ex:hört_aci_während} Sie hört ihn, während er die Tür ins Schloss zieht.
+\z 
+\z 
+
+Wir können die AcI-Konstruktionen aber auch abweichend von der allgemeinen Prädikativ-Lesart in (\ref{ea:aci_wie}) verstehen: nämlich als Wahrnehmung, \textit{wie} jemand etwas tut bzw. etwas geschieht.\footnote{\citet[394]{Eisenberg2020_Satz} hält die \textit{wie}-Lesart für primär, da die Wahrnehmung und das Wahrgenommene zeitgleich sind. Dies erfüllt auch die von uns angesetzte primäre \textit{während}-Lesart, die im Abschnitt~\ref{subsection:freiePräd} als allgemeine Lesart freier Prädikative beschrieben wird.} Nur in diesem Fall wird die Ergänzung im Akkusativ fakultativ und der \textit{wie}-Nebensatz selbst kann wie in (\ref{ea:sieht_aci_wie}) als zweite Ergänzung verstanden werden. Um die Form und Funktion von Nebensätzen geht es im Abschnitt~\ref{subsection:FormFktNeSa}.
+
+\ea \label{ea:sieht_aci_wie} Sie sieht (ihn), wie er raucht.
+\z 
+
+Diesem Verständnis nach ist die NP im Akkusativ \textit{zusammen} mit dem Infinitiv \textit{eine} Ergänzung zum AcI-Verb.\footnote{Dieser Vorschlag wird in der Generativen Grammatik in Anlehnung an \citet[106–177]{Chomsky1981} gemacht. Der als Subjekt des Infinitivs verstandene Referent der Akkusativ-NP wird zusammen mit dem Infinitiv als ein untergeordneter \textit{small clause} bestimmt. Der Begriff \textit{small} zielt darauf ab, dass ein Infinitiv sein Subjekt grammatisch nicht realisieren kann (*\textit{er rauchen}) und somit eine Aussage wie bei \gq{ganzen} Sätzen (\textit{er raucht}) nicht möglich ist. Das Subjekt des Infinitivs wird deshalb rein formal auf der Objektstelle des übergeordneten Wahrnehmungsverbs realisiert.} Hierfür spricht, was \citet[382]{MuellerLehrbuch4} bemerkt, dass man jemanden rauchen sehen kann, ohne die rauchende Person zu sehen, beispielsweise wenn diese sich hinter einer Mauer versteckt und nur der Rauch der Zigarette zu sehen ist. Das ist streng genommen auch der Fall, wenn man, wie im Beispielsatz (\ref{ex:sehen_AcI}), jemanden die Tür ins Schloss ziehen hört. In dem folgenden Exkurs~\ref{Exkurs:AcI} zeigen wir, warum diese Annahme jedoch problematisch ist, und stellen kurz alternative Analysen vor.
+
+\newpage
+\begin{Exkurs}{Alternative Analysen für AcI-Konstruktion}\label{Exkurs:AcI}
+
+Die Auffassung \textit{einer} Ergänzung aus Akkusativ-NP \textit{und} Infinitiv ist jedoch problematisch. Denn erstens lässt sich nicht nachweisen, dass beide zusammen eine Einheit bilden. Ihre gemeinsame Voranstellung (\ref{ea:Akk_Inf_Topikalisierung}) ist nicht oder viel schlechter möglich als bei Kontrollverben mit einem \textit{zu}-Infinitiv (\ref{ex:Akk_Inf_Kontroll}).
+
+\ea \label{ea:aci_small_clause}
+\ea  [?] {[Ihn rauchen] sieht sie.}\label{ea:Akk_Inf_Topikalisierung}
+\ex [] {[Eine Zigarre zu rauchen], versucht sie.}\label{ex:Akk_Inf_Kontroll} 
+\z 
+\z 
+
+Der Akkusativ, um den es hier geht, wird formal nicht vom Infinitiv regiert. Dieser kann seine eigenen Ergänzungen \zB im Dativ und im Akkusativ regieren (\ref{ea:AcI_Akk_Inf}). Die verschiedenen Ergänzungen können umgestellt werden, wie die Ergänzungen zu \textit{einem} Verb. Um diese Art der Umstellung geht es im Abschnitt~\ref{subsection:Mittelfeld}. Zur Illustration dienen hier die \textit{dass}-Nebensätze mit Verbendstellung in (\ref{ex:AcI_Akk_Scrambling}) bis (\ref{ex:AcI_Akk_Scrambling2}). Der Infinitiv ist zusammen mit seinen Ergänzungen nicht nach rechts herausstellbar (\ref{ex:AcI_InfGr_extrapon}).
+
+\ea \label{ea:AcI_Obj_Inf}
+\ea [] {Die Chefin sieht den Kellner dem Gast einen Kaffee bringen.}\label{ea:AcI_Akk_Inf} 
+\ex [] {dass die Chefin dem Gast den Kellner einen Kaffee bringen sieht}\label{ex:AcI_Akk_Scrambling} 
+\ex [] {dass dem Gast die Chefin den Kellner einen Kaffee bringen sieht}\label{ex:AcI_Akk_Scrambling1} 
+\ex [] {dass den Kellner dem Gast einen Kaffee die Chefin bringen sieht}\label{ex:AcI_Akk_Scrambling2} 
+\ex [*] {dass die Chefin den Kellner gesehen hat [dem Gast einen Kaffee bringen]}\label{ex:AcI_InfGr_extrapon} 
+\z 
+\z 
+
+\largerpage[2]
+Ein Ausweg wäre es, AcI-Verben, wie von \citet[395--396]{Eisenberg2020_Satz} diskutiert, als dreiwertig zu bestimmen. Neben der ersten Ergänzung im Nominativ fordern sie eine zweite Ergänzung im Akkusativ und eine dritte Ergänzung in Form einer Infinitivgruppe. Dies wäre der prädikativen Ausgangsstruktur nahe. Allerdings ist unklar, welche semantische Rolle der Infinitivgruppe als Ergänzung zukommen sollte. Sollen sich die Akkusativ-NP und die Infinitivgruppe \textit{eine} Rolle teilen? Dann würde es sich doch um \textit{eine} Ergänzung handeln, denn die entsprechende Valenzerhöhung wäre nicht motiviert. Gegen die Annahme, dass sich das AcI-Verb mit einer satzwertigen Infinitivgruppe als Ergänzung verbindet, spricht außerdem, dass die Infinitivgruppe nicht oder kaum herausstellbar ist und dass sich die Ergänzungen des AcI-Verbs mit denen des Infinitivs in der Stellung \gq{vermischen}.
+
+\end{Exkurs}
+
+Vieles spricht für eine Grammatikalisierung der ursprünglichen Prädikativ-Struktur zu einem Verbkomplex.\footnote{Ähnliche Prozesse beschreiben wir bezüglich des \textit{werden}-Passivs in Abschnitt~\ref{subsection:Passiv} und bezüglich des Perfekts in Abschnitt~\ref{subsubsubsection:Perfekt}.} Das AcI-Verb verbindet sich mit dem von ihm regierten Infinitiv zu einem komplexen Verb. Der so gebildete Verbkomplex übernimmt die Ergänzungen seiner Bestandteile. Die ursprünglich zweite Ergänzung des AcI-Verbs im Akkusativ behält im Verbkomplex den Akkusativ bei, bekommt ihre Rolle jedoch primär als semantisches Subjekt des Infinitivs zugewiesen. Zusätzlich kann es zu einer Valenzerhöhung kommen, wenn der Infinitiv seine weiteren Ergänzungen in den Komplex einbringt wie in (\ref{ea:AcI_Obj_Inf}). Diese Analyse überzeugt besonders in den Fällen, in denen der Infinitiv nullwertig ist. Dies ist bei Witterungsverben mit dem\is{es@\textit{es}!formales Subjekt} formalen Subjekt \textit{es} der Fall. Dieses wird wie in (\ref{ea:AcI_Witterung}) ebenfalls ohne semantische Rolle als Akkusativ-NP der AcI-Konstruktion realisiert.
+
+\ea \label{ea:AcI_Witterung} Anna sieht es blitzen und hört es donnern.
+\z 
+
+Ein weiteres Indiz für die Analyse als Verbkomplex ist die Tatsache, dass der Akkusativ und der Infinitiv nur zusammen mit dem Wahrnehmungsverb vorangestellt werden. Dies zeigt der Kontrast zwischen (\ref{ea:Akk_Inf_Top}) und (\ref{ex:Akk_Inf_AcIV_Top}).
+
+\ea \label{ea:Akk_Inf_AcI_Topikalsierung}
+\ea [?] {Ihn tanzen will sie schon lange sehen.}\label{ea:Akk_Inf_Top}
+\ex [] {Ihn tanzen sehen will sie schon lange.}\label{ex:Akk_Inf_AcIV_Top}
+\z 
+\z 
+
+Außerdem werden die häufig als AcI-Verb gebrauchten Verben \textit{sehen} und \textit{hören}\footnote{Nach einer korpuslinguistischen Untersuchung von \citet[238]{Fuss_Konopka_Woellstein2017} werden als AcI-Verben zu 81,1\% \textit{sehen} und zu 17,4\% \textit{hören} gebraucht. Der Gebrauch von \textit{fühlen} und \textit{spüren} ist marginal.} analog zu den Modalverben im Perfekt als sogenannter Ersatzinfinitiv (\ref{ea:Ersatzinfinitiv_MV}) gebraucht. Anstelle des erwartbaren Partizip II \textit{gesehen} bzw. \textit{gehört} steht der Infinitiv, also \textit{sehen} bzw. \textit{hören} (\ref{ex:Ersatzinfinitiv_AcI}).
+
+\ea \label{ea:Ersatzinfinitiv_MV_AcI}
+\ea \label{ea:Ersatzinfinitiv_MV} Sie hat ihn sehen wollen. (statt gewollt)
+\ex \label{ex:Ersatzinfinitiv_AcI} Sie hat ihn tanzen sehen. (statt gesehen)
+\z 
+\z 
+
+Im Abschnitt~\ref{subsection:RechteSatzklammer} kommen wir auf dieses Phänomen zurück. Um das Stellungsverhalten von AcI-Verb und Infinitiv geht es in Abschnitt~\ref{subsection:KohärenteKonstruktion}.
+
+
+\subsection{Statusrektion}\label{subsection:Statusrektion}
+
+Die Bildung von Verbkomplexen hat \citet{Bech1983} in einer 1955 erstmals veröffentlichten Arbeit untersucht. Er hat das Prinzip der Kasusrektion von Vollverben (vgl. Abschnitt~\ref{subsubsection:TestFOSP}) wie in (\ref{ea:Kasusrektion}) auf Hilfs-, Modal-, Modalitäts- und AcI-Verben wie exemplarisch in (\ref{ea:Statusrektion}) übertragen. 
+
+\ea \label{ea:Kasusrektion}
+\ea \label{ea:hilftDativ} Er hilft ihm/*ihn.
+\ex \label{ex:unterstütztAkkusativ} Er unterstützt ihn/*ihm.
+\z 
+\z 
+
+\ea \label{ea:Statusrektion}
+\ea \label{ea:MV_1.Status} Er will tanzen/*getanzt.
+\ex \label{ex:PAUx_2.Status} Er hat getanzt/*tanzen.
+\z 
+\z 
+
+Anstelle\is{Statusrektion} eines Kasus geht es um die Rektion einer infiniten Verbform: eines Infinitivs (1. Status), eines \textit{zu}-Infinitivs (2. Status) oder eines Partizip II (3. Status). Die drei Statusgruppen hat \citet[12]{Bech1983} den Verbgruppen zugeordnet, welche sie regieren. So wird der Infinitiv als erster Status \zB von einem Modalverb wie in (\ref{ea:MV_1.Status}) regiert, aber nicht von einem Perfekthilfsverb. Dieses regiert das Partizip II als dritten Status (\ref{ex:PAUx_2.Status}). Eine Übersicht gibt die Tabelle \ref{tab:Statusrektion}.
+
+\begin{table}[!htbp]
+  \centering
+  \resizebox{\textwidth}{!}{
+  \begin{tabular}{llll}
+    \lsptoprule
+    Status & infiniter Verbteil & Beispiel & Regens \\
+    \midrule
+    1 & Infinitiv & \textit{lieben} & Modal-, AcI-, Futur-, Konjunktiv-Hilfsverb\\
+    2 & \textit{zu} + Infinitiv & \textit{zu lieben} & Modalitätsverb \\
+    3 & Partizip II & \textit{geliebt} & Perfekt-, Passiv-Hilfsverb\\
+    \lspbottomrule
+  \end{tabular}
+  }
+  \caption{Statusrektion nach \citet[12]{Bech1983}}
+  \label{tab:Statusrektion}
+\end{table}
+
+Verbkomplexe sind als Ganzes Valenzträger. Die Verbkomplexe übernehmen die Valenz des infiniten Vollverbs oder verändern sie konstruktionsspezifisch. 
+
+Innerhalb der Verbkomplexe herrschen Rektions- und damit Abhängigkeitsverhältnisse. Der Status\is{Statusrektion} der infiniten Verbform ist regiert und damit abhängig. Die Besonderheit der Statusrektion besteht darin, dass sie kettenbildend verwendet werden kann. So können \zB verschiedene Regentien jeweils einen Infinitiv (1. Status) regieren (\ref{ea:2Infinitive}). Ebenso können verschiedene infinite Formen miteinander kombiniert werden, so wie Status 1 und 3 in (\ref{ex:Status1und3}). Die Pfeile stehen für die Rektionsrichtung. 
+ 
+ \ea \label{ea:Statusrektionüberlagerung}
+ \ea \label{ea:2Infinitive} dass Anna den Jungen singen $\leftarrow$ hören $\leftarrow$ will
+ \ex \label{ex:Status1und3} dass Anna den Jungen singen $\leftarrow$ gehört $\leftarrow$ haben $\leftarrow$ will 
+ \z
+ \z 
+ 
+In (\ref{ea:Statusrektionüberlagerung}) haben wir die Verbendstellung im Nebensatz gewählt, da bei dieser Stellung kontinuierliche Rektionsverhältnisse herrschen.\footnote{Die Rektionsverhältnisse sagen nichts darüber aus, welches Verb sich zuerst mit welchem anderen Verb verbindet. Aufschluss hierüber gibt zum Beispiel die Möglichkeit, die infiniten Verbteile als eine Einheit gemeinsam voranzustellen: \textit{Singen hören will Anna den Jungen schon lange} oder \textit{Singen gehört hat Anna den Jungen noch nie}. Die infiniten Verbteile verbinden sich zu einer Einheit, bevor sie mit dem Finitum verbunden werden.} Die Stellungsmöglichkeiten in Sätzen werden in dem folgenden Kapitel \ref{chapter:Feldermodell} im Rahmen des Feldermodells beschrieben.
+
+
+\section{Zusammenfassung Valenz}\label{section:Zfsg_Valenz}
+
+Bevor wir uns im folgenden Kapitel~\ref{chapter:Feldermodell} mit den linearen Satztypen und den damit verbundenen Satzarten des Deutschen beschäftigen, fassen wir die wesentlichen Punkte zum Thema Valenz in Stichpunkten zusammen:
+
+\begin{itemize}  
+
+\item Grundvalenz: Die Grundvalenz eines Verbs umfasst die Anzahl (Wertigkeit) sowie die Art und Form (Rektion) der Ergänzungen, die ein Verb in seiner grundlegenden Bedeutung erfordert, um einen vollständigen Satz als Szenarioausdruck zu bilden. 
+
+\item Ergänzungen bezeichnen Entitäten, die ihre Rolle vom Verb erhalten (Prädikation) und konstitutiv an dem Szenario beteiligt sind. Sie sind nicht-weglassbar, ohne dass der Satz ungrammatisch wird, und/oder formal regiert. Sie werden von kasustragenden Nominalphrasen, Präpositionalphrasen, Nebensätzen und (nebensatzähnlichen) Infinitiv-Konstruktionen realisiert. 
+
+\item Angaben sind nicht formal vom Verb regiert. Sie werden typischerweise durch Adverbphrasen, Präpositionalphrasen und Nebensätze realisiert. Sie kodieren anders als die Ergänzungen ihre Bedeutung autonom. Die von Angaben bezeichneten Entitäten sind nicht am Szenario beteiligt, sondern spezifizieren es. Aufgrund ihrer Bedeutung sind Angaben nur mit Verben oder Szenario-Ausdrücken kompatibel, die entsprechend spezifizierbare Merkmale aufweisen.
+
+\item Verschiedene Tests dienen der Unterscheidung zwischen Angaben und Ergänzungen. Sie zielen auf verschiedene Eigenschaften der Ergänzungen ab. Die beiden wesentlichen Tests sind der Weglassbarkeits- und der Subkategorisierungstest.     
+
+\item Satzbaupläne sind von einzelnen Verben abstrahierte Valenzmuster. Ihnen können Szenariotypen zugeordnet werden.
+
+\item Szenariotypen lassen sich unterscheiden in Handlung, Tätigkeit, Vorgang und Zustand. Die Eigenschafts- und Klassenzuweisung ist eine Besonderheit der Kopulaverben.
+
+\item Valenzdynamik ermöglicht es, Verben abweichend von ihrer Grundvalenz und oft auch abweichend von ihrem ursprünglichen Szenariotyp mit weniger oder mehr Ergänzungen zu gebrauchen. 
+
+\item Hilfsverben im weiteren Sinne verfügen nicht über Valenz, aber sie regieren ganz bestimmte Formen der von ihnen abhängigen Verben (Statusrektion), mit denen sie Verbalkomplexe bilden.
+
+\end{itemize}  
+
+Der folgende letzte Abschnitt dieses Kapitels bietet Ihnen die Gelegenheit, durch Übungen zu lernen.
+
+
+\section{Aufgaben zur Valenz und Rektion}\label{section:Aufgaben_Valenz_Rektion}
+
+In den folgenden vier Aufgaben können Sie Ihr Wissen zum Thema Valenz anwenden. Wir empfehlen, dass Sie die Aufgaben zuerst selbstständig lösen. Im Anschluss können Sie Ihre Lösungen mit unseren Lösungen und Kommentaren vergleichen.
+
+
+\subsection{Valenzbestimmung}\label{subsection:Valenz1}
+
+Um das Grundgerüst eines Satzes zu verstehen, müssen wir bei der Valenz des Vollverbs im Hauptsatz ansetzen (vgl. Abschnitt~\ref{subsection:EvsA} bis \ref{subsubsection:ZusammenspielTest}). Der folgende Satz (\ref{ea:Valenz1}) besteht aus zwei Teilsätzen, die für sich genommen jeweils ein Hauptsatz sein könnten. Bestimmen Sie die Valenz der beiden kursiv gedruckten Verben.
+
+\ea \label{ea:Valenz1} Er \textit{las} ein paar jener Bücher wieder und jede Zeile \textit{erinnerte} ihn an den Vater und an die stillen, sommerlichen Sonntagvormittage und an Jacques, an Kapellmeister Nechwal und an den Radetzkymarsch.\footnote{Joseph Roth: \textit{Radetzkymarsch}. Köln: Kiepenheuer \& Witsch 1978 [1932], S. 268.}
+\z 
+
+Geben Sie jeweils die folgenden Informationen an: 
+
+\begin{itemize}
+
+\item die Wertigkeit der kursiv gesetzten Verben, 
+
+\item die Wörter bzw. die Wortgruppen, die als Ergänzungen der kursiv gesetzten Verben fungieren,
+
+\item die Kategorie und Form der entsprechenden Wörter bzw. Wortgruppen: Nominalphrase im Nominativ, Akkusativ, Dativ oder Präpositionalphrase mit der entsprechenden Präposition und dem von ihr geforderten Kasus,
+
+\item die Rolle, die der bezeichneten Entität in dem Szenario zukommt,
+
+\item das Testergebnis des Kompakttestes, um den Ergänzungsstatus praktisch nachzuweisen. 
+
+\end{itemize}
+
+
+Kommen wir nun zu den Lösungen: Das erste kursiv gesetzte Verb bzw. die Verbform \textit{las} von \textit{lesen} ist zweiwertig. Die erste Ergänzung ist \textit{er}, die zweite Ergänzung \textit{ein paar jener Bücher}. Das Pronomen \textit{er} ist eine Nominalphrase im Nominativ. Es könnte auch heißen \textit{dieser Mann}. Es verweist auf eine Person, der die Rolle des Lesenden zukommt. Die Wortgruppe \textit{ein paar jener Bücher} ist eine Nominalphrase im Akkusativ. Sichtbar wird das, wenn wir eine maskuline Nominalphrase im Singular einsetzen, \zB \textit{er las einen Roman}. Den bezeichneten Büchern kommt die Rolle des Gelesenen zu. Die erste Ergänzung \textit{er} ist nicht weglassbar, ohne dass der Satz ungrammatisch wird. Die zweite Ergänzung \textit{ein paar jener Bücher} ist zwar weglassbar, aber der Akkusativ ist vom Verb regiert. Anstelle von \textit{las} können nur Verben stehen, die den Akkusativ regieren, \zB \textit{er kauft}/\textit{schreibt}/\textit{versteckt einen Roman} aber nicht *\textit{er arbeitet}/\textit{folgt} oder \textit{wartet einen Roman}.
+
+Das zweite kursiv gesetzte Verb bzw. die Verbform \textit{erinnerte} von \textit{erinnern} ist dreiwertig. Die erste Ergänzung ist \textit{jede Zeile}, die zweite Ergänzung \textit{ihn}. Die dritte Ergänzung ist durch die Koordination mit \textit{und} komplex und lautet \textit{an den Vater und an die stillen, sommerlichen Sonntagvormittage und an Jacques, an Kapellmeister Nechwal und an den Radetzkymarsch}. Jedes Glied der Koordination \textit{an den Vater}, \textit{an die stillen, sommerlichen Sonntagvormittage}, \textit{an Jacques}, \textit{an den Kapellmeister Nechwal} und \textit{an den Radetzkymarsch} könnte auch alleine als dritte Ergänzung zu \textit{erinnerte} fungieren. In der Koordination sind sie zusammen eine, nämlich die dritte Ergänzung des Verbs. Die erste Ergänzung \textit{jede Zeile} ist eine Nominalphrase im Nominativ. Den bezeichneten Zeilen kommt in dem Erinnern-Szenario die Rolle dessen zu, was die Erinnerung auslöst. Das Pronomen \textit{ihn} ist eine Nominalphrase im Akkusativ. Es könnte auch heißen \textit{jede Zeile erinnerte den Mann}. Dem bezeichneten Mann kommt die Rolle der Person zu, bei der eine Erinnerung ausgelöst wird. Bei \textit{an den Vater und an die stillen, sommerlichen Sonntagvormittage und an Jacques, an Kapellmeister Nechwal und an den Radetzkymarsch} handelt es sich um eine Präpositionalphrase mit der Präposition \textit{an}, die den Akkusativ regiert. All den bezeichneten Personen und Dingen kommt eine einzige Rolle zu, nämlich die, woran erinnert wird, das Thema der Erinnerung. Alle drei Ergänzungen sind in einem Nullkontext nicht weglassbar, ohne dass der Satz ungrammatisch wird: *\textit{Hast du schon gehört, dass sie erinnert}. Wer elliptische Kontexte einbezieht wie \textit{hast du ihn erinnert?} oder \textit{das Foto erinnert an die Kindheit}, der muss den Ergänzungsstatus der zweiten und dritten Ergänzung über die Rektion nachweisen. Anstelle von \textit{erinnerte} können nur diejenigen Verben stehen, die den Akkusativ und die Präposition \textit{an} mit Akkusativ regieren, also \zB \textit{sie verkaufen}/\textit{senden} oder \textit{liefern es an ihn}, aber nicht *\textit{sie sitzen}/\textit{lachen} oder \textit{warten es an ihn}. 
+
+
+\subsection{Satzbauplan und Szenarioklasse}\label{subsection:Valenz2}
+
+Wenn wir von konkreten Vollverben und ihren Valenzen abstrahieren, so sprechen wir von Satzbauplänen und Szenarioklassen (vgl. Abschnitt~\ref{subsection:Verbklassen}). So können wir aus dem Gebrauch verschiedener transitiver Verben wie \textit{bauen}, \textit{malen}, \textit{streichen} den zweistelligen Satzbauplan mit einer Nominalphrase im Nominativ und einer Nominalphrase im Akkusativ abstrahieren. Typischerweise dient dieser Satzbauplan dem Ausdruck eines Handlungsszenarios, an dem ein Handlungsträger (Agens) und ein Handlungsgegenstand (Patiens) konstitutiv beteiligt sind.
+
+Von den Verben \textit{geben} und \textit{erklären}, so wie sie in (\ref{ea:geben_Modell}) gebraucht werden, können wir ebenfalls einen Satzbauplan und eine Szenarioklasse abstrahieren.   
+
+\ea \label{ea:geben_Modell} Würde mir heutzutage jemand die Empfehlung \textit{geben}, aus Gründen der Zeitersparnis oder Abkürzung mit einem Tornado zu reisen, würde ich ihm den Weg zur nächsten Klapsmühle \textit{erklären}.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 337.}
+\z 
+
+Geben Sie bitte folgende Informationen an:
+
+\begin{itemize}
+
+\item den Satzbauplan, der aus dem Gebrauch von \textit{geben} und \textit{erklären} in (\ref{ea:geben_Modell}) abstrahiert werden kann,
+
+\item zehn weitere Verben, die mit diesem Satzbauplan gebraucht werden können (er muss nicht durch die Grundvalenz dieser Verben aufgerufen werden),
+
+\item die Szenarioklasse, die typischerweise mit diesem Satzbauplan ausgedrückt wird,
+
+\item die Rollen der an dieser Szenarioklasse Beteiligten
+
+\end{itemize}
+
+
+Kommen wir nun zu den Lösungen: Von dem Gebrauch der Verben \textit{geben} und \textit{erklären} in (\ref{ea:geben_Modell}) kann ein dreistelliger Satzbauplan abstrahiert werden. Dieser beinhaltet als erste Ergänzung eine Nominalphrase im Nominativ, als zweite Ergänzung eine Nominalphrase im Dativ und als dritte Ergänzung eine Nominalphrase im Akkusativ. 
+
+Mit diesem Satzbauplan werden natürlich diejenigen Verben gebraucht, deren Grundvalenz er entspricht, \zB \textit{schenken}, \textit{mitteilen}, \textit{empfehlen} oder \textit{zeigen}. Aber auch die meisten in ihrer Grundvalenz zweiwertigen Verben, die eine Nominalphrase im Nominativ und eine weitere im Akkusativ verlangen, können mit diesem Satzbauplan gebraucht werden, was zu einer Valenzerhöhung führt: \textit{jemand} kann \textit{jemandem} \textit{etwas bauen}, \textit{malen}, \textit{streichen}, \textit{kochen}, \textit{kaputt machen}, \textit{reparieren}, \textit{putzen}, \textit{singen} usw.
+
+Typischerweise wird mit diesem Satzbauplan ein Handlungsszenario ausgedrückt, an dem ein Handlungsträger (Agens), ein Handlungsbetroffener (Rezipient) und ein Handlungsgegenstand (Patiens) beteiligt sind.
+
+
+\subsection{Bewertung einer Schulaufgabe}\label{subsection:Aufgabe_Valenz3}
+
+In einer Materialsammlung für den Grundschulunterricht im Fach Deutsch\footnote{Materialien für die 3. und 4. Klasse auf \url{https://www.lehrplanplus.bayern.de/}, abgerufen am 21.03.24.} sollen die Schülerinnen und Schüler Verben zu Gruppen zuordnen. Vorgegeben werden ihnen die drei folgenden Gruppen in (\ref{ea:Grunschule_Verbgruppen}), die durch die folgenden Verben repräsentiert werden.
+
+\ea \label{ea:Grunschule_Verbgruppen}
+\ea \label{ea:1wertig} regnen, lachen
+\ex \label{ex:2wertig} treffen, danken
+\ex \label{ex:3wertig} geben, schenken
+\z 
+\z 
+
+Diese Aufgabenstellung ist nicht ganz unproblematisch. Bearbeiten Sie die folgenden Fragen.
+
+\begin{itemize}
+
+\item Auf welche Eigenschaft von Verben zielt diese Gruppenbildung ab?
+
+\item Warum sind \textit{regnen} und \textit{lachen} (\ref{ea:1wertig}) problematisch in einer Gruppe? Wie könnte besser geordnet werden?
+
+\item Was spricht dagegen, \textit{treffen} und \textit{danken} (\ref{ex:2wertig}) einer Gruppe zuzuordnen? Wie sollte besser geordnet werden?
+
+\end{itemize} 
+
+
+Kommen wir nun zu den Lösungen: Die Gruppenbildung in (\ref{ea:Grunschule_Verbgruppen}) zielt auf die Wertigkeit der Verben ab. Die Verben in (\ref{ea:1wertig}) sind syntaktisch einwertig. Die Verben in (\ref{ex:2wertig}) sind zweiwertig und die Verben in (\ref{ex:3wertig}) sind dreiwertig. 
+
+Bei der einwertigen Gruppe in (\ref{ea:1wertig}) ist problematisch, dass \textit{regnen} semantisch nullwertig ist, \textit{lachen} ist auch semantisch einwertig. Diejenige Person, die von der ersten Ergänzung von \textit{lachen} bezeichnet wird, übernimmt in dem Lachen-Szenario die Rolle des Lachenden, \zB \textit{die Kinder lachen}. Die erste Ergänzung von \textit{regnen} ist auf das Pronomen \textit{es} fixiert. Dieses \textit{es} bezeichnet jedoch nichts, was die Rolle von etwas Regnendem übernimmt. An einem Regnen-Szenario gibt es keinen Beteiligten. Folglich ist diese Gruppenbildung bezüglich des Szenariobegriffs problematisch. Zu \textit{lachen} sollten eher auch semantisch einwertige Verben wie \textit{arbeiten}, \textit{schwitzen}, \textit{schlafen} geordnet werden. Zu \textit{regnen} sollten besser andere Witterungsverben sortiert werden, die ebenfalls semantisch nullwertig sind, aber ein formales Subjekt verlangen, \zB \textit{schneien}, \textit{donnern}, \textit{blitzen} usw. 
+
+Gegen die Gruppenbildung in (\ref{ex:2wertig}) spricht die Rektion der Verben. Sie sind zwar beide zweiwertig, aber \textit{treffen} regiert für die zweite Ergänzung den Akkusativ, wohingegen \textit{danken} den Dativ regiert. Hier sollte besser nach der Rektion sortiert werden. So bilden Verben wie \textit{bauen}, \textit{streicheln} und \textit{malen} zusammen mit \textit{treffen} eine Gruppe mit Akkusativrektion und Verben wie \textit{folgen}, \textit{helfen} und \textit{gratulieren} zusammen mit \textit{danken} eine andere Gruppe mit Dativrektion.   
+
+
+\subsection{Hilfsverben und Rektion}\label{subsection:Valenz4}
+
+Im Deutschen verbinden sich oft mehrere Verben zu einem Verbalkomplex. Wir haben zwischen Hilfsverben im weitesten Sinne (traditionelle Hilfsverben, Modalverben, Modalitätsverben, AcI-Verben) und Vollverben unterschieden (vgl. Abschnitt~\ref{section:RegierteVerben}). Während die Vollverben über eigene semantische Valenz verfügen, regieren die Hilfsverben bestimmte Formen der Vollverben, sie modifizieren den durch die Vollverben geleisteten Szenarioausdruck, sind selbst jedoch nicht der Hauptvalenzträger.
+
+Entscheiden Sie, ob die kursiv gedruckten Verben in (\ref{ea:A4Voll_Hilfsverb}) Hilfs- oder Vollverben sind.
+
+\ea \label{ea:A4Voll_Hilfsverb}
+\ea \label{ea:A4_haben_VV} Die Stimme \textit{hatte} einen unwirklichen Klang, wie aus dem Jenseits gesprochen, von einem Wesen ohne Körper.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 53.}
+\ex \label{ex:A4_haben_HV} Die Eisenmade \textit{hatte} einen Vorsprung in der Tunnelwand gefunden und schlug ihre Stahlklauen fest hinein.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 199.}
+\ex \label{ex:A4_gewonnen_haben} Seit Hunderten von Jahren geht in Zamonien die Legende von Anagrom Ataf um, einer Stadt irgendwo in der Süßen Wüste, die schon viele von ferne gesehen \textit{haben} wollen – aber keiner hat sie je betreten.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 286.}
+\ex \label{ex:A4_scheinen_HV}  Aus irgendeinem Grund \textit{schien} ich Interesse bei ihm zu erwecken.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 531.}
+\ex \label{ex:A4_scheinen_VV} Die Sonne \textit{schien} zwar noch, aber das spielte bei meiner Erschöpfung keine Rolle.\footnote{Walter Moers: \textit{Die 13 1/2 Leben des Käpt'n Blaubär}. Frankfurt a. M.: Eichborn 1999, S. 269.}
+\z 
+\z 
+
+Geben Sie bitte folgende Informationen an:
+
+\begin{itemize}
+
+\item Wenn es sich um ein Hilfsverb im weitesten Sinne handelt, dann nennen Sie das von ihm regierte Verb und bestimmen dessen Form (Statusrektion: 1 Infinitiv, 2 zu-Infinitiv, 3 Partizip II).
+
+\item Wenn es sich um ein Vollverb handelt, dann bestimmen Sie dessen Wertigkeit, nennen die Ergänzungen (Wort oder Wortgruppe) und bestimmen deren Kategorie und Form. 
+
+\end{itemize}
+
+
+Kommen wir nun zu den Lösungen: Bei \textit{hatte} in (\ref{ea:A4_haben_VV}) handelt es sich um ein zweiwertiges Vollverb mit der Bedeutung \gq{besitzen}. Seine erste Ergänzung \textit{die Stimme} ist eine Nominalphrase im Nominativ, die zweite Ergänzung \textit{einen unwirklichen Klang} ist eine Nominalphrase im Akkusativ.
+
+In dem Satz (\ref{ex:A4_haben_HV}) ist \textit{hatte} ein Hilfsverb. Zum Ausdruck des Plusquamperfekts regiert es das Partizip II des Vollverbs \textit{gefunden}.  
+
+Die Verbform \textit{haben} in (\ref{ex:A4_gewonnen_haben}) ist ein Hilfsverb. Zum Perfektausdruck regiert es das Partizip II des Vollverbs \textit{gesehen}. Anders als in Satz (\ref{ex:A4_haben_HV}) wird hier das Hilfsverb \textit{haben} im Infinitiv gebraucht, das seinerseits vom Modalverb \textit{wollen} regiert ist.
+
+In dem Satz (\ref{ex:A4_scheinen_HV}) ist \textit{schien} eine Art Hilfsverb, das wir als Modalitätsverb bezeichnet haben. Zum Ausdruck des Anscheins regiert es den \textit{zu}-Infinitiv des Vollverbs \textit{zu erwecken}.
+
+Bei \textit{schien} in (\ref{ex:A4_scheinen_VV}) handelt es sich um ein einwertiges Vollverb mit der Bedeutung \gq{Licht ausstrahlen}. Die erste und einzige Ergänzung ist die Nominalphrase im Nominativ \textit{die Sonne}.  
+
+
+
+ 
+
+
